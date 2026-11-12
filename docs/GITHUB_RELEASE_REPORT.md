@@ -1,5 +1,13 @@
 # GitHub release report
 
+## Resumed publication check
+
+The existing four local commits were preserved, with clean main at f87cfa1a70503a060f07b7bbd4159139b78967bb before this report update. Origin is the requested HTTPS repository. GitHub CLI authenticated as lllppp1022-cmd with repo scope. The read:org scope warning does not prevent access to this personal repository. CLI repository inspection confirmed Private visibility and an empty default branch. git ls-remote origin succeeded with no refs.
+
+No environment proxy or Git HTTP proxy was present. Git uses Windows schannel. SSL verification was not disabled. The official PyTorch CPU index lists 2.15.0+cpu, matching the installed version and requirements.txt. The README command requesting torch==2.15.0 against that CPU index is compatible with the CPU local version, so no dependency change was necessary. A clean reinstall was not performed.
+
+Two attempts to execute git -c http.version=HTTP/1.1 push -u origin main were rejected before execution because the automatic approval review stream disconnected. This is an approval service transport failure, not a finding that the push is unsafe. No push process ran during this resumed attempt. REMOTE UPLOAD VERIFIED cannot be asserted. Remote source, media and commit equality remain pending. Publication needs the approval service to recover or the user to execute the prepared normal push in their own PowerShell.
+
 Release date: 2026-11-12, Asia/Shanghai.
 
 Repository: https://github.com/lllppp1022-cmd/stewart-parallel-rl
