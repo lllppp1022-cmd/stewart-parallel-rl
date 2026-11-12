@@ -4,17 +4,27 @@ Release date: 2026-11-12, Asia/Shanghai.
 
 Repository: https://github.com/lllppp1022-cmd/stewart-parallel-rl
 
-Owner: lllppp1022-cmd. Visibility: Private, confirmed by GitHub CLI. Default branch will be main after the first push. Upload status is pending remote verification in this initial preparation commit.
+Owner: lllppp1022-cmd. Visibility: Private, confirmed by GitHub CLI. Local branch: main. Remote default branch: not set because the repository is empty.
+
+**Verification result: LOCAL RELEASE READY; REMOTE UPLOAD BLOCKED BY CONNECTION FAILURE.**
+
+Validated content commit: d68d8365d246047121adc1983f7f0d8e0fe1fde7. This report is updated in a subsequent local documentation commit. The final local HEAD is recorded in the external publication receipt.
+
+The first push failed with: `fatal: unable to access 'https://github.com/lllppp1022-cmd/stewart-parallel-rl.git/': Send failure: Connection was aborted`.
+
+A read-only follow-up confirmed the correct owner and Private visibility. The commits/main API returned HTTP 409, `Git Repository is empty.` The repository has no uploaded README or source yet. Network writes stopped under the user's instruction to stop publication on connection errors. No force push was attempted.
 
 ## Published content
 
-English and Chinese READMEs, original src/scripts/configs/tests directory layout, 94-stage research documents, selected numerical summaries, upstream Stewart MJCF/assets with MIT notice, generated proxy geometry, geometric reference caches, six 32768-decision terminal policy checkpoints, three original demonstration videos, GIF excerpts and cover images. One 1000-step historical state prefix supports the default GUI acceptance check.
+Prepared locally: English and Chinese READMEs, original src/scripts/configs/tests directory layout, Phase 0 through Phase 2C-9B research documents, selected numerical summaries, upstream Stewart MJCF/assets with MIT notice, generated proxy geometry, geometric reference caches, six 32768-decision terminal policy checkpoints, three original demonstration videos, GIF excerpts and cover images. One 1000-step historical state prefix supports the default GUI acceptance check. These files have not been uploaded.
 
 The upstream model commit is b0195ba9f40f6e0876220be1712eb47f5fc24025. THIRD_PARTY_NOTICES.md preserves attribution. No blanket MIT license is assigned to original project code.
 
 ## Excluded content
 
 Bulk 1 ms physical journals, full integration-state archives, rollout arrays, intermediate/duplicate models, TensorBoard events, local temporary runs, unrelated robot projects and credentials remain local. Excluded raw data are needed for complete independent historical recomputation and the full research test suite.
+
+No GitHub token, password, personal private key or local credential store is included. The official GitHub CLI used the existing Windows Git credential in memory for account verification and private repository creation. GitHub CLI was downloaded to the separate build directory and is not part of the published tree.
 
 ## Verification performed
 
