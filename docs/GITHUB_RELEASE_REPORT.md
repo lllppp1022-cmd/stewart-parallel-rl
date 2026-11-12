@@ -8,7 +8,7 @@ Owner: lllppp1022-cmd. Visibility: Private, confirmed by GitHub CLI. Local branc
 
 **Verification result: LOCAL RELEASE READY; REMOTE UPLOAD BLOCKED BY CONNECTION FAILURE.**
 
-Validated content commit: d68d8365d246047121adc1983f7f0d8e0fe1fde7. This report is updated in a subsequent local documentation commit. The final local HEAD is recorded in the external publication receipt.
+Validated complete content commit: 85d7dc6ae831002096bb48e22bf6f20a56168622. This report is updated in a subsequent local documentation commit. The final local HEAD is recorded in the external publication receipt.
 
 The first push failed with: `fatal: unable to access 'https://github.com/lllppp1022-cmd/stewart-parallel-rl.git/': Send failure: Connection was aborted`.
 
@@ -37,8 +37,11 @@ No GitHub token, password, personal private key or local credential store is inc
 - Executed training and evaluation CLI --help entries without starting training.
 - Decoded all three videos and verified their bytes against the original files. Reviewed generated cover imagery. GIFs are excerpts of these videos.
 - Scanned source/text/checkpoint metadata for private keys, GitHub tokens, AWS access keys and personal home paths. Details are in release/security_audit.json.
+- Extracted a clean checkout from the complete Git archive into an independent directory, ran setup_portfolio.py and repeated the six-model/1000-physical-step/72-row metric smoke test successfully.
 
 The initial smoke test failed because of sandbox temporary-directory permissions. It now writes isolated runtime outputs under this checkout. Subsequent smoke attempts identified two omitted runtime assets, nominal_task_model.json and phase1_proxy_query.xml, which were added before the passing test. The proxy asset mesh directory was made relative for portability. GUI validation initially required omitted full historical data; a small archived prefix was included for this explicit check. Original control algorithms and original research artifacts remain in the source project.
+
+The initial staged-name parser encountered Git's quoted Unicode paths. The follow-up uses NUL-delimited names. A subsequent tracked-file check found that the upstream directory was not yet in the first content commit; its eleven licensed files were explicitly committed before the clean-archive verification. Local clone through MSYS was blocked by sandbox named-object permissions, so the independent checkout test used git archive. These local preparation failures are recorded separately from scientific experiment results.
 
 ## Reproducibility scope
 
@@ -49,3 +52,9 @@ Run scripts/setup_portfolio.py after cloning. It resolves __PROJECT_ROOT__ token
 ## Scientific result
 
 Phase 2C-9B completed 196608 formal PPO decisions and 3932160 physical integration steps. All 72 final trials completed. History PPO improved mean unload IAE by about 10.75% versus single-frame PPO, while load IAE increased about 5.18%. Cross-seed/task benefit and superiority over classical adaptive control were not established. Stage decision: NEGATIVE with engineering training completed.
+
+## Outstanding remote acceptance
+
+Remote README rendering, GIF links, source/config/test presence and local-to-remote commit equality remain unverified because the private repository is empty. All three videos and all six terminal models are prepared locally but have not been uploaded. No Git LFS or GitHub Release write was needed for these individual file sizes.
+
+After GitHub HTTPS connectivity is restored and publication resumes, the prepared command is git push -u origin main from the independent stewart-parallel-rl directory. The remote should then be reread using the official CLI, comparing main HEAD and inspecting README, configs, src, tests, media and checkpoint paths. Repository visibility must remain Private.
