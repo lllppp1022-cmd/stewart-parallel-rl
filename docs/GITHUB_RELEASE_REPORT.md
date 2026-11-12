@@ -1,5 +1,19 @@
 # GitHub release report
 
+## Final publication status — REMOTE UPLOAD VERIFIED
+
+Repository: https://github.com/lllppp1022-cmd/stewart-parallel-rl
+
+Visibility: Private. Default branch: main.
+
+The resumed command git -c http.version=HTTP/1.1 push -u origin main executed successfully, reporting Everything up-to-date and setting main to track origin/main. Git ls-remote and the GitHub tree API independently confirmed commit 18bc7967a8e1a9aed22bfbcf000a42745cf73b3c before this report-only update. API verification found the English and Chinese READMEs, src, scripts, configs, tests, docs, upstream model/license, all six terminal PPO checkpoints and demonstration videos/GIFs. The complete tree was not truncated.
+
+Authentication used the existing Git Credential Manager credential and the portable official GitHub CLI at stewart_portfolio_build/tools/gh/bin/gh.exe. Its absence from the user's PATH does not affect Git push. SSL verification remained enabled; the push selected HTTP/1.1. Earlier approval-service read attempts intermittently failed before execution, but subsequent read and push commands completed normally. No force push, history replacement or visibility change occurred.
+
+This report update is committed and pushed separately, followed by a final Git/API SHA equality check. The exact final local and remote HEAD values are stored in the external publication receipt to avoid a self-referential commit hash inside this file. Earlier BLOCKED/empty-repository entries below are retained as the publication history and are superseded by this final status.
+
+Outstanding reproduction limitations remain the excluded bulk raw logs, historical fixtures and intermediate checkpoints. They do not prevent access to the published source, six final models and selected demonstrations. No new PPO training or experiment-result modification occurred during publication.
+
 ## Resumed publication check
 
 The existing four local commits were preserved, with clean main at f87cfa1a70503a060f07b7bbd4159139b78967bb before this report update. Origin is the requested HTTPS repository. GitHub CLI authenticated as lllppp1022-cmd with repo scope. The read:org scope warning does not prevent access to this personal repository. CLI repository inspection confirmed Private visibility and an empty default branch. git ls-remote origin succeeded with no refs.
