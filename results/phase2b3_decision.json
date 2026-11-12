@@ -1,0 +1,11 @@
+{
+  "decision": "PHASE 2C BLOCKED",
+  "gate1": "PASS: local safe yaw authority",
+  "gate2": "PASS: strong frozen classical comparison",
+  "gate3": "NOT MET: meaningful extra learning benefit beyond C4 not demonstrated",
+  "tests_passed": 212,
+  "rl_training": false,
+  "physical_trials": 58,
+  "engineering_attempts": 1,
+  "physics_steps": 348000
+}

@@ -1,0 +1,9 @@
+[
+  {"at_step":0,"kind":"home","source":"scheduled demonstration (not human keyboard)"},
+  {"at_step":1000,"kind":"increment","payload":{"z_mm":1.5},"source":"scheduled demonstration"},
+  {"at_step":6000,"kind":"increment","payload":{"roll_deg":0.15},"source":"scheduled demonstration"},
+  {"at_step":11000,"kind":"increment","payload":{"pitch_deg":0.15},"source":"scheduled demonstration"},
+  {"at_step":16000,"kind":"target","payload":{"z_mm":1.5,"roll_deg":0.0,"pitch_deg":0.0},"source":"scheduled demonstration"},
+  {"at_step":21000,"kind":"home","source":"scheduled demonstration"},
+  {"at_step":27000,"kind":"hold","source":"scheduled demonstration"}
+]

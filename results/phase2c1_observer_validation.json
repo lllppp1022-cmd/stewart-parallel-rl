@@ -1,0 +1,14 @@
+{
+  "root": "__PROJECT_ROOT__\\results\\runs\\phase2c1_observer_1793276363040609400",
+  "bitwise_physics": true,
+  "maximum_difference": 0.0,
+  "observations_equal": true,
+  "rewards_equal": true,
+  "decisions_each": 50,
+  "physics_steps_each": 2500,
+  "gui_qt_native": true,
+  "interrupted": false,
+  "native_exitcode": 0,
+  "recording_errors": [],
+  "not_PPO_training": true
+}

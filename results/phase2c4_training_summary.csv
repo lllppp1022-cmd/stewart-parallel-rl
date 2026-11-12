@@ -1,0 +1,4 @@
+seed,decisions,physical_steps,updates,optimizer_steps,actor_updated,critic_updated,model,model_sha256,parameter_hash,wall_s,stop_reason,error,complete_episodes,safety_terminations
+42,4096,204800,16,640,True,True,__PROJECT_ROOT__\models\phase2c4\seed42\final.zip,be200c06b19b504e490483b1ae799e0468eec97877d35e81dff42bfc56d9d934,d7dc8dbde0b5e4fafbee87b47e023dbbe41121933a6305cec5af203969757f34,955.0361158000305,,,13,0
+123,4096,204800,16,640,True,True,__PROJECT_ROOT__\models\phase2c4\seed123\final.zip,df9b0bbae172d0cac6794f0613779164ba48c34ac0b6b3737e63c420faca15ae,04027b8d2e130913d9773b53f37f75b9b2533eec3c29442f785aeb342ca9ba45,940.3619004003704,,,13,0
+2026,4096,204800,16,640,True,True,__PROJECT_ROOT__\models\phase2c4\seed2026\final.zip,b75d91f20fbe6c256f9ae88b527688567eb296f80d3d2172f56bb696fc8fe0f6,903ac3c067db98289f1eb05b55a5b9586938fbd275c9e8f5f435002cc13c8d9c,942.0143895000219,,,13,0

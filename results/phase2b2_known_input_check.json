@@ -1,0 +1,10 @@
+{
+  "label": "Known commanded +0.5N task Fz, no external input",
+  "observer_Fz_range_N": [
+    -0.0001068923080253569,
+    0.00036984976669502317
+  ],
+  "observer_Fz_mean_N": -6.123602702980549e-05,
+  "corrected_memory_steps": 1004,
+  "not_mistaken_for_minus_half_newton": true
+}

@@ -1,0 +1,267 @@
+{
+  "decision": "LARGE-MOTION RL PILOT CONDITIONALLY BLOCKED",
+  "scope": "Only bounded MuJoCo pure-Z residual research; not a hardware safety or PPO superiority claim",
+  "base_controller": "FF-VA",
+  "main_candidate": {
+    "amplitude_m": 0.05,
+    "rise_s": 6.0,
+    "tau_s": 0.005,
+    "external_Fz_N": -5.5,
+    "external_on_s": 5.2,
+    "external_off_s": 11.0
+  },
+  "checks": {
+    "all_completed_and_budget_safe": true,
+    "nonzero_effective_action": true,
+    "phase_specific_improvement_possible": true,
+    "remaining_shared_headroom_N": 2.603900926396676,
+    "baseline_loaded_z_rmse_mm": 0.010294691777929276
+  },
+  "fixed_probe_results": [
+    {
+      "pattern": "positive",
+      "hz": 20,
+      "requested_peak_N": 0.25,
+      "effective_peak_leg_N": 0.039337712948182,
+      "zero_effect_fraction": 0.16,
+      "z_rmse_mm": 0.013681423461633197,
+      "success": true
+    },
+    {
+      "pattern": "negative",
+      "hz": 20,
+      "requested_peak_N": 0.25,
+      "effective_peak_leg_N": 0.03999999999999204,
+      "zero_effect_fraction": 0.16,
+      "z_rmse_mm": 0.012616260164117378,
+      "success": true
+    },
+    {
+      "pattern": "sine20",
+      "hz": 20,
+      "requested_peak_N": 0.25,
+      "effective_peak_leg_N": 0.034423163086017894,
+      "zero_effect_fraction": 0.16666666666666666,
+      "z_rmse_mm": 0.012411404237041427,
+      "success": true
+    },
+    {
+      "pattern": "sine50",
+      "hz": 50,
+      "requested_peak_N": 0.25,
+      "effective_peak_leg_N": 0.026768820674377025,
+      "zero_effect_fraction": 0.16353333333333334,
+      "z_rmse_mm": 0.012411698244281382,
+      "success": true
+    }
+  ],
+  "phase_authority_evidence": [
+    {
+      "pattern": "positive",
+      "phase": "rise_accel",
+      "zero_probe_z_rmse_mm": 0.010398721614682263,
+      "probe_z_rmse_mm": 0.018295272068891383,
+      "ratio": 1.7593770414105274
+    },
+    {
+      "pattern": "positive",
+      "phase": "rise_decel",
+      "zero_probe_z_rmse_mm": 0.013618116298269867,
+      "probe_z_rmse_mm": 0.020123703435547514,
+      "ratio": 1.477715639578152
+    },
+    {
+      "pattern": "positive",
+      "phase": "top_hold",
+      "zero_probe_z_rmse_mm": 0.0023229665150029306,
+      "probe_z_rmse_mm": 0.011249031856357228,
+      "ratio": 4.842528630397858
+    },
+    {
+      "pattern": "positive",
+      "phase": "fall_accel",
+      "zero_probe_z_rmse_mm": 0.009457560301098084,
+      "probe_z_rmse_mm": 0.006595324845095961,
+      "ratio": 0.697360062756375
+    },
+    {
+      "pattern": "positive",
+      "phase": "fall_decel",
+      "zero_probe_z_rmse_mm": 0.012042870896929214,
+      "probe_z_rmse_mm": 0.010512547764608155,
+      "ratio": 0.8729270499186973
+    },
+    {
+      "pattern": "negative",
+      "phase": "rise_accel",
+      "zero_probe_z_rmse_mm": 0.010398721614682263,
+      "probe_z_rmse_mm": 0.005026072495439682,
+      "ratio": 0.4833356139030803
+    },
+    {
+      "pattern": "negative",
+      "phase": "rise_decel",
+      "zero_probe_z_rmse_mm": 0.013618116298269867,
+      "probe_z_rmse_mm": 0.011207982122018515,
+      "ratio": 0.8230200033937476
+    },
+    {
+      "pattern": "negative",
+      "phase": "top_hold",
+      "zero_probe_z_rmse_mm": 0.0023229665150029306,
+      "probe_z_rmse_mm": 0.006603323860062089,
+      "ratio": 2.8426255038178017
+    },
+    {
+      "pattern": "negative",
+      "phase": "fall_accel",
+      "zero_probe_z_rmse_mm": 0.009457560301098084,
+      "probe_z_rmse_mm": 0.01717834598827979,
+      "ratio": 1.816361243426095
+    },
+    {
+      "pattern": "negative",
+      "phase": "fall_decel",
+      "zero_probe_z_rmse_mm": 0.012042870896929214,
+      "probe_z_rmse_mm": 0.01830950852896567,
+      "ratio": 1.5203607749074493
+    },
+    {
+      "pattern": "sine20",
+      "phase": "rise_accel",
+      "zero_probe_z_rmse_mm": 0.010398721614682263,
+      "probe_z_rmse_mm": 0.011516173317260223,
+      "ratio": 1.107460488316198
+    },
+    {
+      "pattern": "sine20",
+      "phase": "rise_decel",
+      "zero_probe_z_rmse_mm": 0.013618116298269867,
+      "probe_z_rmse_mm": 0.016521866260766148,
+      "ratio": 1.213226991082841
+    },
+    {
+      "pattern": "sine20",
+      "phase": "top_hold",
+      "zero_probe_z_rmse_mm": 0.0023229665150029306,
+      "probe_z_rmse_mm": 0.007109294569113348,
+      "ratio": 3.0604378165581863
+    },
+    {
+      "pattern": "sine20",
+      "phase": "fall_accel",
+      "zero_probe_z_rmse_mm": 0.009457560301098084,
+      "probe_z_rmse_mm": 0.011437758960959967,
+      "ratio": 1.2093773232016263
+    },
+    {
+      "pattern": "sine20",
+      "phase": "fall_decel",
+      "zero_probe_z_rmse_mm": 0.012042870896929214,
+      "probe_z_rmse_mm": 0.014728083462389683,
+      "ratio": 1.2229711327508432
+    },
+    {
+      "pattern": "sine50",
+      "phase": "rise_accel",
+      "zero_probe_z_rmse_mm": 0.010398721614682263,
+      "probe_z_rmse_mm": 0.01157990590348243,
+      "ratio": 1.1135893749797492
+    },
+    {
+      "pattern": "sine50",
+      "phase": "rise_decel",
+      "zero_probe_z_rmse_mm": 0.013618116298269867,
+      "probe_z_rmse_mm": 0.016494309388412298,
+      "ratio": 1.2112034459940573
+    },
+    {
+      "pattern": "sine50",
+      "phase": "top_hold",
+      "zero_probe_z_rmse_mm": 0.0023229665150029306,
+      "probe_z_rmse_mm": 0.007260600783022722,
+      "ratio": 3.12557272613702
+    },
+    {
+      "pattern": "sine50",
+      "phase": "fall_accel",
+      "zero_probe_z_rmse_mm": 0.009457560301098084,
+      "probe_z_rmse_mm": 0.01138929031279271,
+      "ratio": 1.204252465772842
+    },
+    {
+      "pattern": "sine50",
+      "phase": "fall_decel",
+      "zero_probe_z_rmse_mm": 0.012042870896929214,
+      "probe_z_rmse_mm": 0.014723169751491546,
+      "ratio": 1.2225631145182978
+    }
+  ],
+  "initial_actor_action": {
+    "dimensions": 1,
+    "units": "normalised [-1,1] mapped to delta_Fz_N",
+    "suggested_start_scale_N": 0.1,
+    "largest_direct_probe_scale_N": 0.25,
+    "start_scale_is_candidate_not_all_state_safety_guarantee": true,
+    "total_shared_budget_per_leg_N": 5,
+    "total_shared_rate_N_s": 20
+  },
+  "future_frequencies_hz": [
+    20,
+    50
+  ],
+  "same_physical_exposure_required": true,
+  "nominal_gamma_at_50ms": 0.99,
+  "gamma_rule": "gamma(dt)=0.99**(dt/0.05); match GAE time scale and rollout physical duration",
+  "no_training_executed": true,
+  "mechanical_hard_stops_unknown": 30,
+  "connected_socket_collision_incomplete": true,
+  "additional_joint_conditions_not_executed": [
+    "tau10ms+external load",
+    "mass/gain randomisation",
+    "negative Z"
+  ],
+  "next_gate": "First diagnose FF-induced XY/attitude tradeoff, check whether nominal full-task feedforward can address it without changing limits; then separately approve a pure-Z learning objective or verify other action channels. Future RL also needs zero-action exact equivalence, observation/reward audit and only1024-decision smoke.",
+  "physical_action_filters_pass": true,
+  "measurable_matched_perturbation": true,
+  "non_Z_tradeoffs": [
+    {
+      "rise_s": 4,
+      "C4_xy_peak_mm": 0.01880015524329027,
+      "FF_xy_peak_mm": 0.2649236965721213,
+      "xy_peak_ratio": 14.091569625025938,
+      "non_Z_fraction_of_position_squared_error": 0.9886578462804642,
+      "C4_position_rmse_mm": 0.24819478033409545,
+      "FF_position_rmse_mm": 0.12488713131839392
+    },
+    {
+      "rise_s": 6,
+      "C4_xy_peak_mm": 0.00827344468153245,
+      "FF_xy_peak_mm": 0.1477475117023653,
+      "xy_peak_ratio": 17.85804068191325,
+      "non_Z_fraction_of_position_squared_error": 0.9869193670980543,
+      "C4_position_rmse_mm": 0.17317538538826846,
+      "FF_position_rmse_mm": 0.08147793458441781
+    },
+    {
+      "rise_s": 8,
+      "C4_xy_peak_mm": 0.004797772572020963,
+      "FF_xy_peak_mm": 0.10661972672183886,
+      "xy_peak_ratio": 22.222755481076813,
+      "non_Z_fraction_of_position_squared_error": 0.9861989086479638,
+      "C4_position_rmse_mm": 0.1331674721087302,
+      "FF_position_rmse_mm": 0.0613789972715263
+    },
+    {
+      "rise_s": 10,
+      "C4_xy_peak_mm": 0.003449289283256278,
+      "FF_xy_peak_mm": 0.0841488350694896,
+      "xy_peak_ratio": 24.395992379638702,
+      "non_Z_fraction_of_position_squared_error": 0.9857294445173281,
+      "C4_position_rmse_mm": 0.1082270578091717,
+      "FF_position_rmse_mm": 0.04945156272710375
+    }
+  ],
+  "unresolved_non_Z_dominance": true,
+  "decision_explanation": "Predefined bounded physical/action filters passed but non-target XY increases and dominates residual3D error. This is research-readiness judgement required by task, not posthoc coefficient tuning or a safety-threshold relaxation. Diagnose full-task coupling before PPO."
+}

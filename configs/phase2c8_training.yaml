@@ -1,0 +1,356 @@
+{
+  "ppo": {
+    "n_steps": 512,
+    "batch_size": 64,
+    "n_epochs": 10,
+    "learning_rate": 0.0003,
+    "gamma": 0.9959879355809816,
+    "gae_lambda": 0.9796917302662298,
+    "clip_range": 0.2,
+    "ent_coef": 0.0,
+    "max_grad_norm": 0.5,
+    "target_kl": 0.03,
+    "net": [
+      64,
+      64
+    ],
+    "log_std_init": -1.0,
+    "device": "cpu",
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "pilot": 8192,
+    "total": 32768,
+    "return_normalization": false
+  },
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "methods": [
+    "v2_control",
+    "v3"
+  ],
+  "curriculum": {
+    "A": [
+      {
+        "id": "A0",
+        "reference": {
+          "z_m": 0,
+          "roll_deg": 0.0,
+          "pitch_deg": 0.0,
+          "rise_s": 6.0
+        },
+        "torque": [
+          0.5,
+          0
+        ],
+        "on": 3.0,
+        "off": 5.0,
+        "stage": "A"
+      },
+      {
+        "id": "A1",
+        "reference": {
+          "z_m": 0,
+          "roll_deg": 0.0,
+          "pitch_deg": 0.0,
+          "rise_s": 6.0
+        },
+        "torque": [
+          0,
+          -0.8
+        ],
+        "on": 6.2,
+        "off": 8.2,
+        "stage": "A"
+      },
+      {
+        "id": "A2",
+        "reference": {
+          "z_m": 0,
+          "roll_deg": 0.0,
+          "pitch_deg": 0.0,
+          "rise_s": 6.0
+        },
+        "torque": [
+          1.0,
+          0
+        ],
+        "on": 9.2,
+        "off": 11.0,
+        "stage": "A"
+      },
+      {
+        "id": "A3",
+        "reference": {
+          "z_m": 0,
+          "roll_deg": 0.0,
+          "pitch_deg": 0.0,
+          "rise_s": 6.0
+        },
+        "torque": [
+          0,
+          1.2
+        ],
+        "on": 7.1,
+        "off": 8.6,
+        "stage": "A"
+      },
+      {
+        "id": "A4",
+        "reference": {
+          "z_m": 0,
+          "roll_deg": 0.0,
+          "pitch_deg": 0.0,
+          "rise_s": 6.0
+        },
+        "torque": [
+          0.72,
+          -0.96
+        ],
+        "on": 4.5,
+        "off": 6.3,
+        "stage": "A"
+      }
+    ],
+    "B": [
+      {
+        "id": "B0",
+        "reference": {
+          "z_m": 0.03,
+          "roll_deg": 0.0,
+          "pitch_deg": 0.0,
+          "rise_s": 6.0
+        },
+        "torque": [
+          0.5,
+          0
+        ],
+        "on": 3.0,
+        "off": 5.0,
+        "stage": "B"
+      },
+      {
+        "id": "B1",
+        "reference": {
+          "z_m": 0.05,
+          "roll_deg": 0.0,
+          "pitch_deg": 0.0,
+          "rise_s": 6.0
+        },
+        "torque": [
+          0,
+          -0.8
+        ],
+        "on": 6.2,
+        "off": 8.2,
+        "stage": "B"
+      },
+      {
+        "id": "B2",
+        "reference": {
+          "z_m": 0.05,
+          "roll_deg": 0.0,
+          "pitch_deg": 0.0,
+          "rise_s": 6.0
+        },
+        "torque": [
+          1.0,
+          0
+        ],
+        "on": 9.2,
+        "off": 11.0,
+        "stage": "B"
+      },
+      {
+        "id": "B3",
+        "reference": {
+          "z_m": 0.05,
+          "roll_deg": 0.0,
+          "pitch_deg": 0.0,
+          "rise_s": 6.0
+        },
+        "torque": [
+          0,
+          1.2
+        ],
+        "on": 7.1,
+        "off": 8.6,
+        "stage": "B"
+      },
+      {
+        "id": "B4",
+        "reference": {
+          "z_m": 0.05,
+          "roll_deg": 0.0,
+          "pitch_deg": 0.0,
+          "rise_s": 6.0
+        },
+        "torque": [
+          0.72,
+          -0.96
+        ],
+        "on": 4.5,
+        "off": 6.3,
+        "stage": "B"
+      },
+      {
+        "id": "B5",
+        "reference": {
+          "z_m": 0.03,
+          "roll_deg": 0.0,
+          "pitch_deg": 0.0,
+          "rise_s": 5.0
+        },
+        "torque": [
+          -0.5,
+          0
+        ],
+        "on": 8.5,
+        "off": 10.0,
+        "stage": "B"
+      }
+    ],
+    "C": [
+      {
+        "id": "C0",
+        "reference": {
+          "z_m": 0.05,
+          "roll_deg": 0.1,
+          "pitch_deg": 0,
+          "rise_s": 6.0
+        },
+        "torque": [
+          0.5,
+          0
+        ],
+        "on": 3.0,
+        "off": 5.0,
+        "stage": "C"
+      },
+      {
+        "id": "C1",
+        "reference": {
+          "z_m": 0.05,
+          "roll_deg": 0,
+          "pitch_deg": -0.1,
+          "rise_s": 6.0
+        },
+        "torque": [
+          0,
+          -0.8
+        ],
+        "on": 6.2,
+        "off": 8.2,
+        "stage": "C"
+      },
+      {
+        "id": "C2",
+        "reference": {
+          "z_m": 0.05,
+          "roll_deg": 0.1,
+          "pitch_deg": -0.1,
+          "rise_s": 6.0
+        },
+        "torque": [
+          0.6,
+          0.8
+        ],
+        "on": 9.2,
+        "off": 11.0,
+        "stage": "C"
+      },
+      {
+        "id": "C3",
+        "reference": {
+          "z_m": 0.05,
+          "roll_deg": -0.1,
+          "pitch_deg": 0.1,
+          "rise_s": 6.0
+        },
+        "torque": [
+          0.72,
+          -0.96
+        ],
+        "on": 7.1,
+        "off": 8.6,
+        "stage": "C"
+      },
+      {
+        "id": "C4",
+        "reference": {
+          "z_m": 0.05,
+          "roll_deg": -0.25,
+          "pitch_deg": 0,
+          "rise_s": 6.0
+        },
+        "torque": [
+          -0.8,
+          0
+        ],
+        "on": 4.5,
+        "off": 6.3,
+        "stage": "C"
+      },
+      {
+        "id": "C5",
+        "reference": {
+          "z_m": 0.05,
+          "roll_deg": 0,
+          "pitch_deg": 0.25,
+          "rise_s": 6.0
+        },
+        "torque": [
+          0,
+          1.0
+        ],
+        "on": 9.0,
+        "off": 10.5,
+        "stage": "C"
+      },
+      {
+        "id": "C6",
+        "reference": {
+          "z_m": 0.05,
+          "roll_deg": 0.25,
+          "pitch_deg": -0.25,
+          "rise_s": 6.0
+        },
+        "torque": [
+          0.72,
+          0.96
+        ],
+        "on": 6.3,
+        "off": 8.1,
+        "stage": "C"
+      }
+    ]
+  },
+  "stage_boundaries": [
+    4096,
+    8192,
+    32768
+  ],
+  "pilot": 8192,
+  "total": 32768,
+  "task_rng": "PCG64 SeedSequence([training_seed,8008]); independent of Gymnasium/VecEnv seeds",
+  "resume_scope": "Declared curriculum boundaries only; interrupted mid-stage trials are archived, never silently reset and called equivalent",
+  "checkpoint_points": [
+    0,
+    4096,
+    8192,
+    16384,
+    24576,
+    32768
+  ],
+  "pilot_gate": {
+    "rule": "All six runs finite/complete, no protection. >=2/3 V3 seeds improve BOTH development mean load and unload IAE by >=1% vs matched V2; no seed worsens either mean by >10%; peak attitude/omega/Z/XYZ/XY/force slew/force squared integral <=110% matched V2 on every task.",
+    "minimum_improvement": 0.01,
+    "noninferiority": 1.1
+  },
+  "final_success": "At least two seeds each improve BOTH load and unload IAE by >=1% vs classical50 on >=2 final tasks, all safe/complete; peak/omega/Z/XYZ/XY/force slew/integral <=110% classical on every task."
+}

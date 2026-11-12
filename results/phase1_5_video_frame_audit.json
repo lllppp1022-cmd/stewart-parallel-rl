@@ -1,0 +1,50 @@
+{
+  "stewart_phase1_5_teleop": {
+    "file": "assets\\videos\\stewart_phase1_5_teleop.mp4",
+    "sha256": "824fc29ef9bcc7854f0998beda808ee8c554dcc7485b82c4f38d8f99deafbcaf",
+    "bytes": 4686381,
+    "decoded_frames": 625,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 25.0,
+    "duration_s": 25.0,
+    "all_frames_decoded": true,
+    "changed_decoded_frame_pairs": 624,
+    "physical_qpos_range_max": 0.00148686360548936,
+    "no_future_curves": true,
+    "all_frame_state_hashes_match": true,
+    "source": "results\\runs\\phase1_5_session_1793093569084997300\\episode_000",
+    "source_kind": "ACTUAL EXECUTION CAPTURE",
+    "source_physical_time_range_s": [
+      9.000000000000451,
+      33.960000000011554
+    ],
+    "complete_frame_mapping": "assets\\videos\\stewart_phase1_5_teleop.frame_audit.json"
+  },
+  "stewart_phase1_5_dynamic_dashboard": {
+    "file": "assets\\videos\\stewart_phase1_5_dynamic_dashboard.mp4",
+    "sha256": "0e34c380036615ee9c4ea877340b9876bb7b84a28d58f36d688413c94f669371",
+    "bytes": 1392714,
+    "decoded_frames": 150,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 25.0,
+    "duration_s": 6.0,
+    "all_frames_decoded": true,
+    "changed_decoded_frame_pairs": 149,
+    "physical_qpos_range_max": 0.004001977658117717,
+    "no_future_curves": true,
+    "all_frame_state_hashes_match": true,
+    "source": "results\\runs\\phase1_5_session_1793093044575041400\\episode_000",
+    "source_kind": "ACTUAL EXECUTION CAPTURE",
+    "source_physical_time_range_s": [
+      0.04000000000000003,
+      6.000000000000338
+    ],
+    "complete_frame_mapping": "assets\\videos\\stewart_phase1_5_dynamic_dashboard.frame_audit.json"
+  }
+}

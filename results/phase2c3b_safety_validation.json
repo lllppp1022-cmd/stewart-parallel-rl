@@ -1,0 +1,165 @@
+{
+  "passed": true,
+  "history_files_checked": 6135,
+  "changed_history_files": [],
+  "baseline_bitwise_checks": [
+    {
+      "method": "C0",
+      "rise_s": 4,
+      "bitwise_equal": true
+    },
+    {
+      "method": "C0",
+      "rise_s": 6,
+      "bitwise_equal": true
+    },
+    {
+      "method": "C0",
+      "rise_s": 10,
+      "bitwise_equal": true
+    },
+    {
+      "method": "C4",
+      "rise_s": 4,
+      "bitwise_equal": true
+    },
+    {
+      "method": "C4",
+      "rise_s": 6,
+      "bitwise_equal": true
+    },
+    {
+      "method": "C4",
+      "rise_s": 10,
+      "bitwise_equal": true
+    },
+    {
+      "method": "fourDlead",
+      "rise_s": 4,
+      "bitwise_equal": true
+    },
+    {
+      "method": "fourDlead",
+      "rise_s": 6,
+      "bitwise_equal": true
+    },
+    {
+      "method": "fourDlead",
+      "rise_s": 10,
+      "bitwise_equal": true
+    }
+  ],
+  "research_runs": 49,
+  "completed_full_trajectories": 46,
+  "accepted_incomplete_joint_prefixes": 3,
+  "research_physical_steps": 807000,
+  "research_sim_seconds": 807.0,
+  "maxima": {
+    "max_force_N": 91.63922915342087,
+    "max_force_rate_N_s": 36.025525050490614,
+    "max_weld_translation_m": 1.7346566291024436e-07,
+    "max_weld_angle_rad": 5.565361659689166e-05,
+    "max_jacobian_condition": 5.596091317041007,
+    "additional_force_peak_N": 2.396099073603324,
+    "additional_force_rate_peak_N_s": 19.99999999999602,
+    "xy_peak_mm": 0.2649236965721213,
+    "so3_rmse_deg": 0.001928073304711237
+  },
+  "minima": {
+    "expanded_mesh_gap_m": 0.09606680243701467,
+    "legacy_proxy_gap_m": 0.03351529082354206,
+    "remaining_shared_force_N": 2.603900926396676
+  },
+  "native_saturation_steps": 0,
+  "native_contact_observations": 0,
+  "native_contacts_do_not_prove_collision_safety": true,
+  "geometry_scope": {
+    "query_pairs": 887,
+    "connected_assembly_exclusions": 103,
+    "passive_hinges_without_native_hard_stops": 30,
+    "coverage": "PARTIAL; mesh convex hulls and connected socket exclusions are not full mechanical safety certification"
+  },
+  "independent_audit": true,
+  "viewer": {
+    "passed": true,
+    "bitwise_integration_equal": true,
+    "physics_steps_each": 4000,
+    "root": "__PROJECT_ROOT__\\results\\runs\\phase2c3b_20261105_v1\\live_viewer\\1793846923948760400",
+    "single_physics_owner_thread": true,
+    "windows_Qt_MuJoCo_renderer": true,
+    "native_glfw_viewer": false
+  },
+  "video": {
+    "video": "__PROJECT_ROOT__\\assets\\videos\\stewart_phase2c3b_dynamic_feedforward.mp4",
+    "sha256": "457eed547b107f8b0d2b6f66179eba9bd0788fafbcc90dac7d6c93ca62b1fd15",
+    "decoded_frames": 1040,
+    "expected_frames": 1040,
+    "seconds": 41.6,
+    "playback_speed": 2,
+    "sources": [
+      {
+        "trial": "C4_L50_T10_tau0_load0_none",
+        "stage": "formal",
+        "source_frames": 575,
+        "all_hashes_match": true,
+        "frame_change_mean": 0.019587179665573863,
+        "z_range_mm": 50.00305665671934,
+        "source_sha256": "bfb67a44d50f9d3d61873325010418aef800d2b408087935241931b9b35b5b8e"
+      },
+      {
+        "trial": "FF-VA_L50_T10_tau0_load0_none",
+        "stage": "formal",
+        "source_frames": 575,
+        "all_hashes_match": true,
+        "frame_change_mean": 0.019673889812685596,
+        "z_range_mm": 50.00264595533932,
+        "source_sha256": "ae5c596109b8352cb87f7f32830a75e2c79db18b946a3d55c2f3029534208414"
+      },
+      {
+        "trial": "C4_L50_T4_tau0_load0_none",
+        "stage": "formal",
+        "source_frames": 275,
+        "all_hashes_match": true,
+        "frame_change_mean": 0.0329454196357161,
+        "z_range_mm": 50.0089634345311,
+        "source_sha256": "f2b60b7b1d4933675d4a233a49053a4c0c2234b6294445a62222c0aaf218b0ce"
+      },
+      {
+        "trial": "FF-VA_L50_T4_tau0_load0_none",
+        "stage": "formal",
+        "source_frames": 275,
+        "all_hashes_match": true,
+        "frame_change_mean": 0.03304856562582142,
+        "z_range_mm": 50.00261375416204,
+        "source_sha256": "594a7d48e744afe8979ada8c78c67ad79772951ea21bba66181f8fc8afb5459a"
+      },
+      {
+        "trial": "FF-VA_L50_T6_tau0.005_load-5.5_none",
+        "stage": "load",
+        "source_frames": 375,
+        "all_hashes_match": true,
+        "frame_change_mean": 0.026102730453724552,
+        "z_range_mm": 50.00263886770018,
+        "source_sha256": "9085ef78fa0bfa027009656ff28b27c31d61f9a07b1e300253d4cfa23f2c27bc"
+      }
+    ],
+    "passed": true
+  },
+  "RL_training_executed": false,
+  "environment": {
+    "python": "3.11.17 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:16:54) [MSC v.1942 64 bit (AMD64)]",
+    "executable": "D:\\miniconda\\envs\\stewart_rl\\python.exe",
+    "mujoco": "3.17.0",
+    "numpy": "2.4.6",
+    "pandas": "3.1.0",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "unexecuted": [
+    "PPO/SAC/TD3/BC training",
+    "tau10ms + load joint condition",
+    "negative-Z dynamics",
+    "full 6DoF large-motion dynamics",
+    "mass/gain/random-load distributions",
+    "hardware and mechanical-hardstop safety certification"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "decision": "PHASE 2C PILOT CONDITIONALLY BLOCKED",
+  "engineering_benefit_filter_passed": true,
+  "classes_with_passed_filter": 2,
+  "reason": "Causal classical4Dlead already provides the measured benefit; extra PPO value and future independent uncertainty validation remain unproven",
+  "gate_A": "PASS",
+  "gate_B": "PASS_HOME_Z_ONLY; original XY task blocked",
+  "gate_C": "causal aggregate feedback demonstrated, individual hidden parameters not proven identifiable",
+  "gate_D": "ENGINEERING_FILTER_PASS / extra_RL_value_unproven",
+  "gate_E": "bounded_cost_estimate_available",
+  "tests_passed": 238,
+  "physical_steps": 564000,
+  "no_training": true
+}

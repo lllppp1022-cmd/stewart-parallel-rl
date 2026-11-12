@@ -1,0 +1,49 @@
+{
+  "frozen": true,
+  "common_budget": 32768,
+  "models": {
+    "single_frame/seed42": {
+      "path": "__PROJECT_ROOT__\\models\\phase2c9b\\single_frame\\seed42\\checkpoint_032768.zip",
+      "sha": "075bd45e7ada0b4c75657873ef8d23254341462d26b6554bf43a8c0f2c6bcd73"
+    },
+    "single_frame/seed123": {
+      "path": "__PROJECT_ROOT__\\models\\phase2c9b\\single_frame\\seed123\\checkpoint_032768.zip",
+      "sha": "039de715452633b00789b8db67186c0de960490f28f0c2831bf3cfd3613cc4e0"
+    },
+    "single_frame/seed2026": {
+      "path": "__PROJECT_ROOT__\\models\\phase2c9b\\single_frame\\seed2026\\checkpoint_032768.zip",
+      "sha": "f1f959ab09376f5e3fc91df95c601b3fee0f041f055c5b26545e549974acd17e"
+    },
+    "history_5frame/seed42": {
+      "path": "__PROJECT_ROOT__\\models\\phase2c9b\\history_5frame\\seed42\\checkpoint_032768.zip",
+      "sha": "0f64630d698c03bf8f81f873e18de4aff5dc02957ffbfeee6f0257ee41bcac7b"
+    },
+    "history_5frame/seed123": {
+      "path": "__PROJECT_ROOT__\\models\\phase2c9b\\history_5frame\\seed123\\checkpoint_032768.zip",
+      "sha": "10ba8d043396e77265c1afaaedc0bb0d6e7830cd33b9c02ed6b15ab6abe03df6"
+    },
+    "history_5frame/seed2026": {
+      "path": "__PROJECT_ROOT__\\models\\phase2c9b\\history_5frame\\seed2026\\checkpoint_032768.zip",
+      "sha": "44209af944e829892fa29c5a996146bd0b5c611cd288ea1c05c7a3d55cb16fc6"
+    }
+  },
+  "no_best_seed_selection": true,
+  "configs": {
+    "__PROJECT_ROOT__\\configs\\phase2c9b_mass.yaml": "21f0eed1c61a3da47d0ec227aa94b71879c85c9317910348572383db9286e48a",
+    "__PROJECT_ROOT__\\configs\\phase2c9b_tasks.yaml": "eae7611ae23ba430f2b3b9c4a9bb1379209f64ed7610ec2147e356726e0a9201",
+    "__PROJECT_ROOT__\\configs\\phase2c9b_ppo.yaml": "3b91000a3cb966edcf115df4fde05dece3e6e7441051309543955cab30d3cecc",
+    "__PROJECT_ROOT__\\configs\\phase2c9b_evaluation.yaml": "7ff20d8de14e134ebd7eb841df93cd44df9c40c6cc102ef775c4d80445ea93f2"
+  },
+  "adaptive": {
+    "method": "adaptive_2",
+    "gains": {
+      "kp": 25.0,
+      "kd": 1.0,
+      "ki": 30.0,
+      "leak": 1.0,
+      "imax": 0.025
+    },
+    "development_objective": 0.004563083187596961,
+    "final_test_unseen": true
+  }
+}

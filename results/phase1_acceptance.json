@@ -1,0 +1,23 @@
+{
+  "client_date": "2026-10-27",
+  "status": "CONTROL_BASELINES_EXECUTED; COLLISION_QUALIFICATION_PARTIAL",
+  "formal_trials": 42,
+  "completed": 34,
+  "failed": 8,
+  "nominal_completed": 21,
+  "nominal_trials": 21,
+  "disturbed_completed": 7,
+  "disturbed_trials": 15,
+  "fine_completed": 6,
+  "fine_trials": 6,
+  "actual_formal_physics_steps": 269495,
+  "display_only_repeat_steps": 54000,
+  "tests_total": 57,
+  "historical_tests": 25,
+  "new_tests": 32,
+  "phase0_changed": 0,
+  "video_live_state_verified": true,
+  "full_collision_safe": false,
+  "new_rl_training_steps": 0,
+  "next_phase": "Paused awaiting review; no automatic Phase2"
+}

@@ -1,0 +1,38 @@
+{
+  "training_regression": {
+    "id": "train_fixed",
+    "rise_s": 6.0,
+    "tau_s": 0.005,
+    "Fz_N": -5.5,
+    "on_s": 5.2,
+    "off_s": 11.0
+  },
+  "final_tasks": [
+    {
+      "id": "E1_newtiming",
+      "rise_s": 6.0,
+      "tau_s": 0.005,
+      "Fz_N": -5.5,
+      "on_s": 5.6,
+      "off_s": 10.6
+    },
+    {
+      "id": "E2_small_load",
+      "rise_s": 6.0,
+      "tau_s": 0.005,
+      "Fz_N": -5.25,
+      "on_s": 4.8,
+      "off_s": 10.2
+    }
+  ],
+  "preflight": "Frozen FF-VA full real physics before training for safety only; no parameter/reward/checkpoint selection using final outcomes",
+  "windows_s": 1.0,
+  "protocol_frozen_before_training": true,
+  "multi_gate": {
+    "minimum_seeds_passing": 2,
+    "requirements": "Both independent tasks: load and unload IAE improve at least1%, Z-RMSE not worse; XY peak <= baseline*1.05+0.005mm, SO3 <=baseline*1.05+0.0001deg, force slew<=baseline*1.1; no safety failure; actual parameter updates",
+    "if_pass": "Level1 timings only, two seeds each4096 additional; same53-dim action/reward; history3 only separate equal-budget future ablation",
+    "if_fail": "Do not run multi-condition training"
+  },
+  "stop": "Any nonfinite or actual safety termination stops that seed and future stage; preserve partial logs; no unbounded retry"
+}

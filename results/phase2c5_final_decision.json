@@ -1,0 +1,13 @@
+{
+  "decision": "ATTITUDE PPO PILOT NEGATIVE",
+  "seed_gates": {
+    "42": false,
+    "123": false,
+    "2026": false
+  },
+  "promote_50mm_combination": false,
+  "phase2c5c_executed": false,
+  "classical_reference": "Same 50Hz, same +/-0.05Nm per axis and shared force budget",
+  "evaluated_trials": 24,
+  "passed_trials": 24
+}

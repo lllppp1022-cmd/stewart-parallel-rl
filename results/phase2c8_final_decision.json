@@ -1,0 +1,114 @@
+{
+  "status": "PHASE 2C-8 PARTIAL SUCCESS",
+  "scientific_conclusion": "局部改善，但无跨种子、跨任务稳定超过强经典控制的证据；V3共同开发门禁失败。",
+  "pilot_gate_passed": false,
+  "formal_decisions_per_run": 8192,
+  "formal_training_decisions": 49152,
+  "formal_training_physics_steps": 983040,
+  "final_trials": 32,
+  "final_all_safe": true,
+  "success_rule": "At least two seeds each improve BOTH load and unload IAE by >=1% vs classical50 on >=2 final tasks, all safe/complete; peak/omega/Z/XYZ/XY/force slew/integral <=110% classical on every task.",
+  "seed_criteria": [
+    {
+      "method": "v2_control",
+      "seed": 42,
+      "tasks_both_iae_improve_1pct": 1,
+      "all_cost_guards": true,
+      "all_safe": true,
+      "qualifies": false
+    },
+    {
+      "method": "v2_control",
+      "seed": 123,
+      "tasks_both_iae_improve_1pct": 2,
+      "all_cost_guards": true,
+      "all_safe": true,
+      "qualifies": true
+    },
+    {
+      "method": "v2_control",
+      "seed": 2026,
+      "tasks_both_iae_improve_1pct": 0,
+      "all_cost_guards": true,
+      "all_safe": true,
+      "qualifies": false
+    },
+    {
+      "method": "v3",
+      "seed": 42,
+      "tasks_both_iae_improve_1pct": 1,
+      "all_cost_guards": true,
+      "all_safe": true,
+      "qualifies": false
+    },
+    {
+      "method": "v3",
+      "seed": 123,
+      "tasks_both_iae_improve_1pct": 1,
+      "all_cost_guards": true,
+      "all_safe": true,
+      "qualifies": false
+    },
+    {
+      "method": "v3",
+      "seed": 2026,
+      "tasks_both_iae_improve_1pct": 1,
+      "all_cost_guards": true,
+      "all_safe": true,
+      "qualifies": false
+    }
+  ],
+  "extension_32768": "NOT EXECUTED: failed common development gate",
+  "return_norm_training": "NOT EXECUTED: failed reward admission; wrapper validation only",
+  "Stage_C_training": "NOT EXECUTED",
+  "optional_2p4_Nm": "NOT EXECUTED",
+  "forbidden_4p8_Nm": "NOT EXECUTED",
+  "no_lstm_transformer_sac_td3": true,
+  "next_step": "Pause for review; no automatic budget expansion",
+  "checkpoint_selection": {
+    "frozen": true,
+    "budget": 8192,
+    "models": {
+      "v2_control/seed42": {
+        "path": "__PROJECT_ROOT__\\models\\phase2c8\\v2_control\\seed42\\checkpoint_008192.zip",
+        "sha": "07051a28b2569660a1aacaabce8df8273bbd17754580addd633049ab13f041be"
+      },
+      "v2_control/seed123": {
+        "path": "__PROJECT_ROOT__\\models\\phase2c8\\v2_control\\seed123\\checkpoint_008192.zip",
+        "sha": "8ea1658d54f04acb64def5962e791e166c6e2fff9c69b5383eb7a7ad43251542"
+      },
+      "v2_control/seed2026": {
+        "path": "__PROJECT_ROOT__\\models\\phase2c8\\v2_control\\seed2026\\checkpoint_008192.zip",
+        "sha": "b9fb9593725adbe5a41789138cbbf113979b99d1047aa50407e75d9491ddba0c"
+      },
+      "v3/seed42": {
+        "path": "__PROJECT_ROOT__\\models\\phase2c8\\v3\\seed42\\checkpoint_008192.zip",
+        "sha": "674eccc030b4618ad24c1b3438aaae6794b3a0b69cb3e9778831b8189023580b"
+      },
+      "v3/seed123": {
+        "path": "__PROJECT_ROOT__\\models\\phase2c8\\v3\\seed123\\checkpoint_008192.zip",
+        "sha": "ef19350cb4187af6a3072f8cf4f3c7b9ae2ef56366cb50e837572a6cfcbd8021"
+      },
+      "v3/seed2026": {
+        "path": "__PROJECT_ROOT__\\models\\phase2c8\\v3\\seed2026\\checkpoint_008192.zip",
+        "sha": "ad13d2e1a0025eb1caa32ab272cebd249853b5d2d5a1118d594a38ef127d18d0"
+      }
+    },
+    "evaluation_sha": "6d8ba21b9f1d373ec9cb3f67df4d11caf0e24c9738d7b9654cef747d2b667be1",
+    "no_best_seed_or_checkpoint_selection": true
+  },
+  "test_summary": {
+    "historical": {
+      "total": 417,
+      "passed": 416,
+      "failed": 1
+    },
+    "new": {
+      "total": 36,
+      "passed": 36,
+      "failed": 0
+    }
+  },
+  "historical_files_unchanged": true,
+  "no_statistical_significance_claim": true
+}

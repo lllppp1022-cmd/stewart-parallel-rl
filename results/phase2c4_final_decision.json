@@ -1,0 +1,17 @@
+{
+  "decision": "PILOT INCONCLUSIVE — REVISE TRAINING DESIGN",
+  "multi_condition_gate_passed": false,
+  "individual_seed_gate": {
+    "42": false,
+    "123": true,
+    "2026": false
+  },
+  "source": "Frozen rule in phase2c4_eval.yaml; all last4096 checkpoints, no best-seed selection",
+  "training_decisions": 12288,
+  "training_physical_steps": 614400,
+  "untrained_actor": "stochastic initial seed42; other final policies deterministic",
+  "no_significance_claim": true,
+  "larger_budget_authorised": false,
+  "multi_executed": false,
+  "next": "If gate failed, preserve negative/inconclusive result and stop; no additional tuning or budget"
+}

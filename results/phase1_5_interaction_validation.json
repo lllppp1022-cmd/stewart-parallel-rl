@@ -1,0 +1,153 @@
+{
+  "history": {
+    "files": 698,
+    "changed": []
+  },
+  "tests": {
+    "total": 85,
+    "failures": 0,
+    "report": "results/phase1_5_pytest.xml"
+  },
+  "recording_equivalence": {
+    "full_integration_states_bitwise_equal": true,
+    "max_absolute_difference": 0.0,
+    "physics_steps": 8000,
+    "same_terminal_reason": true
+  },
+  "window_equivalence": {
+    "reference": "results\\runs\\phase1_5_validation_1793093380176474300\\observer_off",
+    "window_run": "results\\runs\\phase1_5_session_1793104252187053200\\episode_000",
+    "physics_steps": 8000,
+    "state_width": 458,
+    "full_integration_states_bitwise_equal": true,
+    "max_difference": 0.0,
+    "same_terminal_reason": true,
+    "mirror_samples": 1084,
+    "maximum_mirror_qpos_qvel_ctrl_platform_difference": 0.0
+  },
+  "windows_acceptance": {
+    "keyboard_slider": "Actual Windows keyboard W/A/I, slider inputs and physical logs retained",
+    "hold_home": "Actual SPACE and R events in 1793102606692461600/episode_000",
+    "pause_close": "Episode 001 C2 paused at 16.840s, panel Alt+F4, both processes exit 0",
+    "reset": "C0->C2 uses new owner PID and episode",
+    "failure_close": "Real asymmetric_gain protection, native window closed, both processes exit 0",
+    "running_close": "Native standard Close button clicked during actual force execution and recording; both processes exit 0",
+    "native_key_focus": "W in native Viewer produced no keyboard:W motion event in 1793103296667508700",
+    "replay": "Actual Windows replay opened, Frame>/P/Play-Pause exercised; RGB source labelled ACTUAL EXECUTION CAPTURE",
+    "repeat_and_burst": "Qt auto-repeat rejection tested; 100-target bounded pending-target stress test passed"
+  },
+  "known_failed_attempts": [
+    "First owner smoke stopped at step 0 due to event argument name conflict; preserved and fixed",
+    "Initial freeze-manifest test used Windows GBK default; UTF-8 fixed, first test report preserved",
+    "First compositor used macroblock 16 and produced 1088p; attempt preserved, delivery re-encoded at exact 1080p",
+    "Alt+F4 attempt in running native Viewer did not establish closure; that run ended by wall budget. Subsequent direct system Close-button test passed"
+  ],
+  "protection": {
+    "first_violation_s": 0.12600000000000008,
+    "reason": "restricted_orientation_envelope",
+    "hold_end_s": 0.32600000000000023,
+    "actual_hold_duration_s": 0.20000000000000015,
+    "failure_preserved": true
+  },
+  "sessions": {
+    "1793102606692461600": {
+      "episodes": [
+        {
+          "episode": 0,
+          "folder": "__PROJECT_ROOT__\\results\\runs\\phase1_5_session_1793102606692461600\\episode_000",
+          "controller": "C0",
+          "condition": "nominal",
+          "owner_pid": 6700,
+          "mirror_pid": 47092,
+          "owner_exitcode": 0,
+          "mirror_exitcode": 0,
+          "dropped_commands": 0
+        },
+        {
+          "episode": 1,
+          "folder": "__PROJECT_ROOT__\\results\\runs\\phase1_5_session_1793102606692461600\\episode_001",
+          "controller": "C2",
+          "condition": "nominal",
+          "owner_pid": 45224,
+          "mirror_pid": 48824,
+          "owner_exitcode": 0,
+          "mirror_exitcode": 0,
+          "dropped_commands": 0
+        }
+      ],
+      "reset_semantics": "New owner process and new MjData only; no live qpos teleport"
+    },
+    "1793103154814442600": {
+      "episodes": [
+        {
+          "episode": 0,
+          "folder": "__PROJECT_ROOT__\\results\\runs\\phase1_5_session_1793103154814442600\\episode_000",
+          "controller": "C0",
+          "condition": "asymmetric_gain",
+          "owner_pid": 42512,
+          "mirror_pid": 20240,
+          "owner_exitcode": 0,
+          "mirror_exitcode": 0,
+          "dropped_commands": 0
+        }
+      ],
+      "reset_semantics": "New owner process and new MjData only; no live qpos teleport"
+    },
+    "1793103296667508700": {
+      "episodes": [
+        {
+          "episode": 0,
+          "folder": "__PROJECT_ROOT__\\results\\runs\\phase1_5_session_1793103296667508700\\episode_000",
+          "controller": "C0",
+          "condition": "nominal",
+          "owner_pid": 44544,
+          "mirror_pid": 38860,
+          "owner_exitcode": 0,
+          "mirror_exitcode": 0,
+          "dropped_commands": 0
+        }
+      ],
+      "reset_semantics": "New owner process and new MjData only; no live qpos teleport"
+    },
+    "1793103824929243500": {
+      "episodes": [
+        {
+          "episode": 0,
+          "folder": "__PROJECT_ROOT__\\results\\runs\\phase1_5_session_1793103824929243500\\episode_000",
+          "controller": "C0",
+          "condition": "nominal",
+          "owner_pid": 31112,
+          "mirror_pid": 10872,
+          "owner_exitcode": 0,
+          "mirror_exitcode": 0,
+          "dropped_commands": 0
+        }
+      ],
+      "reset_semantics": "New owner process and new MjData only; no live qpos teleport"
+    },
+    "1793104252187053200": {
+      "episodes": [
+        {
+          "episode": 0,
+          "folder": "__PROJECT_ROOT__\\results\\runs\\phase1_5_session_1793104252187053200\\episode_000",
+          "controller": "C0",
+          "condition": "nominal",
+          "owner_pid": 21880,
+          "mirror_pid": 41076,
+          "owner_exitcode": 0,
+          "mirror_exitcode": 0,
+          "dropped_commands": 0
+        }
+      ],
+      "reset_semantics": "New owner process and new MjData only; no live qpos teleport"
+    }
+  },
+  "video_audit": "results/phase1_5_video_frame_audit.json",
+  "no_rl_training": true,
+  "limits": [
+    "Partial 86-pair proxy query, not complete robot collision qualification",
+    "Physics is slower than real-time with RGB recording; GUI may drop old display snapshots",
+    "Only Z/Roll/Pitch restricted workspace is open",
+    "Future RL telemetry schema exists but no RL integration/training is claimed"
+  ]
+}

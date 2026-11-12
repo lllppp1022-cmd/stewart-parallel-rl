@@ -1,0 +1,123 @@
+{
+  "default_gui_run": "__PROJECT_ROOT__\\results\\runs\\phase1_5_1_session_1793173178766390800",
+  "summary": {
+    "episode": 0,
+    "physics_steps": 87389,
+    "simulation_time_s": 87.38900000005322,
+    "wall_seconds": 192.07761429995298,
+    "terminal_reason": "native_viewer_closed",
+    "failure": null,
+    "controller": "C0",
+    "condition": "nominal",
+    "mujoco_warnings": 0,
+    "no_live_qpos_assignment": true,
+    "video_frames": 0,
+    "recording_errors": [],
+    "raw_rows": 87389,
+    "state_spec": "mjSTATE_INTEGRATION",
+    "source_mode": "DYNAMIC CONTROL DEMONSTRATION",
+    "storage": "chunked_npz",
+    "state_chunks": 44,
+    "peak_buffered_states": 2000
+  },
+  "exitcodes": {
+    "episode": 0,
+    "folder": "__PROJECT_ROOT__\\results\\runs\\phase1_5_1_session_1793173178766390800\\episode_000",
+    "controller": "C0",
+    "owner_pid": 53252,
+    "mirror_pid": 40896,
+    "owner_exitcode": 0,
+    "mirror_exitcode": 0,
+    "dropped_commands": 0
+  },
+  "mirror_total_samples": 4514,
+  "mirror_tail_rows": 256,
+  "mirror_maximum_state_difference": 0.0,
+  "chunk_row_total": 87389,
+  "historical_files_checked": 995,
+  "historical_files_changed": [],
+  "tests": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "115",
+    "time": "43.830",
+    "timestamp": "2026-10-28T15:39:16.206818+08:00",
+    "hostname": "DESKTOP-1S488UK"
+  },
+  "bitwise_equivalence_steps": 2050,
+  "actual_rgb_segment_test": {
+    "frames": 5,
+    "segments": 3,
+    "resolution": [
+      1216,
+      912
+    ],
+    "decoded": true
+  },
+  "control_panel_close_test": {
+    "run": "__PROJECT_ROOT__\\results\\runs\\phase1_5_1_session_1793173529698395500",
+    "summary": {
+      "episode": 0,
+      "physics_steps": 26171,
+      "simulation_time_s": 26.171000000009002,
+      "wall_seconds": 67.70558999991044,
+      "terminal_reason": "user_quit",
+      "failure": null,
+      "controller": "C0",
+      "condition": "nominal",
+      "mujoco_warnings": 0,
+      "no_live_qpos_assignment": true,
+      "video_frames": 0,
+      "recording_errors": [],
+      "raw_rows": 26171,
+      "state_spec": "mjSTATE_INTEGRATION",
+      "source_mode": "DYNAMIC CONTROL DEMONSTRATION",
+      "storage": "chunked_npz",
+      "state_chunks": 14,
+      "peak_buffered_states": 2000
+    },
+    "session": {
+      "episodes": [
+        {
+          "episode": 0,
+          "folder": "__PROJECT_ROOT__\\results\\runs\\phase1_5_1_session_1793173529698395500\\episode_000",
+          "controller": "C0",
+          "owner_pid": 51592,
+          "mirror_pid": 40832,
+          "owner_exitcode": 0,
+          "mirror_exitcode": 0,
+          "dropped_commands": 0
+        }
+      ],
+      "reset_semantics": "New owner process and new MjData only; no live qpos teleport"
+    },
+    "closed_while_paused": true,
+    "all_test_windows_closed": true
+  },
+  "explicit_headless_budget_test": {
+    "run": "__PROJECT_ROOT__\\results\\runs\\phase1_5_1_session_1793173638271871900",
+    "summary": {
+      "episode": 0,
+      "physics_steps": 200,
+      "simulation_time_s": 0.20000000000000015,
+      "wall_seconds": 0.5461381999775767,
+      "terminal_reason": "budget_complete",
+      "failure": null,
+      "controller": "C0",
+      "condition": "nominal",
+      "mujoco_warnings": 0,
+      "no_live_qpos_assignment": true,
+      "video_frames": 0,
+      "recording_errors": [],
+      "raw_rows": 200,
+      "state_spec": "mjSTATE_INTEGRATION",
+      "source_mode": "DYNAMIC CONTROL DEMONSTRATION",
+      "storage": "chunked_npz",
+      "state_chunks": 1,
+      "peak_buffered_states": 200
+    },
+    "process_exitcode": 0
+  }
+}

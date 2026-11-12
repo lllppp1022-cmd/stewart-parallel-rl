@@ -1,0 +1,7 @@
+{
+  "command": "python scripts/demo_phase1_control.py --controller C1 --trajectory periodic --seconds 6",
+  "successful_python_exit": true,
+  "source_run": "results\\runs\\phase1_gui_1793089581139003100",
+  "formal_record_bitwise_equal": true,
+  "scientific_results_replaced": false
+}

@@ -1,0 +1,41 @@
+{
+  "n_steps": 256,
+  "batch_size": 64,
+  "n_epochs": 10,
+  "learning_rate": 0.0003,
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "log_std_init": -1.0,
+  "clip_range": 0.2,
+  "ent_coef": 0.0,
+  "vf_coef": 0.5,
+  "max_grad_norm": 0.5,
+  "target_kl": 0.03,
+  "net_arch": {
+    "pi": [
+      32,
+      32
+    ],
+    "vf": [
+      32,
+      32
+    ]
+  },
+  "device": "cpu",
+  "torch_threads": 1,
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "maximum_per_seed": 4096,
+  "smoke_seed": 42,
+  "smoke256_included_in_seed42_4096": true,
+  "checkpoint_every_rollout": true,
+  "selection": "Last4096 checkpoint for every seed; no best-test selection",
+  "record_seed42_episodes": [
+    0,
+    6,
+    12
+  ]
+}

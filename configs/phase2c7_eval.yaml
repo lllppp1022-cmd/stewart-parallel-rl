@@ -1,0 +1,97 @@
+{
+  "final": [
+    {
+      "id": "F_roll",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.1,
+        "pitch_deg": 0,
+        "rise_s": 5.5
+      },
+      "torque": [
+        -0.65,
+        0
+      ],
+      "on": 3.55,
+      "off": 5.35,
+      "stage": "final"
+    },
+    {
+      "id": "F_pitch",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0,
+        "pitch_deg": -0.1,
+        "rise_s": 6.5
+      },
+      "torque": [
+        0,
+        0.9
+      ],
+      "on": 10.0,
+      "off": 11.8,
+      "stage": "final"
+    },
+    {
+      "id": "F_mix",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": -0.1,
+        "pitch_deg": 0.1,
+        "rise_s": 6.5
+      },
+      "torque": [
+        0.66,
+        -0.88
+      ],
+      "on": 7.4,
+      "off": 8.8,
+      "stage": "final"
+    },
+    {
+      "id": "F_30",
+      "reference": {
+        "z_m": 0.03,
+        "roll_deg": 0.08,
+        "pitch_deg": -0.12,
+        "rise_s": 5.5
+      },
+      "torque": [
+        -0.8,
+        0.6
+      ],
+      "on": 4.6,
+      "off": 6.4,
+      "stage": "final"
+    }
+  ],
+  "development": [
+    {
+      "id": "Dev_mix",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.1,
+        "pitch_deg": -0.1,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.48,
+        -0.64
+      ],
+      "on": 5.0,
+      "off": 7.0,
+      "stage": "development"
+    }
+  ],
+  "gains": {
+    "kp": 25.0,
+    "kd": 1.0
+  },
+  "recovery_bands_deg": [
+    0.1,
+    0.01
+  ],
+  "recovery_dwell_s": 0.5,
+  "criterion": "At least two new seeds improve both 1s load/unload IAE in at least two independent tasks, all complete, with Z RMSE, peak XY, and actual-force slew <=110% of classical on every task; report all absolute effects.",
+  "selection": "Final bounded checkpoints for all seeds, frozen before final policy evaluation"
+}

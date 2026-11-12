@@ -1,0 +1,63 @@
+{
+  "zero_protection_events": [
+    {
+      "base": "C0",
+      "same_protection_events": true,
+      "events": []
+    },
+    {
+      "base": "C3",
+      "same_protection_events": true,
+      "events": []
+    }
+  ],
+  "common_noise_identical": [
+    "position_1e-06",
+    "position_2e-06",
+    "rotation_1e-05",
+    "rotation_2e-05",
+    "velocity_1e-05",
+    "velocity_2e-05"
+  ],
+  "recorded_actual_motion": [
+    {
+      "method": "C3",
+      "recorded_slide_range_m": [
+        0.00018867295561084314,
+        0.00019292888176113045,
+        0.00019222703744178915,
+        0.00018844024280623915,
+        0.00019153781622535665,
+        0.00019209237338642518
+      ],
+      "maximum_qpos_motion": 0.00019824803195134244
+    },
+    {
+      "method": "C3_task",
+      "recorded_slide_range_m": [
+        0.00018498951093174845,
+        0.00018926108006518975,
+        0.00018852616982931847,
+        0.00018473185840287137,
+        0.00018789067602994206,
+        0.00018846211014253002
+      ],
+      "maximum_qpos_motion": 0.0001944360336487705
+    },
+    {
+      "method": "C3_leg",
+      "recorded_slide_range_m": [
+        0.00018498947263081669,
+        0.00018926110346826887,
+        0.0001885261928649509,
+        0.00018473182100790255,
+        0.00018789068217960848,
+        0.0001884621172444782
+      ],
+      "maximum_qpos_motion": 0.00019443603165081313
+    }
+  ],
+  "all_nominal_control_models_equal": 90,
+  "observer_gui_failed_first_attempt": "PermissionError WinError5 creating multiprocessing Pipe after baseline2048; preserved directory; elevated bounded retry passed",
+  "archive_validator_first_attempt": "KeyError in validator reading nested selected config after40 checks; no experiment failure; fixed nested lookup, independent v2 all90 passed"
+}

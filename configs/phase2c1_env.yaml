@@ -1,0 +1,23 @@
+{
+ "version":"phase2c1_v1","physical_dt_s":0.001,"decision_physical_steps":50,"episode_physical_steps":6000,
+ "action_scale_N":0.5,"history_length":3,"frame_dimension":85,
+ "observation_scales":{"position_m":[0.00025,0.00025,0.00005],"angle_rad":0.00034906585039886593,"linear_velocity_m_s":0.01,"angular_velocity_rad_s":0.05,"slide_m":0.001,"slide_velocity_m_s":0.01,"known_command_N":5,"estimated_force_N":20,"estimated_moment_Nm":0.8,"applied_residual_N":0.1},
+ "reward":{"z_scale_m":0.00005,"xy_scale_m":0.00025,"angle_scale_rad":0.00034906585039886593,"z_weight":1.0,"xy_weight":0.1,"angle_weight":0.05,"amplitude_weight":0.01,"slew_weight":0.01,"request_weight":0.002,"residual_scale_N":0.1,"residual_rate_scale_N_s":20,"maximum_physical_cost":20,"failure_base_penalty":20},
+ "training_tasks":[
+ {"id":"T0","tau_s":0.002,"Fz_N":-5,"on_step":1450,"off_step":3250},
+ {"id":"T1","tau_s":0.005,"Fz_N":-6,"on_step":1650,"off_step":3650},
+ {"id":"T2","tau_s":0.01,"Fz_N":-5,"on_step":1850,"off_step":3850},
+ {"id":"T3","tau_s":0.002,"Fz_N":-6,"on_step":1750,"off_step":3450},
+ {"id":"T4","tau_s":0.005,"Fz_N":-5.5,"on_step":1550,"off_step":3350},
+ {"id":"T5","tau_s":0.01,"Fz_N":-6,"on_step":1350,"off_step":3150}],
+ "validation_tasks":[{"id":"V0","tau_s":0.005,"Fz_N":-5.25,"on_step":1725,"off_step":3575}],
+ "final_tasks":[
+ {"id":"E0","tau_s":0.0075,"Fz_N":-5.75,"on_step":1425,"off_step":3525},
+ {"id":"E1","tau_s":0.005,"Fz_N":-5.25,"on_step":1825,"off_step":3975}],
+ "regression_task":{"id":"R0","tau_s":0.01,"Fz_N":-6,"on_step":1700,"off_step":3450},
+ "no_actor_inputs":["tau","F_drive","F_actual","external_wrench","load_on_time","load_off_time","future_state"],
+ "measurement_boundary":"Latest actual C4 p/R/v sample (normally1ms old), ideal current active q/dq; full-chain feedback in C4 remains ideal; no hardware sensor claim",
+ "random_safety_patterns":["seeded_uniform","alternating_extremes"],"random_safety_seed":7401,
+ "normal_end":"truncated=True, terminated=False; always6s, no early success before disturbance",
+ "failure_end":"terminate decision immediately at first protected step, then original200-step hold with no further Actor calls, all physical steps counted"
+}

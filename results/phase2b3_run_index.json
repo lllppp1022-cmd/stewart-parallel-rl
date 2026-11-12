@@ -1,0 +1,10 @@
+{
+  "roots": [
+    "results\\runs\\phase2b3_20261029_v1",
+    "results\\runs\\phase2b3_20261029_continuation_v2"
+  ],
+  "attempts": 59,
+  "zero_row_engineering_failure_preserved": true,
+  "parameters_unchanged": true,
+  "completed": true
+}

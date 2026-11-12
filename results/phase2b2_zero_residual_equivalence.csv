@@ -1,0 +1,3 @@
+base,full_integration_state_bitwise_equal,all_physical_signals_equal,maximum_state_difference,folder,same_terminal_reason
+C0,True,True,0.0,results\runs\phase2b2_20261029_v1\zero_equivalence\force10\C0,True
+C3,True,True,0.0,results\runs\phase2b2_20261029_v1\zero_equivalence\force10\C3,True

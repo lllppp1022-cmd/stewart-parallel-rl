@@ -1,0 +1,780 @@
+{
+  "source": "results\\runs\\phase1_5_1_session_1793123144215823100\\episode_000\\events.jsonl",
+  "no_events_inferred_from_curves": true,
+  "events": [
+    {
+      "type": "episode_started",
+      "episode": 0,
+      "time_s": 0,
+      "source_mode": "DYNAMIC CONTROL DEMONSTRATION",
+      "keyboard_scope": "Control panel only",
+      "collision": "PARTIAL PROXY QUERY",
+      "journal_index": 0,
+      "label": "Episode reset / initial Home"
+    },
+    {
+      "target_before": {
+        "z_mm": 0.0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "type": "input",
+      "episode": 0,
+      "step": 0,
+      "time_s": 0.0,
+      "event_seq": 1,
+      "kind": "home",
+      "payload": {},
+      "source": "scheduled demonstration (not human keyboard)",
+      "command_id": 1,
+      "preflight": "NOT YET CHECKED",
+      "execution": "SUBMITTED",
+      "journal_index": 1,
+      "label": "SUBMITTED home "
+    },
+    {
+      "target_before": {
+        "z_mm": 0.0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "target_after": {
+        "z_mm": 0.0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "type": "target_queued",
+      "episode": 0,
+      "step": 0,
+      "time_s": 0.0,
+      "event_seq": 2,
+      "preflight": "NOT YET CHECKED",
+      "execution": "QUEUED",
+      "command_id": 1,
+      "journal_index": 2,
+      "label": "QUEUED (not preflighted)"
+    },
+    {
+      "target_before": {
+        "z_mm": 0.0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "target_after": {
+        "z_mm": 0.0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "type": "target_no_motion",
+      "episode": 0,
+      "step": 0,
+      "time_s": 0.0,
+      "event_seq": 3,
+      "command_id": 1,
+      "journal_index": 3,
+      "label": "UNCHANGED target / no new motion"
+    },
+    {
+      "target_before": {
+        "z_mm": 0.0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "type": "input",
+      "episode": 0,
+      "step": 1000,
+      "time_s": 1.0000000000000007,
+      "event_seq": 4,
+      "kind": "increment",
+      "payload": {
+        "z_mm": 1.5
+      },
+      "source": "scheduled demonstration",
+      "command_id": 2,
+      "preflight": "NOT YET CHECKED",
+      "execution": "SUBMITTED",
+      "journal_index": 4,
+      "label": "SUBMITTED z_mm +1.5"
+    },
+    {
+      "target_before": {
+        "z_mm": 0.0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "type": "target_superseded",
+      "episode": 0,
+      "step": 1000,
+      "time_s": 1.0000000000000007,
+      "event_seq": 5,
+      "superseded_command_id": 1,
+      "command_id": 2,
+      "journal_index": 5,
+      "label": "SUPERSEDED (not independently executed)"
+    },
+    {
+      "target_before": {
+        "z_mm": 0.0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "target_after": {
+        "z_mm": 1.5,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "type": "target_queued",
+      "episode": 0,
+      "step": 1000,
+      "time_s": 1.0000000000000007,
+      "event_seq": 6,
+      "preflight": "NOT YET CHECKED",
+      "execution": "QUEUED",
+      "command_id": 2,
+      "journal_index": 6,
+      "label": "QUEUED (not preflighted)"
+    },
+    {
+      "target_before": {
+        "z_mm": 0.0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "target_after": {
+        "z_mm": 1.5,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "type": "plan_accepted",
+      "episode": 0,
+      "step": 1000,
+      "time_s": 1.0000000000000007,
+      "event_seq": 7,
+      "goal": {
+        "z_mm": 1.5,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "audit": {
+        "samples": 41,
+        "minimum_covered_proxy_m": 0.033515340509909855,
+        "maximum_condition": 5.305393901211379,
+        "duration_s": 2.0,
+        "stroke_min_m": -1.4378406663944668e-07,
+        "stroke_max_m": 0.0014473394431039394
+      },
+      "command_id": 2,
+      "preflight": "PASSED",
+      "journal_index": 7,
+      "label": "PREFLIGHT PASSED"
+    },
+    {
+      "target_before": {
+        "z_mm": 0.0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "target_after": {
+        "z_mm": 1.5,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "type": "motion_started",
+      "episode": 0,
+      "step": 1001,
+      "time_s": 1.0010000000000006,
+      "event_seq": 8,
+      "command_id": 2,
+      "execution": "FIRST ACTUAL PHYSICS STEP COMPLETE",
+      "journal_index": 8,
+      "label": "EXECUTING"
+    },
+    {
+      "target_before": {
+        "z_mm": 0.0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "target_after": {
+        "z_mm": 1.5,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "type": "motion_completed",
+      "episode": 0,
+      "step": 3000,
+      "time_s": 2.9999999999997806,
+      "event_seq": 9,
+      "command_id": 2,
+      "execution": "FINAL ACTUAL PHYSICS STEP COMPLETE",
+      "journal_index": 9,
+      "label": "COMPLETED"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "type": "input",
+      "episode": 0,
+      "step": 6000,
+      "time_s": 6.000000000000338,
+      "event_seq": 10,
+      "kind": "increment",
+      "payload": {
+        "roll_deg": 0.15
+      },
+      "source": "scheduled demonstration",
+      "command_id": 3,
+      "preflight": "NOT YET CHECKED",
+      "execution": "SUBMITTED",
+      "journal_index": 10,
+      "label": "SUBMITTED roll_deg +0.15"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "target_after": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15,
+        "pitch_deg": 0.0
+      },
+      "type": "target_queued",
+      "episode": 0,
+      "step": 6000,
+      "time_s": 6.000000000000338,
+      "event_seq": 11,
+      "preflight": "NOT YET CHECKED",
+      "execution": "QUEUED",
+      "command_id": 3,
+      "journal_index": 11,
+      "label": "QUEUED (not preflighted)"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "target_after": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15,
+        "pitch_deg": 0.0
+      },
+      "type": "plan_accepted",
+      "episode": 0,
+      "step": 6000,
+      "time_s": 6.000000000000338,
+      "event_seq": 12,
+      "goal": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15,
+        "pitch_deg": 0.0
+      },
+      "audit": {
+        "samples": 41,
+        "minimum_covered_proxy_m": 0.03351712433203509,
+        "maximum_condition": 5.308293349291199,
+        "duration_s": 2.0,
+        "stroke_min_m": 0.0005869560802859137,
+        "stroke_max_m": 0.0020436598594348455
+      },
+      "command_id": 3,
+      "preflight": "PASSED",
+      "journal_index": 12,
+      "label": "PREFLIGHT PASSED"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "target_after": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15,
+        "pitch_deg": 0.0
+      },
+      "type": "motion_started",
+      "episode": 0,
+      "step": 6001,
+      "time_s": 6.001000000000339,
+      "event_seq": 13,
+      "command_id": 3,
+      "execution": "FIRST ACTUAL PHYSICS STEP COMPLETE",
+      "journal_index": 13,
+      "label": "EXECUTING"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "target_after": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15,
+        "pitch_deg": 0.0
+      },
+      "type": "motion_completed",
+      "episode": 0,
+      "step": 8000,
+      "time_s": 8.000000000001005,
+      "event_seq": 14,
+      "command_id": 3,
+      "execution": "FINAL ACTUAL PHYSICS STEP COMPLETE",
+      "journal_index": 14,
+      "label": "COMPLETED"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15000000000000005,
+        "pitch_deg": 0.0
+      },
+      "type": "input",
+      "episode": 0,
+      "step": 11000,
+      "time_s": 10.999999999999343,
+      "event_seq": 15,
+      "kind": "increment",
+      "payload": {
+        "pitch_deg": 0.15
+      },
+      "source": "scheduled demonstration",
+      "command_id": 4,
+      "preflight": "NOT YET CHECKED",
+      "execution": "SUBMITTED",
+      "journal_index": 15,
+      "label": "SUBMITTED pitch_deg +0.15"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15000000000000005,
+        "pitch_deg": 0.0
+      },
+      "target_after": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15000000000000005,
+        "pitch_deg": 0.15
+      },
+      "type": "target_queued",
+      "episode": 0,
+      "step": 11000,
+      "time_s": 10.999999999999343,
+      "event_seq": 16,
+      "preflight": "NOT YET CHECKED",
+      "execution": "QUEUED",
+      "command_id": 4,
+      "journal_index": 16,
+      "label": "QUEUED (not preflighted)"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15000000000000005,
+        "pitch_deg": 0.0
+      },
+      "target_after": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15000000000000005,
+        "pitch_deg": 0.15
+      },
+      "type": "plan_accepted",
+      "episode": 0,
+      "step": 11000,
+      "time_s": 10.999999999999343,
+      "event_seq": 17,
+      "goal": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15000000000000005,
+        "pitch_deg": 0.15
+      },
+      "audit": {
+        "samples": 41,
+        "minimum_covered_proxy_m": 0.03351712433203509,
+        "maximum_condition": 5.308576052076303,
+        "duration_s": 2.0,
+        "stroke_min_m": 0.0003965623065098634,
+        "stroke_max_m": 0.0026947771767302005
+      },
+      "command_id": 4,
+      "preflight": "PASSED",
+      "journal_index": 17,
+      "label": "PREFLIGHT PASSED"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15000000000000005,
+        "pitch_deg": 0.0
+      },
+      "target_after": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15000000000000005,
+        "pitch_deg": 0.15
+      },
+      "type": "motion_started",
+      "episode": 0,
+      "step": 11001,
+      "time_s": 11.000999999999342,
+      "event_seq": 18,
+      "command_id": 4,
+      "execution": "FIRST ACTUAL PHYSICS STEP COMPLETE",
+      "journal_index": 18,
+      "label": "EXECUTING"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15000000000000005,
+        "pitch_deg": 0.0
+      },
+      "target_after": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15000000000000005,
+        "pitch_deg": 0.15
+      },
+      "type": "motion_completed",
+      "episode": 0,
+      "step": 13000,
+      "time_s": 12.999999999998234,
+      "event_seq": 19,
+      "command_id": 4,
+      "execution": "FINAL ACTUAL PHYSICS STEP COMPLETE",
+      "journal_index": 19,
+      "label": "COMPLETED"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15000000000000005,
+        "pitch_deg": 0.15000000000001612
+      },
+      "type": "input",
+      "episode": 0,
+      "step": 16000,
+      "time_s": 15.999999999996572,
+      "event_seq": 20,
+      "kind": "target",
+      "payload": {
+        "z_mm": 1.5,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "source": "scheduled demonstration",
+      "command_id": 5,
+      "preflight": "NOT YET CHECKED",
+      "execution": "SUBMITTED",
+      "journal_index": 20,
+      "label": "SUBMITTED target {'z_mm': 1.5, 'roll_deg': 0.0, 'pitch_deg': 0.0}"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15000000000000005,
+        "pitch_deg": 0.15000000000001612
+      },
+      "target_after": {
+        "z_mm": 1.5,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "type": "target_queued",
+      "episode": 0,
+      "step": 16000,
+      "time_s": 15.999999999996572,
+      "event_seq": 21,
+      "preflight": "NOT YET CHECKED",
+      "execution": "QUEUED",
+      "command_id": 5,
+      "journal_index": 21,
+      "label": "QUEUED (not preflighted)"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15000000000000005,
+        "pitch_deg": 0.15000000000001612
+      },
+      "target_after": {
+        "z_mm": 1.5,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "type": "plan_accepted",
+      "episode": 0,
+      "step": 16000,
+      "time_s": 15.999999999996572,
+      "event_seq": 22,
+      "goal": {
+        "z_mm": 1.5,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "audit": {
+        "samples": 41,
+        "minimum_covered_proxy_m": 0.03351771741117106,
+        "maximum_condition": 5.308576052076302,
+        "duration_s": 2.0,
+        "stroke_min_m": 0.00039656230650986327,
+        "stroke_max_m": 0.0026947771767302005
+      },
+      "command_id": 5,
+      "preflight": "PASSED",
+      "journal_index": 22,
+      "label": "PREFLIGHT PASSED"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15000000000000005,
+        "pitch_deg": 0.15000000000001612
+      },
+      "target_after": {
+        "z_mm": 1.5,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "type": "motion_started",
+      "episode": 0,
+      "step": 16001,
+      "time_s": 16.000999999996573,
+      "event_seq": 23,
+      "command_id": 5,
+      "execution": "FIRST ACTUAL PHYSICS STEP COMPLETE",
+      "journal_index": 23,
+      "label": "EXECUTING"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 0.15000000000000005,
+        "pitch_deg": 0.15000000000001612
+      },
+      "target_after": {
+        "z_mm": 1.5,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "type": "motion_completed",
+      "episode": 0,
+      "step": 18000,
+      "time_s": 17.999999999999016,
+      "event_seq": 24,
+      "command_id": 5,
+      "execution": "FINAL ACTUAL PHYSICS STEP COMPLETE",
+      "journal_index": 24,
+      "label": "COMPLETED"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 1.6653354428840164e-17,
+        "pitch_deg": 0.0
+      },
+      "type": "input",
+      "episode": 0,
+      "step": 21000,
+      "time_s": 21.000000000002682,
+      "event_seq": 25,
+      "kind": "home",
+      "payload": {},
+      "source": "scheduled demonstration",
+      "command_id": 6,
+      "preflight": "NOT YET CHECKED",
+      "execution": "SUBMITTED",
+      "journal_index": 25,
+      "label": "SUBMITTED home "
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 1.6653354428840164e-17,
+        "pitch_deg": 0.0
+      },
+      "target_after": {
+        "z_mm": 0.0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "type": "target_queued",
+      "episode": 0,
+      "step": 21000,
+      "time_s": 21.000000000002682,
+      "event_seq": 26,
+      "preflight": "NOT YET CHECKED",
+      "execution": "QUEUED",
+      "command_id": 6,
+      "journal_index": 26,
+      "label": "QUEUED (not preflighted)"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 1.6653354428840164e-17,
+        "pitch_deg": 0.0
+      },
+      "target_after": {
+        "z_mm": 0.0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "type": "plan_accepted",
+      "episode": 0,
+      "step": 21000,
+      "time_s": 21.000000000002682,
+      "event_seq": 27,
+      "goal": {
+        "z_mm": 0.0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "audit": {
+        "samples": 41,
+        "minimum_covered_proxy_m": 0.03351534050990991,
+        "maximum_condition": 5.305393901211381,
+        "duration_s": 2.0,
+        "stroke_min_m": -1.4378405035532782e-07,
+        "stroke_max_m": 0.0014473394431038398
+      },
+      "command_id": 6,
+      "preflight": "PASSED",
+      "journal_index": 27,
+      "label": "PREFLIGHT PASSED"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 1.6653354428840164e-17,
+        "pitch_deg": 0.0
+      },
+      "target_after": {
+        "z_mm": 0.0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "type": "motion_started",
+      "episode": 0,
+      "step": 21001,
+      "time_s": 21.001000000002684,
+      "event_seq": 28,
+      "command_id": 6,
+      "execution": "FIRST ACTUAL PHYSICS STEP COMPLETE",
+      "journal_index": 28,
+      "label": "EXECUTING"
+    },
+    {
+      "target_before": {
+        "z_mm": 1.5000000000000568,
+        "roll_deg": 1.6653354428840164e-17,
+        "pitch_deg": 0.0
+      },
+      "target_after": {
+        "z_mm": 0.0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      },
+      "type": "motion_completed",
+      "episode": 0,
+      "step": 23000,
+      "time_s": 23.000000000005127,
+      "event_seq": 29,
+      "command_id": 6,
+      "execution": "FINAL ACTUAL PHYSICS STEP COMPLETE",
+      "journal_index": 29,
+      "label": "COMPLETED"
+    },
+    {
+      "target_before": {
+        "z_mm": 0.0,
+        "roll_deg": 1.3793457181406746e-33,
+        "pitch_deg": 0.0
+      },
+      "type": "input",
+      "episode": 0,
+      "step": 27000,
+      "time_s": 27.000000000010015,
+      "event_seq": 30,
+      "kind": "hold",
+      "payload": {},
+      "source": "scheduled demonstration",
+      "command_id": 7,
+      "preflight": "NOT YET CHECKED",
+      "execution": "SUBMITTED",
+      "journal_index": 30,
+      "label": "SUBMITTED hold "
+    },
+    {
+      "target_before": {
+        "z_mm": 0.0,
+        "roll_deg": 1.3793457181406746e-33,
+        "pitch_deg": 0.0
+      },
+      "type": "hold",
+      "episode": 0,
+      "step": 27000,
+      "time_s": 27.000000000010015,
+      "event_seq": 31,
+      "reason": "user_hold",
+      "actual_qpos": [
+        -3.1826308483769193e-07,
+        -2.087089351655893e-06,
+        -1.336334562825466e-07,
+        -6.251675572231206e-07,
+        4.5287520631510234e-06,
+        -5.612591221408267e-05,
+        -4.0318141669721155e-07,
+        2.5435031878502395e-06,
+        -1.6250421530168435e-08,
+        -3.639028764083289e-07,
+        3.109451431053392e-06,
+        5.6496958360554e-05,
+        -4.562185845694851e-07,
+        -2.6640872703441734e-06,
+        -1.3921120847806558e-07,
+        2.4892079795379456e-06,
+        5.819722418496132e-05,
+        1.4213736206187136e-06,
+        -4.529112239421149e-07,
+        2.3046168333733267e-06,
+        -1.8407099919810674e-07,
+        -1.3605460963839728e-06,
+        2.129736749315268e-06,
+        -5.6391443102013444e-05,
+        -1.497034986500777e-07,
+        -2.309088720217827e-06,
+        2.0210504844131094e-08,
+        -4.0936917213328374e-07,
+        5.533478700313415e-06,
+        -5.672605370800408e-05,
+        -2.508384661571974e-07,
+        2.404730331912523e-06,
+        -1.3402531565950929e-08,
+        -3.9181473674083785e-06,
+        5.4902866222303735e-05,
+        3.499218748499676e-06,
+        0.0002058371626349734,
+        0.005126183841606158,
+        1.0999997410188906,
+        0.9999999999999922,
+        -6.628307059818815e-08,
+        -2.5096001818653418e-08,
+        -1.003790461270004e-07
+      ],
+      "cancelled_target": {
+        "z_mm": 0.0,
+        "roll_deg": 1.3793457181406746e-33,
+        "pitch_deg": 0.0
+      },
+      "command_id": 7,
+      "journal_index": 31,
+      "label": "Hold activated"
+    }
+  ]
+}

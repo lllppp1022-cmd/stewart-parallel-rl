@@ -1,0 +1,8 @@
+{
+  "bitwise_equal": true,
+  "maximum_state_difference": 0.0,
+  "physics_steps": 6000,
+  "current_guarded_controller_matches_frozen_experiment": true,
+  "source": "__PROJECT_ROOT__\\results\\runs\\phase2b1_20261028_v1\\final\\benchmark_force10\\C3",
+  "reproduction": "__PROJECT_ROOT__\\results\\runs\\phase2b1_20261028_v1\\implementation_repro\\benchmark_force10\\C3"
+}

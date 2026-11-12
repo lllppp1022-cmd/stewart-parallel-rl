@@ -1,0 +1,10 @@
+{
+  "headless_research_trials": 91,
+  "headless_loop_steps_per_s_median": 309.9707564810964,
+  "headless_loop_steps_per_s_min": 239.78554827733012,
+  "headless_loop_steps_per_s_max": 348.12663022640317,
+  "note": "Research loop wall excludes final NPZ close; total wall includes constructor, archive and independent metric parsing. Isolated benchmark run_and_archive is preferred for Pilot cost estimates.",
+  "isolated_benchmark_root": "results/runs/phase2c0_benchmark_isolated_20261029_v2",
+  "concurrent_benchmark_root": "results/runs/phase2c0_benchmark_20261029_v1",
+  "all_benchmark_steps": 8000
+}

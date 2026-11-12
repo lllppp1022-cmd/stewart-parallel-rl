@@ -1,0 +1,935 @@
+{
+  "research_trials": 90,
+  "successful_trials": 89,
+  "failed_trials": 1,
+  "research_physical_steps": 534584,
+  "history_files_unchanged": 2902,
+  "zero_residual_bitwise": true,
+  "all_raw_states_finite": true,
+  "full_rate_budget_and_native_limits_passed": true,
+  "actual_generalized_force_recomputed": true,
+  "kinematic_map_independent_scratch_max_error": 5.551115123125783e-17,
+  "failed_trial": {
+    "variant": "asymmetric_0.01_C3",
+    "time_s": 0.3840000000000003,
+    "unloaded_censored": true,
+    "reason": "restricted_orientation_envelope",
+    "hold_steps": 200
+  },
+  "observer_gui": {
+    "root": "__PROJECT_ROOT__\\results\\runs\\phase2b2_observer_1793209950508858800",
+    "physics_steps_each": 2048,
+    "bitwise_equal": true,
+    "maximum_integration_state_difference": 0.0,
+    "gui_qt_and_native": true,
+    "actual_recording": true,
+    "interrupted": false,
+    "mirror_exitcode": 0,
+    "recording_errors": []
+  },
+  "video_frames": 450,
+  "video_unique_frames": 450,
+  "rl_training": false,
+  "trials": [
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\zero_equivalence\\force10\\C0",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\zero_equivalence\\force10\\C3",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\C3_known_input_no_external",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\leg1_amp0.1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\leg1_amp0.25",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\leg1_amp0.5",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\leg1_sign-1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\leg1_sign1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\leg2_sign-1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\leg2_sign1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\leg3_sign-1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\leg3_sign1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\leg4_sign-1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\leg4_sign1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\leg5_sign-1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\leg5_sign1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\leg6_sign-1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\leg6_sign1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\ramp_leg_20",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\ramp_leg_50",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\ramp_task_20",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\ramp_task_50",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\task0_sign-1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\task0_sign1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\task1_sign-1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\task1_sign1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\task2_sign-1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\preflight\\quiet\\task2_sign1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\test_safety_precheck\\test_force8_time\\C3",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\test_safety_precheck\\test_periodic_roll\\C3",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\development\\force10\\C0_damping_20",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\development\\force10\\C0_damping_50",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\development\\force10\\C3_damping_20",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\development\\force10\\C3_damping_50",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\development\\force10\\C3_lead_20",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\development\\force10\\C3_lead_50",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\development\\force10\\C3_leg_damping_20",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\development\\force10\\C3_leg_damping_50",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\development\\roll05\\C3_damping_20",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\development\\roll05\\C3_damping_50",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\development\\roll05\\C3_lead_20",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\development\\roll05\\C3_lead_50",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\frozen_evaluation\\test_force8_time\\C0",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\frozen_evaluation\\test_force8_time\\C0_leg",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\frozen_evaluation\\test_force8_time\\C0_task",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\frozen_evaluation\\test_force8_time\\C1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": false,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\frozen_evaluation\\test_force8_time\\C1-L",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": false,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\frozen_evaluation\\test_force8_time\\C2",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": false,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\frozen_evaluation\\test_force8_time\\C3",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\frozen_evaluation\\test_force8_time\\C3_leg",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\frozen_evaluation\\test_force8_time\\C3_task",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\frozen_evaluation\\test_periodic_roll\\C0",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\frozen_evaluation\\test_periodic_roll\\C0_leg",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\frozen_evaluation\\test_periodic_roll\\C0_task",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\frozen_evaluation\\test_periodic_roll\\C1",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": false,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\frozen_evaluation\\test_periodic_roll\\C1-L",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": false,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\frozen_evaluation\\test_periodic_roll\\C2",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": false,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\frozen_evaluation\\test_periodic_roll\\C3",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\frozen_evaluation\\test_periodic_roll\\C3_leg",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\frozen_evaluation\\test_periodic_roll\\C3_task",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\oracle_diagnostic\\force10\\C0_oracle",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\oracle_diagnostic\\force10\\C3_oracle",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\oracle_diagnostic\\roll05\\C0_oracle",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\oracle_diagnostic\\roll05\\C3_oracle",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\asymmetric_0.005_C3",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\asymmetric_0.01_C3",
+      "steps": 584,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\com_0.0001_C3",
+      "steps": 6000,
+      "map_max_error": 5.551115123125783e-17,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\com_0.00025_C3",
+      "steps": 6000,
+      "map_max_error": 5.551115123125783e-17,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\delay_1_C0",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\delay_1_C3",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\delay_2_C0",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\delay_2_C3",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\delay_5_C0",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\delay_5_C3",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\gain_0.98_C3",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\gain_0.99_C3",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\mass_1.01_C3",
+      "steps": 6000,
+      "map_max_error": 1.3877787807814457e-17,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\mass_1.02_C3",
+      "steps": 6000,
+      "map_max_error": 1.3877787807814457e-17,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\position_1e-06_C0",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\position_1e-06_C3",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\position_2e-06_C0",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\position_2e-06_C3",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\rotation_1e-05_C0",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\rotation_1e-05_C3",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\rotation_2e-05_C0",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\rotation_2e-05_C3",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\velocity_1e-05_C0",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\velocity_1e-05_C3",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\velocity_2e-05_C0",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    },
+    {
+      "folder": "results\\runs\\phase2b2_20261029_v1\\robustness\\robust_force10\\velocity_2e-05_C3",
+      "steps": 6000,
+      "map_max_error": 0.0,
+      "finite": true,
+      "state_csv_exact": true,
+      "shared_budget_checked": true,
+      "mapping_checked": true,
+      "partial_sensor_checked": true
+    }
+  ]
+}

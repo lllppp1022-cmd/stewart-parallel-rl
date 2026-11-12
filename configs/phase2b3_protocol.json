@@ -1,0 +1,22 @@
+{
+ "version":"phase2b3_v1","dt":0.001,"duration_s":6,"maximum_research_trials":66,
+ "recovery_position_mm":0.25,"recovery_angle_deg":0.02,"recovery_hold_s":0.3,
+ "yaw_performance_tolerance_deg":0.02,"yaw_safety_limit_deg":0.2,
+ "yaw_probe_Nm":[0.005,0.025,0.1,0.25],"yaw_compensation_clip_Nm":0.30,
+ "PD_kp_Nm_rad":[100,300],"PD_damping_rule":"kd=2*sqrt(nominal_Mzz*kp)","observer_gains":[0.5,1.0],
+ "shared_extra_force_N":5,"shared_extra_rate_N_s":20,"native_force_N":400,
+ "development_gain_amplitude":0.005,"no_known_failed_one_percent_rerun":true,
+ "development_references":["home","periodic"],"candidate_selection":"Successful candidates only, mean yaw absolute-error integral; separately report XYZRP/cost; no final-test tuning",
+ "nominal_model_source":"results/runs/phase2b1_20261028_v1/nominal_task_model.json",
+ "frozen_test_patterns":{"reverse":[1.004,0.996,1.004,0.996,1.004,0.996],"uneven":[0.996,1.002,0.999,1.004,0.997,1.001],"skew":[1.001,0.997,1.004,0.998,1.002,0.996]},
+ "test_tasks":[
+ {"name":"reverse_home","gain":"reverse","trajectory":"home","wrench":[0,0,0,0,0,0],"start_step":1700,"stop_step":3450},
+ {"name":"uneven_home","gain":"uneven","trajectory":"home","wrench":[0,0,0,0,0,0],"start_step":1700,"stop_step":3450},
+ {"name":"reverse_z","gain":"reverse","trajectory":"home","wrench":[0,0,-6,0,0,0],"start_step":1700,"stop_step":3450},
+ {"name":"uneven_roll","gain":"uneven","trajectory":"home","wrench":[0,0,0,0.3,0,0],"start_step":1450,"stop_step":3750},
+ {"name":"skew_pitch","gain":"skew","trajectory":"home","wrench":[0,0,0,0,-0.3,0],"start_step":1900,"stop_step":4050},
+ {"name":"uneven_dynamic","gain":"uneven","trajectory":"periodic","reference_scale":0.85,"wrench":[0,0,-4,0.15,0,0],"start_step":1600,"stop_step":3650}
+ ],
+ "no_RL_Gym_or_neural_network":true,"noise_delay_mass_COM_unchanged":true,
+ "all_physical_protections":"frozen Phase2A/B1/B2 including .2s protective hold; PARTIAL PROXY QUERY"
+}

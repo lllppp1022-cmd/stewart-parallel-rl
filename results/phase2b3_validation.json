@@ -1,0 +1,547 @@
+{
+  "trials": 58,
+  "successes": 58,
+  "failures": 0,
+  "engineering_failures": [
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\uneven_dynamic\\C3",
+      "reason": "owner_exception:'ScaledReference' object has no attribute 'duration'",
+      "physics_steps": 0,
+      "excluded_from_control_success_rate": true
+    }
+  ],
+  "physical_steps": 348000,
+  "history_files_unchanged": 4814,
+  "all_state_archives_exact": true,
+  "all_shared_budgets_valid": true,
+  "all_native_limits_valid": true,
+  "all_channel_isolation_valid": true,
+  "max_scratch_mapping_error": 0,
+  "final_parameters_frozen": true,
+  "no_one_percent_rerun": true,
+  "no_RL": true,
+  "records": [
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\action_preflight\\quiet\\Mz_-0.005",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\action_preflight\\quiet\\Mz_-0.025",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\action_preflight\\quiet\\Mz_-0.1",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\action_preflight\\quiet\\Mz_-0.25",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\action_preflight\\quiet\\Mz_0.005",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\action_preflight\\quiet\\Mz_0.025",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\action_preflight\\quiet\\Mz_0.1",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\action_preflight\\quiet\\Mz_0.25",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\development\\alt_home\\candidate0",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\development\\alt_home\\candidate1",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\development\\alt_home\\candidate2",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\development\\alt_home\\candidate3",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\development\\alt_periodic\\candidate0",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\development\\alt_periodic\\candidate1",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\development\\alt_periodic\\candidate2",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\development\\alt_periodic\\candidate3",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\development\\nominal_home\\candidate0",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\development\\nominal_home\\candidate1",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\development\\nominal_home\\candidate2",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\development\\nominal_home\\candidate3",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\reverse_home\\C3",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\reverse_home\\C3_4d20",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\reverse_home\\C4-Observer",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\reverse_home\\C4-PD",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\reverse_home\\C4_4d20",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\reverse_z\\C3",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\reverse_z\\C3_4d20",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\reverse_z\\C4-Observer",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\reverse_z\\C4-PD",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\reverse_z\\C4_4d20",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\skew_pitch\\C3",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\skew_pitch\\C3_4d20",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\skew_pitch\\C4-Observer",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\skew_pitch\\C4-PD",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\skew_pitch\\C4_4d20",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\uneven_home\\C3",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\uneven_home\\C3_4d20",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\uneven_home\\C4-Observer",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\uneven_home\\C4-PD",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\uneven_home\\C4_4d20",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\uneven_roll\\C3",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\uneven_roll\\C3_4d20",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\uneven_roll\\C4-Observer",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\uneven_roll\\C4-PD",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\frozen_evaluation\\uneven_roll\\C4_4d20",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\safety_preflight\\known_alt_halfpercent_home\\C3",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\safety_preflight\\reverse_home_gate\\C3",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\safety_preflight\\skew_home_gate\\C3",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\safety_preflight\\uneven_home_gate\\C3",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\zero_equivalence\\force10\\C0",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_v1\\zero_equivalence\\force10\\C3",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_continuation_v2\\frozen_evaluation\\uneven_dynamic\\C3",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_continuation_v2\\frozen_evaluation\\uneven_dynamic\\C3_4d20",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_continuation_v2\\frozen_evaluation\\uneven_dynamic\\C4-Observer",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_continuation_v2\\frozen_evaluation\\uneven_dynamic\\C4-PD",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_continuation_v2\\frozen_evaluation\\uneven_dynamic\\C4_4d20",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_continuation_v2\\oracle_diagnostic\\reverse_home\\oracle",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    },
+    {
+      "folder": "results\\runs\\phase2b3_20261029_continuation_v2\\oracle_diagnostic\\reverse_z\\oracle",
+      "steps": 6000,
+      "state_csv_exact": true,
+      "map_error": 0,
+      "shared_budget": true,
+      "native_limits": true,
+      "channels_isolated": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "names": [
+    "orientation",
+    "omega",
+    "xyz",
+    "action",
+    "slew"
+  ],
+  "scales": [
+    0.006,
+    0.003,
+    0.2,
+    0.05,
+    2.5
+  ],
+  "weights": [
+    1.0,
+    0.2,
+    0.1,
+    0.001,
+    2.5e-05
+  ],
+  "cap": 100,
+  "units": [
+    "deg",
+    "rad/s",
+    "mm",
+    "Nm",
+    "Nm/s"
+  ],
+  "comparator": "V1 plus one slew-only offline candidate; V2 fixed candidate",
+  "rationale": "Use millidegree-scale observed errors and retain both positive regularizers."
+}

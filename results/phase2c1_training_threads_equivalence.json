@@ -1,0 +1,6 @@
+{
+  "root": "__PROJECT_ROOT__\\results\\runs\\phase2c1_threads1_equivalence_1793277254944588800",
+  "torch_threads": 1,
+  "bitwise_equal": true,
+  "maximum_difference": 0.0
+}

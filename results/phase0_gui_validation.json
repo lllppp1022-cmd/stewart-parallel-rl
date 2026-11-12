@@ -1,0 +1,120 @@
+{
+  "actual_native_windows_observed": true,
+  "static_mode_observed": true,
+  "dynamic_mode_observed": true,
+  "manual_close_final_pass": true,
+  "final_success": {
+    "run": "results\\runs\\dynamic_demo_1793008231496790300",
+    "mode": "dynamic",
+    "axis": "z",
+    "reason": "viewer_closed",
+    "physical_steps": 36833,
+    "simulation_time_s": 36.83300000000486,
+    "timestep_s": 0.001,
+    "wall_seconds": 49.564675599802285,
+    "source_model_unmodified": true
+  },
+  "earlier_native_failures": [
+    {
+      "log": "results/setup/gui_dynamic_1ms.log",
+      "exit_code": -1073741819
+    },
+    {
+      "log": "results/setup/gui_dynamic_close_retry.log",
+      "exit_code": -1073741819
+    },
+    {
+      "log": "results/setup/gui_safe_close.log",
+      "exit_code": -1073741819,
+      "stack_location": "demo_common.py:42 with viewer.lock (at that revision)"
+    }
+  ],
+  "diagnosis": "Observed stack identifies viewer.lock on native X-close; removed per-step viewer mutex acquisition, kept owner step + internally synchronized sync following official example. One real manual-close validation passed; not an all-platform guarantee.",
+  "completed_runs": [
+    {
+      "run": "results\\runs\\dynamic_demo_1793007373183065800",
+      "mode": "dynamic",
+      "axis": "home",
+      "reason": "budget_complete",
+      "physical_steps": 500,
+      "simulation_time_s": 1.0000000000000007,
+      "wall_seconds": 0.4722606996074319,
+      "source_model_unmodified": true
+    },
+    {
+      "run": "results\\runs\\dynamic_demo_1793007374962001200",
+      "mode": "dynamic",
+      "axis": "roll",
+      "reason": "budget_complete",
+      "physical_steps": 45000,
+      "simulation_time_s": 89.99999999997165,
+      "wall_seconds": 99.4110248000361,
+      "source_model_unmodified": true
+    },
+    {
+      "run": "results\\runs\\dynamic_demo_1793008231496790300",
+      "mode": "dynamic",
+      "axis": "z",
+      "reason": "viewer_closed",
+      "physical_steps": 36833,
+      "simulation_time_s": 36.83300000000486,
+      "timestep_s": 0.001,
+      "wall_seconds": 49.564675599802285,
+      "source_model_unmodified": true
+    },
+    {
+      "run": "results\\runs\\dynamic_demo_1793008303446340000",
+      "mode": "dynamic",
+      "axis": "home",
+      "reason": "budget_complete",
+      "physical_steps": 5000,
+      "simulation_time_s": 5.000000000000004,
+      "timestep_s": 0.001,
+      "wall_seconds": 6.176843400113285,
+      "source_model_unmodified": true
+    },
+    {
+      "run": "results\\runs\\dynamic_demo_1793008310902689600",
+      "mode": "dynamic",
+      "axis": "z",
+      "reason": "budget_complete",
+      "physical_steps": 5000,
+      "simulation_time_s": 5.000000000000004,
+      "timestep_s": 0.001,
+      "wall_seconds": 6.194485099986196,
+      "source_model_unmodified": true
+    },
+    {
+      "run": "results\\runs\\dynamic_demo_1793008318425598300",
+      "mode": "dynamic",
+      "axis": "roll",
+      "reason": "budget_complete",
+      "physical_steps": 5000,
+      "simulation_time_s": 5.000000000000004,
+      "timestep_s": 0.001,
+      "wall_seconds": 6.161761099938303,
+      "source_model_unmodified": true
+    },
+    {
+      "run": "results\\runs\\dynamic_demo_1793008325897879400",
+      "mode": "dynamic",
+      "axis": "pitch",
+      "reason": "budget_complete",
+      "physical_steps": 5000,
+      "simulation_time_s": 5.000000000000004,
+      "timestep_s": 0.001,
+      "wall_seconds": 6.159676000010222,
+      "source_model_unmodified": true
+    },
+    {
+      "run": "results\\runs\\kinematic_demo_1793007569863060600",
+      "mode": "kinematic",
+      "axis": "home",
+      "reason": "viewer_closed",
+      "physical_steps": 0,
+      "simulation_time_s": 0.0,
+      "wall_seconds": 36.10979469958693,
+      "source_model_unmodified": true
+    }
+  ]
+}

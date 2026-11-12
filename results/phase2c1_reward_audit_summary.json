@@ -1,0 +1,6 @@
+{
+  "decisions_recomputed": 12288,
+  "maximum_error": 1.7763568394002505e-15,
+  "physical_reward_vs_SB3": "Rollout effective rewards may include gamma*terminal Critic prediction for TimeLimit truncations; not physical reward or future truth",
+  "actual_updates": 48
+}

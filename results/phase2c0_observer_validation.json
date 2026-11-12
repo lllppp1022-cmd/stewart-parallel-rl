@@ -1,0 +1,11 @@
+{
+  "root": "__PROJECT_ROOT__\\results\\runs\\phase2c0_observer_1793259300788610700",
+  "physics_steps_each": 2048,
+  "bitwise_equal": true,
+  "maximum_integration_state_difference": 0.0,
+  "gui_qt_and_native": true,
+  "actual_recording": true,
+  "interrupted": false,
+  "mirror_exitcode": 0,
+  "recording_errors": []
+}

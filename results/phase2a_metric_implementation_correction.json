@@ -1,0 +1,11 @@
+{
+  "reason": "Original dwell search counted initial in-band response latency before the first tolerance excursion as recovery. Corrected to search a 0.3s dwell only after an observed excursion; no excursion is N/A, not 0s recovery.",
+  "unchanged_tolerances": {
+    "position_mm": 0.25,
+    "attitude_deg": 0.02,
+    "hold_s": 0.3
+  },
+  "raw_physics_unchanged": true,
+  "original_metrics_retained": true,
+  "source": "Independent post-run metric audit; no controller, waveform, safety or success criteria changed"
+}

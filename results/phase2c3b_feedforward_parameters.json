@@ -1,0 +1,13 @@
+{
+  "kv_N_s_m": 570.4530241151673,
+  "ka_kg": 50.1853287954833,
+  "candidate_count": 1,
+  "candidate_scales": [
+    1.0
+  ],
+  "source": "__PROJECT_ROOT__\\results\\runs\\phase2b1_20261028_v1\\nominal_task_model.json",
+  "source_sha256": "5b0c06910b00ff93c4a0d6512fe5e85942650d67b9b5af358583e17adfcac6c7",
+  "no_gravity_term": true,
+  "selection": "Nominal Home coefficients, frozen before development; no final-test fitting",
+  "scope": "Local Z equivalent dynamics, not full inverse dynamics"
+}

@@ -1,0 +1,305 @@
+{
+  "A": [
+    {
+      "id": "A0",
+      "reference": {
+        "z_m": 0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.5,
+        0
+      ],
+      "on": 3.0,
+      "off": 5.0,
+      "stage": "A"
+    },
+    {
+      "id": "A1",
+      "reference": {
+        "z_m": 0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0,
+        -0.8
+      ],
+      "on": 6.2,
+      "off": 8.2,
+      "stage": "A"
+    },
+    {
+      "id": "A2",
+      "reference": {
+        "z_m": 0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        1.0,
+        0
+      ],
+      "on": 9.2,
+      "off": 11.0,
+      "stage": "A"
+    },
+    {
+      "id": "A3",
+      "reference": {
+        "z_m": 0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0,
+        1.2
+      ],
+      "on": 7.1,
+      "off": 8.6,
+      "stage": "A"
+    },
+    {
+      "id": "A4",
+      "reference": {
+        "z_m": 0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.72,
+        -0.96
+      ],
+      "on": 4.5,
+      "off": 6.3,
+      "stage": "A"
+    }
+  ],
+  "B": [
+    {
+      "id": "B0",
+      "reference": {
+        "z_m": 0.03,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.5,
+        0
+      ],
+      "on": 3.0,
+      "off": 5.0,
+      "stage": "B"
+    },
+    {
+      "id": "B1",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0,
+        -0.8
+      ],
+      "on": 6.2,
+      "off": 8.2,
+      "stage": "B"
+    },
+    {
+      "id": "B2",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        1.0,
+        0
+      ],
+      "on": 9.2,
+      "off": 11.0,
+      "stage": "B"
+    },
+    {
+      "id": "B3",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0,
+        1.2
+      ],
+      "on": 7.1,
+      "off": 8.6,
+      "stage": "B"
+    },
+    {
+      "id": "B4",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.72,
+        -0.96
+      ],
+      "on": 4.5,
+      "off": 6.3,
+      "stage": "B"
+    },
+    {
+      "id": "B5",
+      "reference": {
+        "z_m": 0.03,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 5.0
+      },
+      "torque": [
+        -0.5,
+        0
+      ],
+      "on": 8.5,
+      "off": 10.0,
+      "stage": "B"
+    }
+  ],
+  "C": [
+    {
+      "id": "C0",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.1,
+        "pitch_deg": 0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.5,
+        0
+      ],
+      "on": 3.0,
+      "off": 5.0,
+      "stage": "C"
+    },
+    {
+      "id": "C1",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0,
+        "pitch_deg": -0.1,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0,
+        -0.8
+      ],
+      "on": 6.2,
+      "off": 8.2,
+      "stage": "C"
+    },
+    {
+      "id": "C2",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.1,
+        "pitch_deg": -0.1,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.6,
+        0.8
+      ],
+      "on": 9.2,
+      "off": 11.0,
+      "stage": "C"
+    },
+    {
+      "id": "C3",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": -0.1,
+        "pitch_deg": 0.1,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.72,
+        -0.96
+      ],
+      "on": 7.1,
+      "off": 8.6,
+      "stage": "C"
+    },
+    {
+      "id": "C4",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": -0.25,
+        "pitch_deg": 0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        -0.8,
+        0
+      ],
+      "on": 4.5,
+      "off": 6.3,
+      "stage": "C"
+    },
+    {
+      "id": "C5",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0,
+        "pitch_deg": 0.25,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0,
+        1.0
+      ],
+      "on": 9.0,
+      "off": 10.5,
+      "stage": "C"
+    },
+    {
+      "id": "C6",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.25,
+        "pitch_deg": -0.25,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.72,
+        0.96
+      ],
+      "on": 6.3,
+      "off": 8.1,
+      "stage": "C"
+    }
+  ],
+  "stage_budgets": [
+    4096,
+    4096,
+    24576
+  ],
+  "pilot": 8192,
+  "total": 32768,
+  "admission": "Exact task and geometry hashes plus baseline/random full episode validation",
+  "gate": "No protection or nonfinite transition; complete A and B episodes; both networks update; all joint tasks retained only when admitted"
+}

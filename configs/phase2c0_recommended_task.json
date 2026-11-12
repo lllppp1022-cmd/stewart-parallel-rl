@@ -1,0 +1,60 @@
+{
+  "status": "PROPOSAL_ONLY_CONDITIONALLY_BLOCKED",
+  "training_enabled": false,
+  "task_candidates": [
+    "Home Z step with uniform10ms synthetic lag",
+    "Home Z step with5ms partial platform delay, no actuator lag"
+  ],
+  "excluded_task": "uneven_dynamic with dominant XY under unvalidated four-dimensional permissions",
+  "reference_controller": "Frozen C4-Observer",
+  "mandatory_classical_baselines": [
+    "C4+fourD20Hz lead",
+    "C4+fixed3ms command lead"
+  ],
+  "candidate_action_order": [
+    "Fz_N",
+    "Mx_Nm",
+    "My_Nm",
+    "Mz_Nm"
+  ],
+  "initial_single_direction_verified_scale": [
+    0.2,
+    0.01,
+    0.01,
+    0.005
+  ],
+  "random_joint_action_box_verified": false,
+  "decision_frequency_first_test_Hz": 20,
+  "not_tested_alternative_Hz": 50,
+  "observation_whitelist": [
+    "measured p/R/v",
+    "permitted chain q/dq",
+    "current reference",
+    "known issued commands",
+    "causal C4 equivalent estimates",
+    "past residual/actions and errors"
+  ],
+  "forbidden_actor_inputs": [
+    "actual tau",
+    "hidden drive",
+    "actual force without validated force-sensor protocol",
+    "true disturbance",
+    "future state"
+  ],
+  "pilot_budget_proposal_only": {
+    "first_smoke_decisions": 1024,
+    "conditional_max_decisions": 2048,
+    "physical_steps_at20Hz_without_reset": [
+      51200,
+      102400
+    ]
+  },
+  "new_final_test_required": true,
+  "current_data_are_seen_screening_data": true,
+  "remaining_preconditions": [
+    "Clarify extra value beyond classical4Dlead",
+    "Freeze unseen heldout conditions",
+    "Validate reset/MDP or history state",
+    "Validate random action safety before any learning"
+  ]
+}

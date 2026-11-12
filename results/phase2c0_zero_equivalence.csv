@@ -1,0 +1,5 @@
+method,enabled,tau_s,bitwise_equal,maximum_difference,signals_and_observer_equal,protection_termination_equal
+C0,False,0,True,0.0,True,True
+C3,False,0,True,0.0,True,True
+C4,False,0,True,0.0,True,True
+C4,True,0,True,0.0,True,True

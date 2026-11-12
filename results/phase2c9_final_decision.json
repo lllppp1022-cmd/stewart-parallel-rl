@@ -1,0 +1,31 @@
+{
+  "status": "PHASE 2C-9 BLOCKED",
+  "reason": "No candidate met both attitude deterioration and incremental history transfer criteria",
+  "part_a_saved": true,
+  "history_gate": {
+    "eligible": [],
+    "two_reference_transfer_only": true,
+    "criterion": "both references safe; at least one attitude metric degrades >=5% in each; history balanced accuracy >=65% and gain >=5 percentage points in both held-out reference folds",
+    "label_used_only_offline": true,
+    "no_online_controller_or_training_conclusion": true
+  },
+  "ppo_decisions": 0,
+  "ppo_models": [],
+  "formal_generalization_executed": false,
+  "preflight_only": true,
+  "classical_diagnostic_only": true,
+  "optional_budget_extension_executed": false,
+  "video": {
+    "path": "__PROJECT_ROOT__\\assets\\videos\\stewart_phase2c9_unknown_dynamics.mp4",
+    "sha256": "275f564d75d01a341703e8effefa5d7a5c00eb67110b31dd79797cd2524ff2ae",
+    "frames": 375,
+    "fps": 25,
+    "seconds": 15.0,
+    "pixel_change": 0.24574718903893505,
+    "source": "__PROJECT_ROOT__\\results\\runs\\phase2c9_20261109_v1\\video_capture\\09\\episode_0000\\actual_rgb.mp4",
+    "source_sha256": "e00f65c8458a13a9e53507b417b8a5ac6d542175a8e35eb8b434a8f42f1c9cf7",
+    "bitwise_preflight_trajectory": true,
+    "frame_timestamp_and_qpos_sha_validated": true,
+    "actual_training": false
+  }
+}

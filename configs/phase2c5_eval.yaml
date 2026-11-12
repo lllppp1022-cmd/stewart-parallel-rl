@@ -1,0 +1,48 @@
+{
+  "tasks": [
+    {
+      "id": "E_roll",
+      "torque": [
+        0.31,
+        0
+      ],
+      "on": 2.4,
+      "off": 3.9
+    },
+    {
+      "id": "E_pitch",
+      "torque": [
+        0,
+        -0.36
+      ],
+      "on": 1.65,
+      "off": 3.35
+    },
+    {
+      "id": "E_mix",
+      "torque": [
+        0.24,
+        -0.21
+      ],
+      "on": 2.2,
+      "off": 3.7
+    },
+    {
+      "id": "E_strong_regression",
+      "torque": [
+        2.4,
+        0.0
+      ],
+      "on": 2.0,
+      "off": 3.5,
+      "scope": "Already preflighted Level 3 regression, not unseen"
+    }
+  ],
+  "recovery_deg": 0.1,
+  "dwell_s": 0.5,
+  "classical_feedback_gains": {
+    "kp": 25.0,
+    "kd": 1.0
+  },
+  "frozen_before_training": true
+}

@@ -1,0 +1,8 @@
+{
+  "client_date": "2026-10-27",
+  "mujoco": "3.17.0",
+  "python": "Python 3.11.17",
+  "protocol_sha256": "cc30ce94910e12d63ff63d0ce8d3290e30fc6b9f63297e57ad66f51f6a237a5f",
+  "source_commit": "b0195ba9f40f6e0876220be1712eb47f5fc24025",
+  "no_rl_installation": true
+}

@@ -1,0 +1,116 @@
+{
+  "original": {
+    "n_steps": 512,
+    "batch_size": 64,
+    "n_epochs": 10,
+    "learning_rate": 0.0003,
+    "gamma": 0.9959879355809816,
+    "gae_lambda": 0.9796917302662298,
+    "clip_range": 0.2,
+    "ent_coef": 0.0,
+    "max_grad_norm": 0.5,
+    "target_kl": 0.03,
+    "net": [
+      64,
+      64
+    ],
+    "log_std_init": -1,
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "decisions_per_seed": 8192,
+    "smoke_included": true,
+    "device": "cpu"
+  },
+  "environment": {
+    "method": "fourDlead",
+    "train": [
+      {
+        "id": "T0",
+        "torque": [
+          -0.15,
+          0.0
+        ],
+        "on": 1.8,
+        "off": 3.2
+      },
+      {
+        "id": "T1",
+        "torque": [
+          0.15,
+          0.0
+        ],
+        "on": 2.1,
+        "off": 3.8
+      },
+      {
+        "id": "T2",
+        "torque": [
+          0.0,
+          -0.15
+        ],
+        "on": 1.8,
+        "off": 3.2
+      },
+      {
+        "id": "T3",
+        "torque": [
+          0.0,
+          0.15
+        ],
+        "on": 2.1,
+        "off": 3.8
+      },
+      {
+        "id": "T4",
+        "torque": [
+          -0.5,
+          0.0
+        ],
+        "on": 1.8,
+        "off": 3.2
+      },
+      {
+        "id": "T5",
+        "torque": [
+          0.5,
+          0.0
+        ],
+        "on": 2.1,
+        "off": 3.8
+      },
+      {
+        "id": "T6",
+        "torque": [
+          0.0,
+          -0.5
+        ],
+        "on": 1.8,
+        "off": 3.2
+      },
+      {
+        "id": "T7",
+        "torque": [
+          0.0,
+          0.5
+        ],
+        "on": 2.1,
+        "off": 3.8
+      }
+    ],
+    "physical_dt": 0.001,
+    "stride": 20,
+    "moment_scale_Nm": [
+      0.05,
+      0.05
+    ],
+    "features": 52,
+    "tau_s": 0.005
+  },
+  "smoke": 512,
+  "ablation_decisions": 8192,
+  "curriculum_extra_decisions": 8192,
+  "ceiling_per_seed": 16384
+}

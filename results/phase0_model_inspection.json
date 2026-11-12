@@ -1,0 +1,1404 @@
+{
+  "nq": 43,
+  "nv": 42,
+  "nu": 12,
+  "nbody": 45,
+  "njnt": 37,
+  "neq": 6,
+  "ngeom": 45,
+  "nefc": 36,
+  "timestep_s": 0.002,
+  "integrator": 3,
+  "gravity": [
+    0.0,
+    0.0,
+    -9.81
+  ],
+  "joint_types": {
+    "free": 1,
+    "ball": 0,
+    "slide": 6,
+    "hinge": 30
+  },
+  "initial_site_gap_m": [
+    8.599380238316486e-08,
+    9.025870560726795e-08,
+    2.3185874822747554e-07,
+    1.8468435509339373e-07,
+    7.664741481540957e-08,
+    1.3616764801820864e-07
+  ],
+  "initial_max_mixed_equality_residual": 2.920609876674342e-07,
+  "upper_mass_kg": 20.0,
+  "upper_principal_inertia_kg_m2": [
+    1.578160552589395,
+    0.7907915349877266,
+    0.7907857503367506
+  ],
+  "upper_inertial_position_m": [
+    -2.7948766469918277e-17,
+    -2.375905676743891e-06,
+    -0.013429261533744716
+  ],
+  "initial_position_m": [
+    0.0002058,
+    0.0051264,
+    1.1
+  ],
+  "initial_quat_wxyz": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "robot_geoms_collision_disabled": true,
+  "source_commit": "b0195ba9f40f6e0876220be1712eb47f5fc24025",
+  "source_url": "https://github.com/duccuongvu/stewart_platform_mujoco",
+  "license": "MIT, Copyright (c) 2026 vr-cuongvu",
+  "source_files": {
+    "LICENSE": "a357f00d62cac9bb770f7d1370b56e16c201dd902abc9c2276f0987ef88356ad",
+    "README.md": "e4fc6af3b8d4da7dc7d9aa48a52f5069718158de403686e5bb23503bfcdc14b4",
+    "scene.xml": "979823444a0fcc8c127ea63929707db1f63d82164882642cb59ec16ee411a22d",
+    "stewart_platform.png": "b61858fd5f56d8f3702f12035a2e6de729a2d21d63a02fa6f935e2bc22cf112b",
+    "stewart_platform.xml": "1232a44481207131a14a8ea99ab420183a785419f004e4817951a50026761dd5",
+    "assets\\base.stl": "ba444fda5b0e97e79953d71ae8ab638aa7bb223ee4ddfff470c93a2dd60fe36b",
+    "assets\\cardan1.stl": "d492ed68f1afe927d4ebe90ddca59f4a073352a711838d0fc56e25c3bec9c3d8",
+    "assets\\cardan2.stl": "841d50c97bce29214d7c637524e40f1402a0560a015ad734c9522a454a72f921",
+    "assets\\legbot.stl": "312261f86fa801a3b8bf12e2ec27f16df6556f6e5cf2102ce65e473384881ecc",
+    "assets\\legup.stl": "998536d66e1fa1b857760b10c6ec757b749a8bed2d227e64d29f9db2a86ce7f2",
+    "assets\\upper.stl": "1ae681638d3d24ad3e009be14604d834c3a9a364f4a9c20b782dc1e5d9f3b116"
+  },
+  "actuators": [
+    {
+      "id": 0,
+      "name": "leg1_ctrl",
+      "transmission_type": 0,
+      "target_joint": "joint_lu_1",
+      "target_site": null,
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ctrlrange": [
+        -400.0,
+        400.0
+      ],
+      "forcerange": [
+        -400.0,
+        400.0
+      ],
+      "gain_type": 0,
+      "gain_prm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": 0,
+      "bias_prm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dyn_type": 0
+    },
+    {
+      "id": 1,
+      "name": "leg2_ctrl",
+      "transmission_type": 0,
+      "target_joint": "joint_lu_2",
+      "target_site": null,
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ctrlrange": [
+        -400.0,
+        400.0
+      ],
+      "forcerange": [
+        -400.0,
+        400.0
+      ],
+      "gain_type": 0,
+      "gain_prm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": 0,
+      "bias_prm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dyn_type": 0
+    },
+    {
+      "id": 2,
+      "name": "leg3_ctrl",
+      "transmission_type": 0,
+      "target_joint": "joint_lu_3",
+      "target_site": null,
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ctrlrange": [
+        -400.0,
+        400.0
+      ],
+      "forcerange": [
+        -400.0,
+        400.0
+      ],
+      "gain_type": 0,
+      "gain_prm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": 0,
+      "bias_prm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dyn_type": 0
+    },
+    {
+      "id": 3,
+      "name": "leg4_ctrl",
+      "transmission_type": 0,
+      "target_joint": "joint_lu_4",
+      "target_site": null,
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ctrlrange": [
+        -400.0,
+        400.0
+      ],
+      "forcerange": [
+        -400.0,
+        400.0
+      ],
+      "gain_type": 0,
+      "gain_prm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": 0,
+      "bias_prm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dyn_type": 0
+    },
+    {
+      "id": 4,
+      "name": "leg5_ctrl",
+      "transmission_type": 0,
+      "target_joint": "joint_lu_5",
+      "target_site": null,
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ctrlrange": [
+        -400.0,
+        400.0
+      ],
+      "forcerange": [
+        -400.0,
+        400.0
+      ],
+      "gain_type": 0,
+      "gain_prm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": 0,
+      "bias_prm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dyn_type": 0
+    },
+    {
+      "id": 5,
+      "name": "leg6_ctrl",
+      "transmission_type": 0,
+      "target_joint": "joint_lu_6",
+      "target_site": null,
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ctrlrange": [
+        -400.0,
+        400.0
+      ],
+      "forcerange": [
+        -400.0,
+        400.0
+      ],
+      "gain_type": 0,
+      "gain_prm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": 0,
+      "bias_prm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dyn_type": 0
+    },
+    {
+      "id": 6,
+      "name": "upper_f_x",
+      "transmission_type": 4,
+      "target_joint": null,
+      "target_site": "upper_center",
+      "gear": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ctrlrange": [
+        -500.0,
+        500.0
+      ],
+      "forcerange": [
+        -500.0,
+        500.0
+      ],
+      "gain_type": 0,
+      "gain_prm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": 0,
+      "bias_prm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dyn_type": 0
+    },
+    {
+      "id": 7,
+      "name": "upper_f_y",
+      "transmission_type": 4,
+      "target_joint": null,
+      "target_site": "upper_center",
+      "gear": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ctrlrange": [
+        -500.0,
+        500.0
+      ],
+      "forcerange": [
+        -500.0,
+        500.0
+      ],
+      "gain_type": 0,
+      "gain_prm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": 0,
+      "bias_prm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dyn_type": 0
+    },
+    {
+      "id": 8,
+      "name": "upper_f_z",
+      "transmission_type": 4,
+      "target_joint": null,
+      "target_site": "upper_center",
+      "gear": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ctrlrange": [
+        -500.0,
+        500.0
+      ],
+      "forcerange": [
+        -500.0,
+        500.0
+      ],
+      "gain_type": 0,
+      "gain_prm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": 0,
+      "bias_prm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dyn_type": 0
+    },
+    {
+      "id": 9,
+      "name": "upper_t_x",
+      "transmission_type": 4,
+      "target_joint": null,
+      "target_site": "upper_center",
+      "gear": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "ctrlrange": [
+        -500.0,
+        500.0
+      ],
+      "forcerange": [
+        -500.0,
+        500.0
+      ],
+      "gain_type": 0,
+      "gain_prm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": 0,
+      "bias_prm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dyn_type": 0
+    },
+    {
+      "id": 10,
+      "name": "upper_t_y",
+      "transmission_type": 4,
+      "target_joint": null,
+      "target_site": "upper_center",
+      "gear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "ctrlrange": [
+        -500.0,
+        500.0
+      ],
+      "forcerange": [
+        -500.0,
+        500.0
+      ],
+      "gain_type": 0,
+      "gain_prm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": 0,
+      "bias_prm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dyn_type": 0
+    },
+    {
+      "id": 11,
+      "name": "upper_t_z",
+      "transmission_type": 4,
+      "target_joint": null,
+      "target_site": "upper_center",
+      "gear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ctrlrange": [
+        -500.0,
+        500.0
+      ],
+      "forcerange": [
+        -500.0,
+        500.0
+      ],
+      "gain_type": 0,
+      "gain_prm": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bias_type": 0,
+      "bias_prm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dyn_type": 0
+    }
+  ],
+  "joints": [
+    {
+      "name": "joint_c2_1",
+      "type": 3,
+      "qpos_address": 0,
+      "dof_address": 0,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_lb_1",
+      "type": 3,
+      "qpos_address": 1,
+      "dof_address": 1,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_lu_1",
+      "type": 2,
+      "qpos_address": 2,
+      "dof_address": 2,
+      "limited": true,
+      "range": [
+        -0.1,
+        0.35
+      ]
+    },
+    {
+      "name": "joint_c1_7",
+      "type": 3,
+      "qpos_address": 3,
+      "dof_address": 3,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_c2_7",
+      "type": 3,
+      "qpos_address": 4,
+      "dof_address": 4,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_c1_13",
+      "type": 3,
+      "qpos_address": 5,
+      "dof_address": 5,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_c2_2",
+      "type": 3,
+      "qpos_address": 6,
+      "dof_address": 6,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_lb_2",
+      "type": 3,
+      "qpos_address": 7,
+      "dof_address": 7,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_lu_2",
+      "type": 2,
+      "qpos_address": 8,
+      "dof_address": 8,
+      "limited": true,
+      "range": [
+        -0.1,
+        0.35
+      ]
+    },
+    {
+      "name": "joint_c1_8",
+      "type": 3,
+      "qpos_address": 9,
+      "dof_address": 9,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_c2_8",
+      "type": 3,
+      "qpos_address": 10,
+      "dof_address": 10,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_c1_14",
+      "type": 3,
+      "qpos_address": 11,
+      "dof_address": 11,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_c2_3",
+      "type": 3,
+      "qpos_address": 12,
+      "dof_address": 12,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_lb_3",
+      "type": 3,
+      "qpos_address": 13,
+      "dof_address": 13,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_lu_3",
+      "type": 2,
+      "qpos_address": 14,
+      "dof_address": 14,
+      "limited": true,
+      "range": [
+        -0.1,
+        0.35
+      ]
+    },
+    {
+      "name": "joint_c1_9",
+      "type": 3,
+      "qpos_address": 15,
+      "dof_address": 15,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_c2_9",
+      "type": 3,
+      "qpos_address": 16,
+      "dof_address": 16,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_c1_15",
+      "type": 3,
+      "qpos_address": 17,
+      "dof_address": 17,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_c2_4",
+      "type": 3,
+      "qpos_address": 18,
+      "dof_address": 18,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_lb_4",
+      "type": 3,
+      "qpos_address": 19,
+      "dof_address": 19,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_lu_4",
+      "type": 2,
+      "qpos_address": 20,
+      "dof_address": 20,
+      "limited": true,
+      "range": [
+        -0.1,
+        0.35
+      ]
+    },
+    {
+      "name": "joint_c1_10",
+      "type": 3,
+      "qpos_address": 21,
+      "dof_address": 21,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_c2_10",
+      "type": 3,
+      "qpos_address": 22,
+      "dof_address": 22,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_c1_16",
+      "type": 3,
+      "qpos_address": 23,
+      "dof_address": 23,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_c2_5",
+      "type": 3,
+      "qpos_address": 24,
+      "dof_address": 24,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_lb_5",
+      "type": 3,
+      "qpos_address": 25,
+      "dof_address": 25,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_lu_5",
+      "type": 2,
+      "qpos_address": 26,
+      "dof_address": 26,
+      "limited": true,
+      "range": [
+        -0.1,
+        0.35
+      ]
+    },
+    {
+      "name": "joint_c1_11",
+      "type": 3,
+      "qpos_address": 27,
+      "dof_address": 27,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_c2_11",
+      "type": 3,
+      "qpos_address": 28,
+      "dof_address": 28,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_c1_17",
+      "type": 3,
+      "qpos_address": 29,
+      "dof_address": 29,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_c2_6",
+      "type": 3,
+      "qpos_address": 30,
+      "dof_address": 30,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_lb_6",
+      "type": 3,
+      "qpos_address": 31,
+      "dof_address": 31,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_lu_6",
+      "type": 2,
+      "qpos_address": 32,
+      "dof_address": 32,
+      "limited": true,
+      "range": [
+        -0.1,
+        0.35
+      ]
+    },
+    {
+      "name": "joint_c1_12",
+      "type": 3,
+      "qpos_address": 33,
+      "dof_address": 33,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_c2_12",
+      "type": 3,
+      "qpos_address": 34,
+      "dof_address": 34,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "joint_c1_18",
+      "type": 3,
+      "qpos_address": 35,
+      "dof_address": 35,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "upper_joint",
+      "type": 0,
+      "qpos_address": 36,
+      "dof_address": 36,
+      "limited": false,
+      "range": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "equalities": [
+    {
+      "name": "w_1",
+      "type": 1,
+      "obj1": 1,
+      "obj2": 8,
+      "solref": [
+        0.0001,
+        1.0
+      ],
+      "solimp": [
+        0.9999,
+        0.9999,
+        0.0001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "name": "w_2",
+      "type": 1,
+      "obj1": 2,
+      "obj2": 9,
+      "solref": [
+        0.0001,
+        1.0
+      ],
+      "solimp": [
+        0.9999,
+        0.9999,
+        0.0001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "name": "w_3",
+      "type": 1,
+      "obj1": 3,
+      "obj2": 10,
+      "solref": [
+        0.0001,
+        1.0
+      ],
+      "solimp": [
+        0.9999,
+        0.9999,
+        0.0001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "name": "w_4",
+      "type": 1,
+      "obj1": 4,
+      "obj2": 11,
+      "solref": [
+        0.0001,
+        1.0
+      ],
+      "solimp": [
+        0.9999,
+        0.9999,
+        0.0001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "name": "w_5",
+      "type": 1,
+      "obj1": 5,
+      "obj2": 12,
+      "solref": [
+        0.0001,
+        1.0
+      ],
+      "solimp": [
+        0.9999,
+        0.9999,
+        0.0001,
+        0.5,
+        2.0
+      ]
+    },
+    {
+      "name": "w_6",
+      "type": 1,
+      "obj1": 6,
+      "obj2": 13,
+      "solref": [
+        0.0001,
+        1.0
+      ],
+      "solimp": [
+        0.9999,
+        0.9999,
+        0.0001,
+        0.5,
+        2.0
+      ]
+    }
+  ],
+  "leg_topology": [
+    [
+      "cardan1_1",
+      "cardan2_1",
+      "legbot_1",
+      "legup_1",
+      "cardan1_7",
+      "cardan2_7",
+      "cardan1_13"
+    ],
+    [
+      "cardan1_2",
+      "cardan2_2",
+      "legbot_2",
+      "legup_2",
+      "cardan1_8",
+      "cardan2_8",
+      "cardan1_14"
+    ],
+    [
+      "cardan1_3",
+      "cardan2_3",
+      "legbot_3",
+      "legup_3",
+      "cardan1_9",
+      "cardan2_9",
+      "cardan1_15"
+    ],
+    [
+      "cardan1_4",
+      "cardan2_4",
+      "legbot_4",
+      "legup_4",
+      "cardan1_10",
+      "cardan2_10",
+      "cardan1_16"
+    ],
+    [
+      "cardan1_5",
+      "cardan2_5",
+      "legbot_5",
+      "legup_5",
+      "cardan1_11",
+      "cardan2_11",
+      "cardan1_17"
+    ],
+    [
+      "cardan1_6",
+      "cardan2_6",
+      "legbot_6",
+      "legup_6",
+      "cardan1_12",
+      "cardan2_12",
+      "cardan1_18"
+    ]
+  ],
+  "geometry_reference": {
+    "base_mount_body_origins_m": [
+      [
+        0.48295431,
+        -0.1294145,
+        0.08690238
+      ],
+      [
+        0.12940089,
+        0.48295792,
+        0.08690238
+      ],
+      [
+        -0.12941813,
+        0.48295792,
+        0.08690238
+      ],
+      [
+        -0.48297152,
+        -0.1294145,
+        0.08690238
+      ],
+      [
+        -0.35356201,
+        -0.35355835,
+        0.08690238
+      ],
+      [
+        0.35354476,
+        -0.35355835,
+        0.08690238
+      ]
+    ],
+    "platform_weld_sites_local_m": [
+      [
+        0.338074,
+        0.0905866,
+        -0.0419024
+      ],
+      [
+        0.2474874,
+        0.2474874,
+        -0.0419024
+      ],
+      [
+        -0.2474874,
+        0.2474874,
+        -0.0419024
+      ],
+      [
+        -0.338074,
+        0.0905866,
+        -0.0419024
+      ],
+      [
+        -0.0905867,
+        -0.338074,
+        -0.0419024
+      ],
+      [
+        0.0905867,
+        -0.338074,
+        -0.0419024
+      ]
+    ],
+    "readme_B_m": [
+      [
+        0.483,
+        0.1294,
+        0.067
+      ],
+      [
+        -0.1294,
+        0.483,
+        0.067
+      ],
+      [
+        -0.3536,
+        0.3536,
+        0.067
+      ],
+      [
+        -0.3536,
+        -0.3536,
+        0.067
+      ],
+      [
+        -0.1294,
+        -0.483,
+        0.067
+      ],
+      [
+        0.483,
+        -0.1294,
+        0.067
+      ]
+    ],
+    "readme_T_m": [
+      [
+        0.2475,
+        0.2475,
+        -0.067
+      ],
+      [
+        0.0906,
+        0.3381,
+        -0.067
+      ],
+      [
+        -0.3381,
+        0.0906,
+        -0.067
+      ],
+      [
+        -0.3381,
+        -0.0906,
+        -0.067
+      ],
+      [
+        0.0906,
+        -0.3381,
+        -0.067
+      ],
+      [
+        0.2475,
+        -0.2475,
+        -0.067
+      ]
+    ],
+    "stroke_ranges_m": [
+      [
+        -0.1,
+        0.35
+      ],
+      [
+        -0.1,
+        0.35
+      ],
+      [
+        -0.1,
+        0.35
+      ],
+      [
+        -0.1,
+        0.35
+      ],
+      [
+        -0.1,
+        0.35
+      ],
+      [
+        -0.1,
+        0.35
+      ]
+    ],
+    "anchor_warning": "README points/order differ from compiled MJCF. Upper spherical-joint proxy axes have ~0.25mm skew; exact chain IK is used, not ideal chord-length-as-stroke substitution."
+  },
+  "unreachable_test": {
+    "target_z_m": 11.1,
+    "rejected": true,
+    "reason": "closure_unreachable_or_solver_failed"
+  }
+}

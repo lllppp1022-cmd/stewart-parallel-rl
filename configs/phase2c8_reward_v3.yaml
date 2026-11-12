@@ -1,0 +1,21 @@
+{
+  "version": "V3_equal_linear_quadratic",
+  "alpha": 0.5,
+  "beta": 0.5,
+  "epsilon": 0.01,
+  "orientation_scale_deg": 0.006,
+  "formula": "alpha*(sqrt(e_norm**2+epsilon**2)-epsilon)+beta*e_norm**2",
+  "other_costs": "Unchanged V2 omega/XYZ/accepted/slew; common proportional physical cap 100 and original failure penalty",
+  "candidates": [
+    {
+      "alpha": 0.5,
+      "beta": 0.5
+    },
+    {
+      "alpha": 1.0,
+      "beta": 0.25
+    }
+  ],
+  "selection": "A priori equal mix selected if finite/unit/ranking/failure checks pass; second candidate offline diagnostic only, no seed-dependent weight search",
+  "privileged_inputs": false
+}

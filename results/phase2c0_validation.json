@@ -1,0 +1,958 @@
+{
+  "research_trials": 94,
+  "successful_trials": 94,
+  "failed_trials": 0,
+  "physical_steps": 564000,
+  "all_zoh_signals_verified": true,
+  "all_three_force_signals_verified": true,
+  "all_states_csv_exact": true,
+  "all_native_and_shared_limits_verified": true,
+  "all_observer_memory_uses_command": true,
+  "sensor_pairing_verified_groups": 3,
+  "history_files_unchanged": 5803,
+  "gui_bitwise_nonintrusive": true,
+  "maximum_independent_scratch_error": 0.0,
+  "no_RL_or_Gym": true,
+  "proof": [
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\authority_diagnostic\\uneven_xy_feedback\\C4_localXY",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\authority_preflight\\authority_dynamic\\axis0_sign-1",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\authority_preflight\\authority_dynamic\\axis0_sign1",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\authority_preflight\\authority_dynamic\\axis1_sign-1",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\authority_preflight\\authority_dynamic\\axis1_sign1",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\authority_preflight\\authority_dynamic\\axis2_sign-1",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\authority_preflight\\authority_dynamic\\axis2_sign1",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\authority_preflight\\authority_dynamic\\axis3_sign-1",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\authority_preflight\\authority_dynamic\\axis3_sign1",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\authority_preflight\\authority_dynamic\\axis4_sign-1",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\authority_preflight\\authority_dynamic\\axis4_sign1",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\authority_preflight\\authority_dynamic\\axis5_sign-1",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\authority_preflight\\authority_dynamic\\axis5_sign1",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\delay_development\\zload\\C0_delay1",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\delay_development\\zload\\C0_delay2",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\delay_development\\zload\\C0_delay5",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\delay_development\\zload\\C3_delay1",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\delay_development\\zload\\C3_delay2",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\delay_development\\zload\\C3_delay5",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\delay_development\\zload\\C4_delay1",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\delay_development\\zload\\C4_delay2",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\delay_development\\zload\\C4_delay5",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\differential_lag\\dynamic\\C0",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\differential_lag\\dynamic\\C3",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\differential_lag\\dynamic\\C4",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\differential_lag\\home\\C0",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\differential_lag\\home\\C3",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\differential_lag\\home\\C4",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\frozen_evaluation\\eval_actuator_lag\\C4",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\frozen_evaluation\\eval_actuator_lag\\C4_fixedLead",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\frozen_evaluation\\eval_actuator_lag\\C4_fourD",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\frozen_evaluation\\eval_platform_delay\\C4",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\frozen_evaluation\\eval_platform_delay\\C4_fixedLead",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\frozen_evaluation\\eval_platform_delay\\C4_fourD",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\dynamic\\C0_tau0",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\dynamic\\C0_tau0.002",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\dynamic\\C0_tau0.005",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\dynamic\\C0_tau0.01",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\dynamic\\C3_tau0",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\dynamic\\C3_tau0.002",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\dynamic\\C3_tau0.005",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\dynamic\\C3_tau0.01",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\dynamic\\C4_tau0",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\dynamic\\C4_tau0.002",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\dynamic\\C4_tau0.005",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\dynamic\\C4_tau0.01",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\home\\C0_tau0",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\home\\C0_tau0.002",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\home\\C0_tau0.005",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\home\\C0_tau0.01",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\home\\C3_tau0",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\home\\C3_tau0.002",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\home\\C3_tau0.005",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\home\\C3_tau0.01",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\home\\C4_tau0",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\home\\C4_tau0.002",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\home\\C4_tau0.005",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\home\\C4_tau0.01",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\rollload\\C4_tau0",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\rollload\\C4_tau0.002",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\rollload\\C4_tau0.005",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\rollload\\C4_tau0.01",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\zload\\C0_tau0",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\zload\\C0_tau0.002",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\zload\\C0_tau0.005",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\zload\\C0_tau0.01",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\zload\\C3_tau0",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\zload\\C3_tau0.002",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\zload\\C3_tau0.005",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\zload\\C3_tau0.01",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\zload\\C4_tau0",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\zload\\C4_tau0.002",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\zload\\C4_tau0.005",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_development\\zload\\C4_tau0.01",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_safety\\home\\C4_tau0.002",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_safety\\home\\C4_tau0.005",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\lag_safety\\home\\C4_tau0.01",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\noise_development\\zload\\C0_noise0",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\noise_development\\zload\\C0_noise1",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\noise_development\\zload\\C0_noise2",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\noise_development\\zload\\C3_noise0",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\noise_development\\zload\\C3_noise1",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\noise_development\\zload\\C3_noise2",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\noise_development\\zload\\C4_noise0",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\noise_development\\zload\\C4_noise1",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\noise_development\\zload\\C4_noise2",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\paired_decomposition\\paired_dynamic\\nominal_no_load",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\paired_decomposition\\paired_dynamic\\nominal_with_load",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\paired_decomposition\\paired_dynamic\\uneven_no_load",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\privileged_diagnostic\\eval_actuator_lag\\privileged",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\zero_equivalence\\force10\\C0_enabledFalse",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": false,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\zero_equivalence\\force10\\C3_enabledFalse",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\zero_equivalence\\reverse_z\\C4_enabledFalse",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    },
+    {
+      "folder": "results\\runs\\phase2c0_20261029_v1\\zero_equivalence\\reverse_z\\C4_enabledTrue",
+      "physical_steps": 6000,
+      "zoh_error_max_N": 0.0,
+      "state_csv_exact": true,
+      "known_command_memory_checked": true,
+      "map_error": 0.0,
+      "causal_sensor": true,
+      "limits_valid": true
+    }
+  ]
+}

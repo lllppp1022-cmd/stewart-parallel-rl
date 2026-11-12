@@ -1,0 +1,41 @@
+{
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "methods": [
+    "single_frame",
+    "history_5frame"
+  ],
+  "pilot": 8192,
+  "total": 32768,
+  "hard_gate": "all admitted tasks complete with zero/random residual and unchanged physical protections; zero/interface/RNG tests pass",
+  "history_classification": "auxiliary evidence; Home ceiling never blocks training",
+  "pilot_gate": "all six finite runs and real actor/critic updates; no protection; per-seed development mean IAE/XYZ <=150% initial; at least one development IAE or common return improves in each method family",
+  "final_success": ">=2 seeds each improve both IAEs by >=1% on >=2 final tasks vs matched single-frame; all safe and peak/omega/XYZ/force slew/integral <=110% comparator",
+  "adaptive_candidates": [
+    {
+      "kp": 25.0,
+      "kd": 1.0,
+      "ki": 0.0,
+      "leak": 1.0,
+      "imax": 0.025
+    },
+    {
+      "kp": 25.0,
+      "kd": 1.0,
+      "ki": 10.0,
+      "leak": 1.0,
+      "imax": 0.025
+    },
+    {
+      "kp": 25.0,
+      "kd": 1.0,
+      "ki": 30.0,
+      "leak": 1.0,
+      "imax": 0.025
+    }
+  ],
+  "selection": "all seeds at common terminal budget; adaptive chosen by development mean load+unload IAE, safety/XYZ guards"
+}

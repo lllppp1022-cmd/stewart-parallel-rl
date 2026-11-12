@@ -1,0 +1,153 @@
+{
+  "decision": "PHASE 2C-6 PARTIAL SUCCESS — NEED TARGETED ABLATION",
+  "fixed_v2_seeds": [
+    42,
+    123,
+    2026
+  ],
+  "curriculum_seeds": [
+    42,
+    123,
+    2026
+  ],
+  "rule": "At least two seeds beat classical in both IAEs on >=2 final cases, with no protection and no >10% XYZ or slew increase on any final case.",
+  "independent": {
+    "V1_42": {
+      "ratio_vs_classical": {
+        "load_iae_deg_s": 0.9474952953041534,
+        "unload_iae_deg_s": 1.1821013630863095,
+        "so3_peak_deg": 0.9912082569147835,
+        "omega_peak_deg_s": 1.000422306928837,
+        "xyz_peak_mm": 0.9373074132607688,
+        "force_rate_N_s": 1.0000532371493178
+      },
+      "joint_IAE_wins": 0,
+      "all_success": true,
+      "xyz_gate": true,
+      "slew_gate": true,
+      "promotion": false
+    },
+    "V1_123": {
+      "ratio_vs_classical": {
+        "load_iae_deg_s": 0.9854703522051825,
+        "unload_iae_deg_s": 1.0797861171032612,
+        "so3_peak_deg": 1.023299075398045,
+        "omega_peak_deg_s": 0.999831314606549,
+        "xyz_peak_mm": 0.981834832157545,
+        "force_rate_N_s": 1.0000853969036942
+      },
+      "joint_IAE_wins": 1,
+      "all_success": true,
+      "xyz_gate": true,
+      "slew_gate": true,
+      "promotion": false
+    },
+    "V1_2026": {
+      "ratio_vs_classical": {
+        "load_iae_deg_s": 1.1071077507560902,
+        "unload_iae_deg_s": 1.0527345324349568,
+        "so3_peak_deg": 0.9895463395011587,
+        "omega_peak_deg_s": 1.0001943627623444,
+        "xyz_peak_mm": 0.9637054157692844,
+        "force_rate_N_s": 1.0003379398575034
+      },
+      "joint_IAE_wins": 1,
+      "all_success": true,
+      "xyz_gate": false,
+      "slew_gate": true,
+      "promotion": false
+    },
+    "V2_42": {
+      "ratio_vs_classical": {
+        "load_iae_deg_s": 1.0763242034873153,
+        "unload_iae_deg_s": 0.9949781450316509,
+        "so3_peak_deg": 0.9973057760699846,
+        "omega_peak_deg_s": 1.0008577196626884,
+        "xyz_peak_mm": 0.998283740304711,
+        "force_rate_N_s": 1.0000553912306105
+      },
+      "joint_IAE_wins": 0,
+      "all_success": true,
+      "xyz_gate": true,
+      "slew_gate": true,
+      "promotion": false
+    },
+    "V2_123": {
+      "ratio_vs_classical": {
+        "load_iae_deg_s": 0.9926193317776245,
+        "unload_iae_deg_s": 1.0152640350438553,
+        "so3_peak_deg": 1.0067837383221303,
+        "omega_peak_deg_s": 1.0002288030822697,
+        "xyz_peak_mm": 0.9859380049687302,
+        "force_rate_N_s": 1.0000493964227468
+      },
+      "joint_IAE_wins": 1,
+      "all_success": true,
+      "xyz_gate": true,
+      "slew_gate": true,
+      "promotion": false
+    },
+    "V2_2026": {
+      "ratio_vs_classical": {
+        "load_iae_deg_s": 1.024589909357745,
+        "unload_iae_deg_s": 1.0360223201227026,
+        "so3_peak_deg": 1.012674419388235,
+        "omega_peak_deg_s": 1.0005669948355773,
+        "xyz_peak_mm": 1.005733158515548,
+        "force_rate_N_s": 1.0000281023349837
+      },
+      "joint_IAE_wins": 1,
+      "all_success": true,
+      "xyz_gate": true,
+      "slew_gate": true,
+      "promotion": false
+    },
+    "C2_42": {
+      "ratio_vs_classical": {
+        "load_iae_deg_s": 1.065697634575722,
+        "unload_iae_deg_s": 1.0011085657285386,
+        "so3_peak_deg": 1.0004448126615508,
+        "omega_peak_deg_s": 1.0008191154648196,
+        "xyz_peak_mm": 1.00855304712479,
+        "force_rate_N_s": 1.0000704749977232
+      },
+      "joint_IAE_wins": 0,
+      "all_success": true,
+      "xyz_gate": true,
+      "slew_gate": true,
+      "promotion": false
+    },
+    "C2_123": {
+      "ratio_vs_classical": {
+        "load_iae_deg_s": 0.9331659869011428,
+        "unload_iae_deg_s": 1.0180083488961533,
+        "so3_peak_deg": 1.002231747097109,
+        "omega_peak_deg_s": 0.9999181603863084,
+        "xyz_peak_mm": 0.9496866844629765,
+        "force_rate_N_s": 1.000022885619702
+      },
+      "joint_IAE_wins": 1,
+      "all_success": true,
+      "xyz_gate": true,
+      "slew_gate": true,
+      "promotion": false
+    },
+    "C2_2026": {
+      "ratio_vs_classical": {
+        "load_iae_deg_s": 1.097058783806777,
+        "unload_iae_deg_s": 1.0161743941738037,
+        "so3_peak_deg": 1.006930921729467,
+        "omega_peak_deg_s": 1.0020361133249565,
+        "xyz_peak_mm": 1.0150074587968358,
+        "force_rate_N_s": 1.0000525029270884
+      },
+      "joint_IAE_wins": 0,
+      "all_success": true,
+      "xyz_gate": true,
+      "slew_gate": true,
+      "promotion": false
+    }
+  },
+  "run": "__PROJECT_ROOT__\\results\\runs\\phase2c6_20261107_v1",
+  "phase2c7_started": false
+}

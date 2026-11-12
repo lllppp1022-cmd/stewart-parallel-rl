@@ -1,0 +1,8 @@
+{
+  "samples": 4000,
+  "maximum_error_N": 0.0,
+  "mj_step_calls": 0,
+  "dt_s": 0.001,
+  "units": "N and seconds",
+  "method": "Exact ZOH, endpoint applied throughout next numerical integration step, one update per step"
+}

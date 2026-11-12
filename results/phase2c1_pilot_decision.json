@@ -1,0 +1,47 @@
+{
+  "decision": "PILOT NEGATIVE — STOP SCALING",
+  "reason": "All three final deterministic seeds have greater mean load position IAE than both C4 and C4+fourDlead; safe completion does not prove learning benefit",
+  "seed_results": [
+    {
+      "seed": 42,
+      "mean_load_IAE_mm_s": 0.021599724862369513,
+      "ratio_C4": 1.3355086691587712,
+      "ratio_fourDlead": 1.479274986856039,
+      "improves10percent_strong": false
+    },
+    {
+      "seed": 123,
+      "mean_load_IAE_mm_s": 0.02258401668983305,
+      "ratio_C4": 1.396367327171116,
+      "ratio_fourDlead": 1.5466850251510316,
+      "improves10percent_strong": false
+    },
+    {
+      "seed": 2026,
+      "mean_load_IAE_mm_s": 0.01818228118732084,
+      "ratio_C4": 1.1242084936486358,
+      "ratio_fourDlead": 1.2452285358155373,
+      "improves10percent_strong": false
+    }
+  ],
+  "baseline_mean_IAE_mm_s": 0.01617340670351099,
+  "strong_baseline_mean_IAE_mm_s": 0.014601561612473588,
+  "PPO_seed_mean_IAE_mm_s": 0.0207886742465078,
+  "PPO_between_seed_std_mm_s": 0.00231023184651159,
+  "training_decisions": 12288,
+  "training_physical_steps": 614400,
+  "rollout_updates": 48,
+  "Adam_steps": 1920,
+  "final_evaluation_episodes": 22,
+  "final_evaluation_successes": 22,
+  "training_protected_episodes": 0,
+  "final_checkpoint_selection": "Each seed cumulative4096 endpoint, no test-best selection",
+  "no_additional_training_authorized_by_this_result": true,
+  "limitations": [
+    "3 training seeds, only2 deterministic final tasks",
+    "Fz-only Actor versus four-channel classical lead",
+    "Ideal q/dq feedback and synthetic actuator lag; no hardware safety claim",
+    "No current-only/longer-history/4D policy ablation",
+    "No CPU-vs-GPU throughput benchmark"
+  ]
+}

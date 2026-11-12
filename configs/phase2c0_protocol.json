@@ -1,0 +1,19 @@
+{
+ "version":"phase2c0_v1","dt":0.001,"duration_s":6,"maximum_research_trials":96,
+ "recovery_position_mm":0.25,"recovery_angle_deg":0.02,"recovery_hold_s":0.3,
+ "tau_s_candidates":[0,0.002,0.005,0.01],"differential_tau_s":[0.004,0.0044,0.0048,0.0052,0.0056,0.006],
+ "stop_larger_tau_on_any_protection":true,"no_lag_gain_noise_delay_mixtures":true,
+ "controllers":["C0","C3","C4"],"frozen_C4":{"kind":"observer","gain":1},
+ "measurement_delay_steps":[1,2,5],"noise_seed":42,"pre_generated_noise_shape":[6400,12],
+ "noise_single_factors":[{"position_std_m":0.000002},{"rotation_std_rad":0.00002},{"velocity_std":0.00002}],
+ "measurement_boundary":"PARTIAL OBSERVATION CHANNEL ROBUSTNESS: platform p/R/v only; full chain q/dq remain ideal; SYNTHETIC SENSOR NOISE, not hardware calibration",
+ "task_patterns":{"home":{"trajectory":"home","wrench":[0,0,0,0,0,0],"start_step":1700,"stop_step":3450},"zload":{"trajectory":"home","wrench":[0,0,-6,0,0,0],"start_step":1700,"stop_step":3450},"rollload":{"trajectory":"home","wrench":[0,0,0,0.3,0,0],"start_step":1450,"stop_step":3750},"dynamic":{"trajectory":"periodic","reference_scale":0.85,"wrench":[0,0,-4,0.15,0,0],"start_step":1600,"stop_step":3650}},
+ "authority_probe_window_s":[2.2,3.2],"authority_probe_magnitudes":{"Fz_N":0.2,"Mx_Nm":0.01,"My_Nm":0.01,"Mz_Nm":0.005,"Fx_N":0.02,"Fy_N":0.02},
+ "local_xy_feedback":{"kp_N_m":300,"kd_Ns_m":10,"force_clip_N":0.04},
+ "fixed_command_lead":{"lead_s":0.003,"derivative_filter_s":0.004,"per_leg_extra_clip_N":0.1},
+ "candidate_max_classes":2,"candidate_degradation_min_ratio":1.10,"primary_metric":"loading position IAE mm*s for zload, relative to matched factor-zero C4",
+ "frozen_evaluation_task":{"trajectory":"home","wrench":[0,0,-5,0,0,0],"start_step":1550,"stop_step":3350},
+ "benefit_gate":{"primary_error_reduction_min_fraction":0.10,"no_new_failure":true,"actual_force_slew_max_ratio":1.05,"force_square_integral_max_ratio":1.02,"non_target_xy_peak_max_ratio":1.05},
+ "shared_extra_force_N":5,"shared_extra_rate_N_s":20,"native_force_N":400,
+ "no_training_or_Gym":true,"nominal_model_source":"results/runs/phase2b1_20261028_v1/nominal_task_model.json"
+}

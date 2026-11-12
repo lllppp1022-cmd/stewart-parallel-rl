@@ -1,0 +1,10 @@
+{
+  "original": "assets\\videos\\phase0_simulation_original_capture.mp4",
+  "original_sha256": "7059c1d755900afe1a266d6696df7065ff1e4cc220aae97123e31d946260a187",
+  "published": "assets\\videos\\phase0_simulation.mp4",
+  "published_sha256": "80ebe69ef507ee72a10b90fdcb7572ae0812e06e0ed3e5a64d570b3989a6e934",
+  "only_semantic_edit": "First 50 frames: zero-force baseline explicitly labelled Free Dynamics. Body imagery is the existing live capture; no environment or policy called.",
+  "frames": 450,
+  "reencoding": true,
+  "physics_logs_unchanged": true
+}

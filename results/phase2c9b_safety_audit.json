@@ -1,0 +1,348 @@
+{
+  "training": {
+    "passed": true,
+    "formal_decisions": 196608,
+    "formal_physics": 3932160,
+    "updates": 384,
+    "matched_task_sequences": true,
+    "physical_reward_recomputed": true,
+    "all_gae_recomputed": true
+  },
+  "preflight_trials": 68,
+  "preflight_success": 68,
+  "formal_training_failures": 0,
+  "final_trials": 72,
+  "final_complete_success": 72,
+  "max_actual_force_N": 94.84940664903218,
+  "max_shared_add_N": 5.0,
+  "max_shared_slew_N_s": 19.99999999999602,
+  "min_proxy_gap_m": 0.09606680243701467,
+  "max_weld_translation_m": 1.776588057426171e-07,
+  "max_weld_angle_rad": 5.717626004407882e-05,
+  "physical_metrics": {
+    "passed": true,
+    "trials": 72,
+    "metrics": 864,
+    "reference_exact": true,
+    "external_atol": 1e-12,
+    "max_absolute_error": 1.8696849624078027e-14
+  },
+  "history": {
+    "checked": 45735,
+    "changes": [],
+    "passed": true
+  },
+  "tests": {
+    "historical_tests": {
+      "total": 455,
+      "passed": 385,
+      "failures": [
+        {
+          "name": "test_real_owner_window_stop[stop-user_quit]",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_real_owner_window_stop[mirror_closed-native_viewer_closed]",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_chunked_physics_bitwise_equal",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_pause_and_failure_keep_exit_responsive",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_live_event_tail_bounded_and_partial_line",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_actual_rgb_segments",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_recording_error_keeps_physics_alive",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_isolated_environment_no_learning_packages",
+          "message": "AssertionError: assert ('stewart_rl' in 'D:\\\\miniconda\\\\envs\\\\stewart_rl\\\\python.exe' and ModuleSpec(name='torch', loader=<_frozen_importlib_external.SourceFileLoader object at 0x000001CCEB4EF050>, origin='D:...ckages\\\\torch\\\\__init__.py', submodule_search_locations=['D:\\\\miniconda\\\\envs\\\\stewart_rl\\\\Lib\\\\site-packages\\\\torch']) is None)\n +  where 'D:\\\\miniconda\\\\envs\\\\stewart_rl\\\\python.exe' = sys.executable\n +  and   ModuleSpec(name='torch', loader=<_frozen_importlib_external.SourceFileLoader object at 0x000001CCEB4EF050>, origin='D:...ckages\\\\torch\\\\__init__.py', submodule_search_locations=['D:\\\\miniconda\\\\envs\\\\stewart_rl\\\\Lib\\\\site-packages\\\\torch']) = <function find_spec at 0x000001CCE3CE67A0>('torch')\n +    where <function find_spec at 0x000001CCE3CE67A0> = <module 'importlib.util' (frozen)>.find_spec\n +      where <module 'importlib.util' (frozen)> = <module 'importlib' from 'D:\\\\miniconda\\\\envs\\\\stewart_rl\\\\Lib\\\\importlib\\\\__init__.py'>.util"
+        },
+        {
+          "name": "test_target_rejection_preserves_reference",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_smooth_full_chain_and_stroke",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_ik_rejection",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_indices_state_and_force",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_angles_from_actual_rotation",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_hold_and_home_no_teleport",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_pause_freezes_physics",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_controller_requires_new_episode",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_failure_latched",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_step_record_replay_exact",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_input_burst_bounded_pending_target",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_recording_error_does_not_stop_physics",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_final_telemetry_error_still_archives",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_force_command_and_actual_distinct_under_gain_mismatch",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_replay_history_causal_cached_and_image_no_steps",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_fixed_home_saved_before_physics",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_rejected_is_not_executed",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_queued_is_not_preflighted_and_superseding",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_hold_aborts_and_does_not_rebase",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_visual_command_has_no_physical_effect",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_event_no_future_or_inferred_data",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_completion_and_protection_same_step_not_success",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_preflight_rejection_is_explicit",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_zero_pair_bitwise_and_real_response",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_reactive_hold_actual_archive",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_recomputed_metrics_and_integral",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_controller_rejection_gets_real_restricted_hold",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_bounded_runtime_preserves_saved_real_load",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_c3_zero_gain_real_physics_equivalence",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_safety_unchanged_and_new_controller_reject",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_actual_parameter_initialization_isolated",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_gain_actual_only_native_limits_and_channels",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_mixed_uncertainty_guard",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_lag_real_physics_three_forces_and_known_command_memory",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_lag_changes_physical_trajectory_and_no_state_zero_start",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_lag_continues_through_original_protect_hold",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_one_decision_exact50_and_correct_api",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_reset_restores_all_states_and_rng",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_current_only_observation_variant",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_action_nonfinite_rejected_without_step",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_physical_mapping_only_fz_in_existing_task_interface",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_failure_immediate_decision_and_original200_hold",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_full_zero_equals_original_four_d_lead_through_motion_and_load",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_reference_returns_home_dense_limits_and_velocity",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_env_actions_physics_observation_and_invalid_input",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_future_episode_metadata_matches_canonical_directory",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_zero_trajectory_matches_frozen_owner[C0]",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_zero_trajectory_matches_frozen_owner[C4]",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_zero_trajectory_matches_frozen_owner[fourDlead]",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_failure_hold_records_real_states_without_teleport",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_zero_feedforward_bitwise_frozen_baseline_through_motion[C4]",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_zero_feedforward_bitwise_frozen_baseline_through_motion[fourDlead]",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_one_shared_budget_under_competing_requests",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_fault_injected_hold_semantics",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_fixed_seed_short_stochastic_sampling_reproducible",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_protection_and_time_semantics",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_gym_contract_and_reset",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_missing_lock_scope",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_protection_keeps_terminal_reward_and_hold_steps",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_environment_real_step_reset_and_action",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_nominal_matches_frozen_environment",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        },
+        {
+          "name": "test_hidden_mass_and_history_do_not_change_control",
+          "message": "failed on setup with \"PermissionError: [WinError 5] 拒绝访问。: 'D:\\\\mujoco_learning\\\\stewart_parallel_rl\\\\results\\\\runs\\\\phase2c9b_20261112_v1\\\\pytest_history'\""
+        }
+      ]
+    },
+    "historical_tests_unrestricted": {
+      "total": 455,
+      "passed": 454,
+      "failures": [
+        {
+          "name": "test_isolated_environment_no_learning_packages",
+          "message": "AssertionError: assert ('stewart_rl' in 'D:\\\\miniconda\\\\envs\\\\stewart_rl\\\\python.exe' and ModuleSpec(name='torch', loader=<_frozen_importlib_external.SourceFileLoader object at 0x00000203C850B210>, origin='D:...ckages\\\\torch\\\\__init__.py', submodule_search_locations=['D:\\\\miniconda\\\\envs\\\\stewart_rl\\\\Lib\\\\site-packages\\\\torch']) is None)\n +  where 'D:\\\\miniconda\\\\envs\\\\stewart_rl\\\\python.exe' = sys.executable\n +  and   ModuleSpec(name='torch', loader=<_frozen_importlib_external.SourceFileLoader object at 0x00000203C850B210>, origin='D:...ckages\\\\torch\\\\__init__.py', submodule_search_locations=['D:\\\\miniconda\\\\envs\\\\stewart_rl\\\\Lib\\\\site-packages\\\\torch']) = <function find_spec at 0x00000203C0D467A0>('torch')\n +    where <function find_spec at 0x00000203C0D467A0> = <module 'importlib.util' (frozen)>.find_spec\n +      where <module 'importlib.util' (frozen)> = <module 'importlib' from 'D:\\\\miniconda\\\\envs\\\\stewart_rl\\\\Lib\\\\importlib\\\\__init__.py'>.util"
+        }
+      ]
+    },
+    "new_tests": {
+      "total": 27,
+      "passed": 27,
+      "failures": []
+    }
+  },
+  "partial_geometry_only": true,
+  "no_continuous_or_hardware_safety_claim": true,
+  "native_contact_peak": 0,
+  "warning_peak": 0,
+  "native_force_saturation_steps": 0,
+  "incomplete_engineering_attempt": {
+    "reason": "Early-checkpoint evaluator changed from shared-process threads to independent processes. Three incomplete startup trials archived; none used in metrics or policy selection.",
+    "completed_research_trials": 0,
+    "physical_steps_not_fully_recoverable": true
+  }
+}

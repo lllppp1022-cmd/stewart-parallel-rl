@@ -1,0 +1,22 @@
+condition,timestep_s,controller,completed,trials,mean_position_rmse_mm,mean_orientation_rmse_deg,mean_progress,mean_final_position_error_mm,max_force_N,caution
+nominal,0.001,C0,7,7,0.052044336854161106,0.0027118880125339994,1.0,0.012429250256780686,89.80583626437605,Includes failed/early-stopped trials; inspect completion and progress
+nominal,0.001,C1,7,7,0.12783336366645762,0.0031260130125190214,1.0,0.23629590935608302,90.09598429319021,Includes failed/early-stopped trials; inspect completion and progress
+nominal,0.001,C2,7,7,0.051964627119362235,0.0027094044241387743,1.0,0.012115510440278945,89.80601577412325,Includes failed/early-stopped trials; inspect completion and progress
+mass110,0.001,C0,0,1,0.7795144204224578,0.004908564576833685,1.0,0.7860384291735111,93.23069615884273,Includes failed/early-stopped trials; inspect completion and progress
+mass110,0.001,C1,1,1,0.46615789272741137,0.006344111020594184,1.0,0.25530337476408116,93.62582539487059,Includes failed/early-stopped trials; inspect completion and progress
+mass110,0.001,C2,0,1,0.7634862059260937,0.0041593439801702525,1.0,0.760982515517299,93.20954339825862,Includes failed/early-stopped trials; inspect completion and progress
+com_x3mm,0.001,C0,1,1,0.38569321083093394,0.025296613509003068,1.0,0.3831565456798068,90.2856931651442,Includes failed/early-stopped trials; inspect completion and progress
+com_x3mm,0.001,C1,1,1,0.33320885366850966,0.00986185394947369,1.0,0.49862487664345684,90.5902555089903,Includes failed/early-stopped trials; inspect completion and progress
+com_x3mm,0.001,C2,1,1,0.38402291144656975,0.02527544994358278,1.0,0.38074348693925963,90.28550828821386,Includes failed/early-stopped trials; inspect completion and progress
+gain090,0.001,C0,0,1,2.2821328089837456,0.01651896208586643,1.0,2.3140868042038334,90.36002576115538,Includes failed/early-stopped trials; inspect completion and progress
+gain090,0.001,C1,0,1,1.43815530994243,0.01730888404598069,0.7528333333333072,3.7078444137071793,91.01149301232005,Includes failed/early-stopped trials; inspect completion and progress
+gain090,0.001,C2,0,1,2.175117902438328,0.012298203085295308,1.0,2.18574488951368,90.18412665088704,Includes failed/early-stopped trials; inspect completion and progress
+asymmetric_gain,0.001,C0,0,1,1.1270580897526776,0.5088998457624836,0.05433333333333337,2.1510944311188447,94.0536351137352,Includes failed/early-stopped trials; inspect completion and progress
+asymmetric_gain,0.001,C1,0,1,1.1233000191344436,0.5082083263855504,0.05433333333333337,2.1473998837444284,94.0549307293675,Includes failed/early-stopped trials; inspect completion and progress
+asymmetric_gain,0.001,C2,0,1,1.1264707386764217,0.5086458194728929,0.05433333333333337,2.1503527937160722,94.05327714966107,Includes failed/early-stopped trials; inspect completion and progress
+external_load,0.001,C0,1,1,0.48220137985091405,0.015296943521501407,1.0,0.11919712013674234,91.71429189239072,Includes failed/early-stopped trials; inspect completion and progress
+external_load,0.001,C1,1,1,0.44080077857226313,0.011536418140553215,1.0,0.2625159562403523,91.71543467633903,Includes failed/early-stopped trials; inspect completion and progress
+external_load,0.001,C2,1,1,0.4530923541973574,0.014758361308354923,1.0,0.10812812307992974,91.67964956244951,Includes failed/early-stopped trials; inspect completion and progress
+nominal,0.0005,C0,2,2,0.09747340643037622,0.004792569407239693,0.9999999999998991,0.04213739805291636,89.66032317873399,Includes failed/early-stopped trials; inspect completion and progress
+nominal,0.0005,C1,2,2,0.2432664660872464,0.006014941795477191,0.9999999999998991,0.44952298233980637,90.09861063080542,Includes failed/early-stopped trials; inspect completion and progress
+nominal,0.0005,C2,2,2,0.09734242844301123,0.00479443912756378,0.9999999999998991,0.04173806956808009,89.66004266416205,Includes failed/early-stopped trials; inspect completion and progress

@@ -1,0 +1,7 @@
+method,seed,tasks_both_iae_improve_1pct,all_cost_guards,all_safe,qualifies
+v2_control,42,1,True,True,False
+v2_control,123,2,True,True,True
+v2_control,2026,0,True,True,False
+v3,42,1,True,True,False
+v3,123,1,True,True,False
+v3,2026,1,True,True,False

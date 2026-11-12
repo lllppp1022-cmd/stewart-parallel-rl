@@ -1,0 +1,41 @@
+{
+  "candidates": {
+    "L30": {
+      "simulation_preflight_passed": true,
+      "all_modeled_limits_pass": true,
+      "minimum_gap_m": 0.09606680243701467,
+      "maximum_condition": 5.47619547015787,
+      "mechanical_passive_stop_certified": false,
+      "scope": "Modeled constraints and conservative mesh clearance only; actual hardware/sockets incomplete"
+    },
+    "L50": {
+      "simulation_preflight_passed": true,
+      "all_modeled_limits_pass": true,
+      "minimum_gap_m": 0.09606680243701467,
+      "maximum_condition": 5.596077341042751,
+      "mechanical_passive_stop_certified": false,
+      "scope": "Modeled constraints and conservative mesh clearance only; actual hardware/sockets incomplete"
+    }
+  },
+  "bounds": {
+    "positive": {
+      "last_sampled_candidate_m": 0.1,
+      "scan_endpoint_only": true,
+      "first_rejections": []
+    },
+    "negative": {
+      "last_sampled_candidate_m": -0.1,
+      "scan_endpoint_only": true,
+      "first_rejections": []
+    }
+  },
+  "samples": 101,
+  "scan_spacing_m": 0.002,
+  "seconds": 6.043287199921906,
+  "query_range_m": [
+    -0.1,
+    0.1
+  ],
+  "not_dynamic_authorisation": true,
+  "not_mechanical_or_continuous_certification": true
+}

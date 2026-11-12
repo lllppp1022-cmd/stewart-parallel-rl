@@ -1,0 +1,89 @@
+{
+  "version": "phase2c4_v1",
+  "fixed": {
+    "id": "train_fixed",
+    "rise_s": 6.0,
+    "tau_s": 0.005,
+    "Fz_N": -5.5,
+    "on_s": 5.2,
+    "off_s": 11.0
+  },
+  "physics_dt_s": 0.001,
+  "decision_physical_steps": 50,
+  "history_length": 1,
+  "frame_fields": [
+    [
+      "position_error",
+      3
+    ],
+    [
+      "rotation_error",
+      3
+    ],
+    [
+      "actual_twist",
+      6
+    ],
+    [
+      "reference_twist",
+      6
+    ],
+    [
+      "reference_z_acceleration",
+      1
+    ],
+    [
+      "relative_slides",
+      6
+    ],
+    [
+      "slide_velocity",
+      6
+    ],
+    [
+      "known_command",
+      6
+    ],
+    [
+      "causal_observer",
+      6
+    ],
+    [
+      "reference_ff_z",
+      1
+    ],
+    [
+      "accepted_total_add",
+      6
+    ],
+    [
+      "last_accepted_residual",
+      1
+    ],
+    [
+      "actual_z",
+      1
+    ],
+    [
+      "target_z",
+      1
+    ]
+  ],
+  "frame_dimensions": 53,
+  "action_scale_N": 0.1,
+  "reward": {
+    "z_scale_m": 1e-05,
+    "xy_scale_m": 5e-05,
+    "angle_scale_rad": 0.00034906585039886593,
+    "z_weight": 1.0,
+    "xy_weight": 0.1,
+    "rotation_weight": 0.05,
+    "action_weight": 0.01,
+    "slew_weight": 0.005,
+    "cost_cap": 100.0,
+    "failure_extra": 100.0,
+    "gamma": 0.99
+  },
+  "normalisation": "Fixed physical scales in large_motion_observations.py; no fitted/eval statistics",
+  "reward_revision_count": 0
+}

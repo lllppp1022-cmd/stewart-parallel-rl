@@ -1,0 +1,84 @@
+{
+  "historical_files_checked": 7585,
+  "historical_files_unchanged": true,
+  "changed_history": [],
+  "original_distribution_versions_unchanged": true,
+  "added_distributions": {
+    "filelock": "3.20.0",
+    "grpcio": "1.85.0",
+    "Jinja2": "3.1.6",
+    "Markdown": "3.11.2",
+    "MarkupSafe": "3.0.4",
+    "mpmath": "1.3.0",
+    "networkx": "3.6.1",
+    "protobuf": "7.36.2",
+    "PyYAML": "6.0.3",
+    "stable_baselines3": "2.9.2",
+    "sympy": "1.14.0",
+    "tensorboard": "2.21.0",
+    "tensorboard-data-server": "0.7.2",
+    "torch": "2.15.0+cpu",
+    "Werkzeug": "3.1.9"
+  },
+  "full_state_zero_equality": {
+    "root": "__PROJECT_ROOT__\\results\\runs\\phase2c1_threads1_equivalence_1793277254944588800",
+    "torch_threads": 1,
+    "bitwise_equal": true,
+    "maximum_difference": 0.0
+  },
+  "observer_validation": {
+    "root": "__PROJECT_ROOT__\\results\\runs\\phase2c1_observer_1793276363040609400",
+    "bitwise_physics": true,
+    "maximum_difference": 0.0,
+    "observations_equal": true,
+    "rewards_equal": true,
+    "decisions_each": 50,
+    "physics_steps_each": 2500,
+    "gui_qt_native": true,
+    "interrupted": false,
+    "native_exitcode": 0,
+    "recording_errors": [],
+    "not_PPO_training": true
+  },
+  "pretraining_gate": {
+    "passed": true,
+    "API": true,
+    "zero_exact": true,
+    "random_combinations_passed": 27,
+    "reset_and_termination_tests_passed": true,
+    "reward_independent_audit": true,
+    "gui_nonintrusive": true,
+    "functional_tests_passed": 248,
+    "legacy_assertion_failure": "tests.test_phase0::test_isolated_environment_no_learning_packages",
+    "legacy_assertion_superseded_by_explicit_user_authorization": true,
+    "old_test_source_unchanged": true,
+    "old_environment_distributions_changed": []
+  },
+  "TensorBoard_HTTP_status": 200,
+  "training_video": {
+    "sha256": "73d516534e16e5e775da5fdee6e5edfed31e6548d6b74a4bca9201bca40f5995",
+    "frames": 450,
+    "unique_frames": 450,
+    "duration_s": 18.0,
+    "all_frames_decoded": true,
+    "all_qpos_hashes_match": true,
+    "no_future_curves": true
+  },
+  "evaluation_video": {
+    "sha256": "e4d7e1f68b3c6413d2e9cfd49f94248445f2d50a3c137bf03cbed2dd6746236d",
+    "frames": 450,
+    "unique_frames": 450,
+    "duration_s": 18.0,
+    "all_frames_decoded": true,
+    "all_qpos_hashes_match": true,
+    "no_future_curves": true
+  },
+  "tests": {
+    "total": 257,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1,
+    "passed": 256,
+    "expected_obsolete_assertion": "tests/test_phase0.py::test_isolated_environment_no_learning_packages"
+  }
+}

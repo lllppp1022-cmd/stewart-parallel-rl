@@ -1,0 +1,230 @@
+{
+  "training_gate": {
+    "passed": true,
+    "zero_bitwise_steps": 6000,
+    "signed_action_probe": true,
+    "independent_baseline_preflight": true,
+    "all_v1_models_reloaded": true,
+    "offline_classical_over_zero_all_three": true,
+    "random_worse_than_classical": true,
+    "failure_discounted_bound": true,
+    "configs": {
+      "ppo": "73678ca817ad5582606873ea4e6b6af9e814330f455ffdb7e6e5c73abd6e8aa9",
+      "reward_v2": "f55f59d8b454779e5e7aafc2fd9673e2a7fd370b96e7f49b72e942e6bc0b8751",
+      "eval": "36b80cef5ec27896c534669f51b68e806d7e6505db114d4f00ff0a4eff9daac7",
+      "curriculum": "3b5b2d4509f2a7d7f78bd43c128d7c9fb7e409a4a91aa83c667af86de37c95c6"
+    }
+  },
+  "development_gate": {
+    "rule": "Same window IAE improves >=5% in at least two of three paired tasks, and decreases in mean, relative to V1. All succeed, mean XYZ and max native slew each <=110% of V1. Deterministic requests have measurable accepted effect.",
+    "checks": {
+      "42": {
+        "passed": true,
+        "improvement_counts": {
+          "load": 3,
+          "unload": 1
+        },
+        "mean_iae_ratio": {
+          "load": 0.682421898886588,
+          "unload": 1.0608184905898799
+        },
+        "xyz_ratio": 1.0401529904848326,
+        "force_rate_ratio": 0.9964483427038411,
+        "all_tasks_complete": true,
+        "measurable_action": true
+      },
+      "123": {
+        "passed": true,
+        "improvement_counts": {
+          "load": 3,
+          "unload": 3
+        },
+        "mean_iae_ratio": {
+          "load": 0.7615495678770781,
+          "unload": 0.6694745094416036
+        },
+        "xyz_ratio": 0.817417039752035,
+        "force_rate_ratio": 0.9951979047945981,
+        "all_tasks_complete": true,
+        "measurable_action": true
+      },
+      "2026": {
+        "passed": true,
+        "improvement_counts": {
+          "load": 3,
+          "unload": 3
+        },
+        "mean_iae_ratio": {
+          "load": 0.6698043374799619,
+          "unload": 0.7980751109236733
+        },
+        "xyz_ratio": 0.9005270721172325,
+        "force_rate_ratio": 0.9840713950451223,
+        "all_tasks_complete": true,
+        "measurable_action": true
+      }
+    },
+    "passing_seeds": [
+      42,
+      123,
+      2026
+    ]
+  },
+  "preflight": {
+    "passed": true,
+    "tested": 14,
+    "admitted": [
+      {
+        "id": "C0.8_0",
+        "torque": [
+          0.8,
+          0.0
+        ],
+        "on": 1.76,
+        "off": 3.24
+      },
+      {
+        "id": "C0.8_1",
+        "torque": [
+          -0.8,
+          0.0
+        ],
+        "on": 2.22,
+        "off": 3.94
+      },
+      {
+        "id": "C0.8_2",
+        "torque": [
+          0.0,
+          0.8
+        ],
+        "on": 2.08,
+        "off": 3.42
+      },
+      {
+        "id": "C0.8_3",
+        "torque": [
+          0.0,
+          -0.8
+        ],
+        "on": 1.88,
+        "off": 3.56
+      },
+      {
+        "id": "C1.0_0",
+        "torque": [
+          1.0,
+          0.0
+        ],
+        "on": 1.76,
+        "off": 3.24
+      },
+      {
+        "id": "C1.0_1",
+        "torque": [
+          -1.0,
+          0.0
+        ],
+        "on": 2.22,
+        "off": 3.94
+      },
+      {
+        "id": "C1.0_2",
+        "torque": [
+          0.0,
+          1.0
+        ],
+        "on": 2.08,
+        "off": 3.42
+      },
+      {
+        "id": "C1.0_3",
+        "torque": [
+          0.0,
+          -1.0
+        ],
+        "on": 1.88,
+        "off": 3.56
+      },
+      {
+        "id": "C1.2_0",
+        "torque": [
+          1.2,
+          0.0
+        ],
+        "on": 1.76,
+        "off": 3.24
+      },
+      {
+        "id": "C1.2_1",
+        "torque": [
+          -1.2,
+          0.0
+        ],
+        "on": 2.22,
+        "off": 3.94
+      },
+      {
+        "id": "C1.2_2",
+        "torque": [
+          0.0,
+          1.2
+        ],
+        "on": 2.08,
+        "off": 3.42
+      },
+      {
+        "id": "C1.2_3",
+        "torque": [
+          0.0,
+          -1.2
+        ],
+        "on": 1.88,
+        "off": 3.56
+      },
+      {
+        "id": "Cmix1",
+        "torque": [
+          0.72,
+          0.96
+        ],
+        "on": 1.84,
+        "off": 3.5
+      },
+      {
+        "id": "Cmix2",
+        "torque": [
+          -0.96,
+          0.72
+        ],
+        "on": 2.18,
+        "off": 3.82
+      }
+    ],
+    "rejected": []
+  },
+  "evaluation_passed": 44,
+  "evaluation_runs": 44,
+  "native_force_peak_N": 90.94044970758956,
+  "max_add_N": 1.0849915956732872,
+  "max_add_slew_N_s": 19.99999999999602,
+  "training_samples_physical": 983040,
+  "training_protection_episodes": 0,
+  "training_actual_force_peak_N": 90.73670433804719,
+  "training_add_peak_N": 1.1449850262443135,
+  "training_add_rate_peak_N_s": 19.99999999999602,
+  "training_native_contacts_peak": 0,
+  "training_warning_count_peak": 0,
+  "historical_hashes": {
+    "matched": 11901,
+    "missing_word_locks": [
+      "docs\\~$ewart_Phase2C1_研究汇报_环境奖励与状态完整版.docx"
+    ],
+    "verified_test_repairs": [
+      "tests\\test_phase2c3b_acceptance.py",
+      "tests\\test_phase2c4.py",
+      "tests\\test_phase2c3a_acceptance.py"
+    ]
+  },
+  "geometry_scope": "Frozen partial geometry coverage"
+}

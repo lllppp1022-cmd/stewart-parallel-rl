@@ -1,0 +1,119 @@
+{
+  "passed": true,
+  "parts": {
+    "zero": {
+      "passed": true,
+      "paired_physical_steps": 15000,
+      "bitwise_complete_integration": true,
+      "controller_observer_governor_lag_and_external_equal": true,
+      "reset_first50_bitwise_equal": true,
+      "complete": true,
+      "zero_reward_return": -395.1778832558362
+    },
+    "actions": {
+      "passed": true,
+      "cases": [
+        {
+          "pattern": "positive",
+          "return_": -452.5419676304822,
+          "z_rmse_mm": 0.011141308616576116,
+          "xy_peak_mm": 0.1464722580989729,
+          "accepted_residual_peak_N": 0.10000000000005146,
+          "observation_clip_fraction": 0.0,
+          "passed": true,
+          "force_peak_N": 91.49111851593015,
+          "add_peak_N": 1.941183084730838,
+          "add_slew_N_s": 19.96954885274249,
+          "physical_steps": 15000
+        },
+        {
+          "pattern": "negative",
+          "return_": -420.5653498153076,
+          "z_rmse_mm": 0.010648839151135747,
+          "xy_peak_mm": 0.14974522668027393,
+          "accepted_residual_peak_N": 0.10000000000004944,
+          "observation_clip_fraction": 0.0,
+          "passed": true,
+          "force_peak_N": 91.49278417526737,
+          "add_peak_N": 1.9057050007023406,
+          "add_slew_N_s": 19.96954897590797,
+          "physical_steps": 15000
+        },
+        {
+          "pattern": "uniform",
+          "return_": -389.7206846263168,
+          "z_rmse_mm": 0.010191154218071598,
+          "xy_peak_mm": 0.1476565125021132,
+          "accepted_residual_peak_N": 0.09952710541934495,
+          "observation_clip_fraction": 0.0,
+          "passed": true,
+          "force_peak_N": 91.49746130636352,
+          "add_peak_N": 1.940129506570969,
+          "add_slew_N_s": 19.99999999999602,
+          "physical_steps": 15000
+        },
+        {
+          "pattern": "alternating",
+          "return_": -399.56993420929706,
+          "z_rmse_mm": 0.010316569075947099,
+          "xy_peak_mm": 0.14811152575422376,
+          "accepted_residual_peak_N": 0.10000000000005202,
+          "observation_clip_fraction": 0.0,
+          "passed": true,
+          "force_peak_N": 91.48865406770126,
+          "add_peak_N": 1.9439776421064465,
+          "add_slew_N_s": 19.99999999999602,
+          "physical_steps": 15000
+        }
+      ]
+    },
+    "interface": {
+      "passed": true,
+      "gym_check_env": true,
+      "final_safety_only": [
+        {
+          "task_id": "E1_newtiming",
+          "passed": true,
+          "force_peak_N": 91.20272205803556,
+          "add_peak_N": 1.6024073614301813,
+          "add_slew_N_s": 19.99999999999602,
+          "physical_steps": 15000
+        },
+        {
+          "task_id": "E2_small_load",
+          "passed": true,
+          "force_peak_N": 91.67515949297713,
+          "add_peak_N": 2.16269393620685,
+          "add_slew_N_s": 19.99999999999602,
+          "physical_steps": 15000
+        }
+      ],
+      "feature_dimensions": 53,
+      "reward_monotonic_same_other_states": true,
+      "discounted_failure_ranking_bound": true
+    },
+    "viewer": {
+      "passed": true,
+      "bitwise_equal": true,
+      "physics_steps_each": 2000,
+      "root": "__PROJECT_ROOT__\\results\\runs\\phase2c4_20261105_v1\\viewer\\1793870880060440000",
+      "single_owner_thread": true
+    }
+  },
+  "shared_budget_N": 5,
+  "shared_slew_N_s": 20,
+  "native_N": 400,
+  "physical_dt_s": 0.001,
+  "decision_steps": 50,
+  "horizon_steps": 15000,
+  "feature_dim": 53,
+  "history": 1,
+  "hidden_inputs_excluded": [
+    "tau",
+    "load",
+    "drive",
+    "actual force",
+    "future state"
+  ],
+  "no_test_fitting": true
+}

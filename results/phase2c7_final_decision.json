@@ -1,0 +1,32 @@
+{
+  "status": "PHASE 2C-7 PARTIAL SUCCESS",
+  "qualifying": [
+    {
+      "seed": 42,
+      "improved_tasks": 1,
+      "complete": true,
+      "cost_guard_passed": true,
+      "qualifies": false
+    },
+    {
+      "seed": 123,
+      "improved_tasks": 0,
+      "complete": true,
+      "cost_guard_passed": true,
+      "qualifies": false
+    },
+    {
+      "seed": 2026,
+      "improved_tasks": 1,
+      "complete": true,
+      "cost_guard_passed": true,
+      "qualifies": false
+    }
+  ],
+  "new_training_decisions": 98304,
+  "new_training_physical_steps": 1966080,
+  "all_final_complete": true,
+  "evaluation_count": 24,
+  "evidence": "__PROJECT_ROOT__\\results\\runs\\phase2c7_20261107_v1",
+  "criterion": "At least two new seeds improve both 1s load/unload IAE in at least two independent tasks, all complete, with Z RMSE, peak XY, and actual-force slew <=110% of classical on every task; report all absolute effects."
+}

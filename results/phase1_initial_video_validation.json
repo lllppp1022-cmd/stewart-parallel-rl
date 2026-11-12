@@ -1,0 +1,14 @@
+{
+  "frames": 540,
+  "fps": 10.0,
+  "duration_s": 54.0,
+  "resolution": [
+    960,
+    720
+  ],
+  "state_matches": 540,
+  "unique_scene_frames": 536,
+  "actual_capture": true,
+  "source": "Live data from formal trials during ctrl/mj_step execution; no kinematic re-render",
+  "sha256": "de615280ec3831995f1ccdb5d70c970a1e94679f0183ff751cbee6617f43ddfa"
+}

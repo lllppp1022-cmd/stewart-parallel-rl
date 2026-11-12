@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "documents": 7,
+  "broken_links": [],
+  "config_and_executed_sources_unchanged": true,
+  "final_models_match": true,
+  "gui_proofs": [
+    {
+      "window_closed": true,
+      "physical_steps": 1000,
+      "method": "single_frame",
+      "headless_bitwise_equal": true
+    },
+    {
+      "window_closed": true,
+      "physical_steps": 1000,
+      "method": "history_5frame",
+      "headless_bitwise_equal": true
+    }
+  ],
+  "all_seed_results_included": true,
+  "physical_reward_and_metric_checks": true
+}

@@ -1,0 +1,10 @@
+问题,证据强度,证据,后续检验
+传统控制局部姿态精度高,CONFIRMED,2C-8独立评价表,改变Plant后重新测量
+实际受限残差,CONFIRMED,2C-8 action_audit与原命令重算,统一权限下做单因素动作探针
+回报与窗口IAE不同步,CONFIRMED,2C-8 development_progress,冻结相同奖励，报告加载与卸载
+Critic拟合偏差,CONFIRMED,2C-8 critic_summary与GAE复算,尺度处理的控制影响仍待对照
+事件前后残差偏置,CONFIRMED,2C-8 action_events,在配对条件下评估偏置的代价
+训练覆盖制约泛化,SUPPORTED HYPOTHESIS,任务有限，种子结果不一致,隔离参数、时刻和方向
+标称任务欠缺明显适应需求,SUPPORTED HYPOTHESIS,强基线误差低，早期已有失配专项,配对实测独立Plant变化
+单帧信息不足,UNVERIFIED,没有单帧/历史匹配控制消融,分组留出轨迹的历史信息检查
+真实硬件能力,UNVERIFIED,证据来自MuJoCo和部分几何代理,硬件部署与验证单列

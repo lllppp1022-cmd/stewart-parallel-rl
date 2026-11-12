@@ -1,0 +1,12 @@
+{
+  "status": "PHASE0_AUDIT_COMPLETED_WITH_DOCUMENTED_BASELINE_FAILURES",
+  "original_2ms_small_motion_gate_passed": 0,
+  "original_2ms_small_motion_trials": 7,
+  "one_ms_passed": 7,
+  "half_ms_passed": 7,
+  "tests": 25,
+  "new_training_steps": 0,
+  "gui_final_close_passed": true,
+  "formal_physics_steps": 127500,
+  "next_phase": "Await review; only bounded 1ms baseline control is supported, not RL or collision-safe workspace claims"
+}

@@ -1,0 +1,177 @@
+{
+  "python": "3.11.17",
+  "windows": "Windows-10-10.0.26200-SP0",
+  "prior_dependency_versions": {
+    "absl-py": {
+      "expected": "2.5.1",
+      "actual": "2.5.1",
+      "unchanged": true
+    },
+    "cloudpickle": {
+      "expected": "3.1.2",
+      "actual": "3.1.2",
+      "unchanged": true
+    },
+    "colorama": {
+      "expected": "0.4.6",
+      "actual": "0.4.6",
+      "unchanged": true
+    },
+    "contourpy": {
+      "expected": "1.3.3",
+      "actual": "1.3.3",
+      "unchanged": true
+    },
+    "cycler": {
+      "expected": "0.12.1",
+      "actual": "0.12.1",
+      "unchanged": true
+    },
+    "etils": {
+      "expected": "1.14.0",
+      "actual": "1.14.0",
+      "unchanged": true
+    },
+    "Farama-Notifications": {
+      "expected": "0.0.6",
+      "actual": "0.0.6",
+      "unchanged": true
+    },
+    "fonttools": {
+      "expected": "4.67.0",
+      "actual": "4.67.0",
+      "unchanged": true
+    },
+    "fsspec": {
+      "expected": "2026.9.0",
+      "actual": "2026.9.0",
+      "unchanged": true
+    },
+    "glfw": {
+      "expected": "2.11.0",
+      "actual": "2.11.0",
+      "unchanged": true
+    },
+    "gymnasium": {
+      "expected": "1.4.0",
+      "actual": "1.4.0",
+      "unchanged": true
+    },
+    "ImageIO": {
+      "expected": "2.38.1",
+      "actual": "2.38.1",
+      "unchanged": true
+    },
+    "imageio-ffmpeg": {
+      "expected": "0.6.0",
+      "actual": "0.6.0",
+      "unchanged": true
+    },
+    "iniconfig": {
+      "expected": "2.3.1",
+      "actual": "2.3.1",
+      "unchanged": true
+    },
+    "kiwisolver": {
+      "expected": "1.5.1",
+      "actual": "1.5.1",
+      "unchanged": true
+    },
+    "matplotlib": {
+      "expected": "3.11.2",
+      "actual": "3.11.2",
+      "unchanged": true
+    },
+    "mujoco": {
+      "expected": "3.17.0",
+      "actual": "3.17.0",
+      "unchanged": true
+    },
+    "numpy": {
+      "expected": "2.4.6",
+      "actual": "2.4.6",
+      "unchanged": true
+    },
+    "packaging": {
+      "expected": "26.3",
+      "actual": "26.3",
+      "unchanged": true
+    },
+    "pandas": {
+      "expected": "3.1.0",
+      "actual": "3.1.0",
+      "unchanged": true
+    },
+    "pillow": {
+      "expected": "13.0.0",
+      "actual": "13.0.0",
+      "unchanged": true
+    },
+    "pluggy": {
+      "expected": "1.7.0",
+      "actual": "1.7.0",
+      "unchanged": true
+    },
+    "Pygments": {
+      "expected": "2.21.0",
+      "actual": "2.21.0",
+      "unchanged": true
+    },
+    "PyOpenGL": {
+      "expected": "3.1.10",
+      "actual": "3.1.10",
+      "unchanged": true
+    },
+    "pyparsing": {
+      "expected": "3.3.3",
+      "actual": "3.3.3",
+      "unchanged": true
+    },
+    "pytest": {
+      "expected": "9.1.1",
+      "actual": "9.1.1",
+      "unchanged": true
+    },
+    "python-dateutil": {
+      "expected": "3.0.0",
+      "actual": "3.0.0",
+      "unchanged": true
+    },
+    "scipy": {
+      "expected": "1.17.1",
+      "actual": "1.17.1",
+      "unchanged": true
+    },
+    "six": {
+      "expected": "1.17.0",
+      "actual": "1.17.0",
+      "unchanged": true
+    },
+    "typing_extensions": {
+      "expected": "4.16.0",
+      "actual": "4.16.0",
+      "unchanged": true
+    },
+    "tzdata": {
+      "expected": "2026.5",
+      "actual": "2026.5",
+      "unchanged": true
+    },
+    "websockets": {
+      "expected": "17.3",
+      "actual": "17.3",
+      "unchanged": true
+    },
+    "zipp": {
+      "expected": "4.1.2",
+      "actual": "4.1.2",
+      "unchanged": true
+    }
+  },
+  "new": {
+    "PySide6-Essentials": "6.12.0",
+    "shiboken6": "6.12.0",
+    "pyqtgraph": "0.14.0"
+  },
+  "all_prior_pins_unchanged": true
+}

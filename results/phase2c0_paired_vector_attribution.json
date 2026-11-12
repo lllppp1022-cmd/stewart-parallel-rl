@@ -1,0 +1,27 @@
+{
+  "time_s": 3.584999999999716,
+  "xyz_mm": {
+    "nominal_no_load": [
+      0.03163826607546194,
+      -0.23821068106003562,
+      0.0010104745613581656
+    ],
+    "gain_increment_no_load": [
+      0.10286546612677608,
+      -0.06842044022470956,
+      0.0003623513578077109
+    ],
+    "load_increment_at_uneven": [
+      -2.172953503196129e-05,
+      -0.0036164387547362176,
+      1.6777022215919146e-05
+    ],
+    "load_increment_at_nominal": [
+      -5.4914103720569984e-05,
+      -0.003223878364494087,
+      1.5090182658994422e-05
+    ]
+  },
+  "warning": "Exact matched vector differences at one time, not additive norm percentages/global linear causality",
+  "preload_physical_pairs_bitwise_equal": true
+}

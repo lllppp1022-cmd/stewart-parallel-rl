@@ -1,0 +1,13 @@
+{
+  "decision": "PHASE 2C CONDITIONALLY BLOCKED",
+  "rl_training": false,
+  "tests_passed": 189,
+  "research_trials": 90,
+  "physical_steps": 534584,
+  "history_files": 2902,
+  "reasons": [
+    "Small non-uniform nominal benefits",
+    "No demonstrated residual improvement under uncertainty",
+    "Non-target yaw failure not established controllable by 3D action"
+  ]
+}

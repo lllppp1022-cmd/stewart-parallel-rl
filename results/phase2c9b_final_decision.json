@@ -1,0 +1,21 @@
+{
+  "status": "NEGATIVE",
+  "engineering_training_completed": true,
+  "evidence": {
+    "single_frame": false,
+    "adaptive": false
+  },
+  "qualified_seeds": {
+    "single_frame": [],
+    "adaptive": [
+      123
+    ]
+  },
+  "all_seed_results_retained": true,
+  "final_trials": 72,
+  "final_safe_complete": 72,
+  "budget": 32768,
+  "causal_ablation_required": false,
+  "matched_capacity_control_required": false,
+  "no_statistical_significance_claim": true
+}

@@ -1,0 +1,9 @@
+{
+  "preflight_rows": 46,
+  "training_failure_episodes": 0,
+  "final_failure_episodes": 0,
+  "final_add_peak_N": 2.2342143206546865,
+  "final_add_rate_N_s": 19.99999999999602,
+  "final_native_force_peak_N": 91.37909057077603,
+  "geometry_coverage": "Existing partial audited proxy; not continuous/full collision certification"
+}

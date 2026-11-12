@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "physical_steps": 2000,
+  "single_history_state_reward_bitwise_equal": true,
+  "reset_equal": true,
+  "causal_history_order": true,
+  "nominal_plant_separate": true,
+  "task_rng_resume": true
+}

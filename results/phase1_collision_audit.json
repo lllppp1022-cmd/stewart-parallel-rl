@@ -1,0 +1,655 @@
+{
+  "proxies": [
+    {
+      "name": "proxy_legbot_1",
+      "body": "legbot_1",
+      "radius_m": 0.11067971953377571,
+      "z_min_m": -0.020000047727280396,
+      "z_max_m": 0.6599999792051716,
+      "coverage": "Contains all original compiled mesh vertices; convex radial envelope, intentionally conservative"
+    },
+    {
+      "name": "proxy_legup_1",
+      "body": "legup_1",
+      "radius_m": 0.03144572743702842,
+      "z_min_m": -0.004999983661083729,
+      "z_max_m": 0.6387138329079918,
+      "coverage": "Contains all original compiled mesh vertices; convex radial envelope, intentionally conservative"
+    },
+    {
+      "name": "proxy_legbot_2",
+      "body": "legbot_2",
+      "radius_m": 0.11067971953377571,
+      "z_min_m": -0.020000047727280396,
+      "z_max_m": 0.6599999792051716,
+      "coverage": "Contains all original compiled mesh vertices; convex radial envelope, intentionally conservative"
+    },
+    {
+      "name": "proxy_legup_2",
+      "body": "legup_2",
+      "radius_m": 0.03144572743702842,
+      "z_min_m": -0.004999983661083729,
+      "z_max_m": 0.6387138329079918,
+      "coverage": "Contains all original compiled mesh vertices; convex radial envelope, intentionally conservative"
+    },
+    {
+      "name": "proxy_legbot_3",
+      "body": "legbot_3",
+      "radius_m": 0.11067971953377571,
+      "z_min_m": -0.020000047727280396,
+      "z_max_m": 0.6599999792051716,
+      "coverage": "Contains all original compiled mesh vertices; convex radial envelope, intentionally conservative"
+    },
+    {
+      "name": "proxy_legup_3",
+      "body": "legup_3",
+      "radius_m": 0.03144572743702842,
+      "z_min_m": -0.004999983661083729,
+      "z_max_m": 0.6387138329079918,
+      "coverage": "Contains all original compiled mesh vertices; convex radial envelope, intentionally conservative"
+    },
+    {
+      "name": "proxy_legbot_4",
+      "body": "legbot_4",
+      "radius_m": 0.11067971953377571,
+      "z_min_m": -0.020000047727280396,
+      "z_max_m": 0.6599999792051716,
+      "coverage": "Contains all original compiled mesh vertices; convex radial envelope, intentionally conservative"
+    },
+    {
+      "name": "proxy_legup_4",
+      "body": "legup_4",
+      "radius_m": 0.03144572743702842,
+      "z_min_m": -0.004999983661083729,
+      "z_max_m": 0.6387138329079918,
+      "coverage": "Contains all original compiled mesh vertices; convex radial envelope, intentionally conservative"
+    },
+    {
+      "name": "proxy_legbot_5",
+      "body": "legbot_5",
+      "radius_m": 0.11067971953377571,
+      "z_min_m": -0.020000047727280396,
+      "z_max_m": 0.6599999792051716,
+      "coverage": "Contains all original compiled mesh vertices; convex radial envelope, intentionally conservative"
+    },
+    {
+      "name": "proxy_legup_5",
+      "body": "legup_5",
+      "radius_m": 0.03144572743702842,
+      "z_min_m": -0.004999983661083729,
+      "z_max_m": 0.6387138329079918,
+      "coverage": "Contains all original compiled mesh vertices; convex radial envelope, intentionally conservative"
+    },
+    {
+      "name": "proxy_legbot_6",
+      "body": "legbot_6",
+      "radius_m": 0.11067971953377571,
+      "z_min_m": -0.020000047727280396,
+      "z_max_m": 0.6599999792051716,
+      "coverage": "Contains all original compiled mesh vertices; convex radial envelope, intentionally conservative"
+    },
+    {
+      "name": "proxy_legup_6",
+      "body": "legup_6",
+      "radius_m": 0.03144572743702842,
+      "z_min_m": -0.004999983661083729,
+      "z_max_m": 0.6387138329079918,
+      "coverage": "Contains all original compiled mesh vertices; convex radial envelope, intentionally conservative"
+    },
+    {
+      "name": "proxy_base",
+      "body": "base",
+      "radius_m": 0.5500000749444813,
+      "z_min_m": -2.7922617731879207e-08,
+      "z_max_m": 0.10081741367472971,
+      "coverage": "Enclosing solid cylinder; holes/edge concavity filled, not an exact CAD collision surface"
+    },
+    {
+      "name": "proxy_upper",
+      "body": "upper",
+      "radius_m": 0.40000004074052004,
+      "z_min_m": -0.04500000355928721,
+      "z_max_m": 4.1887334052692626e-10,
+      "coverage": "Enclosing solid cylinder; holes/edge concavity filled, not an exact CAD collision surface"
+    }
+  ],
+  "exclusions": [
+    {
+      "body1": "legbot_1",
+      "body2": "legup_1",
+      "reason": "Same telescopic branch: intentional nested parts"
+    },
+    {
+      "body1": "base",
+      "body2": "legbot_1",
+      "reason": "Base universal attachment"
+    },
+    {
+      "body1": "upper",
+      "body2": "legup_1",
+      "reason": "Platform spherical attachment"
+    },
+    {
+      "body1": "legbot_2",
+      "body2": "legup_2",
+      "reason": "Same telescopic branch: intentional nested parts"
+    },
+    {
+      "body1": "base",
+      "body2": "legbot_2",
+      "reason": "Base universal attachment"
+    },
+    {
+      "body1": "upper",
+      "body2": "legup_2",
+      "reason": "Platform spherical attachment"
+    },
+    {
+      "body1": "legbot_3",
+      "body2": "legup_3",
+      "reason": "Same telescopic branch: intentional nested parts"
+    },
+    {
+      "body1": "base",
+      "body2": "legbot_3",
+      "reason": "Base universal attachment"
+    },
+    {
+      "body1": "upper",
+      "body2": "legup_3",
+      "reason": "Platform spherical attachment"
+    },
+    {
+      "body1": "legbot_4",
+      "body2": "legup_4",
+      "reason": "Same telescopic branch: intentional nested parts"
+    },
+    {
+      "body1": "base",
+      "body2": "legbot_4",
+      "reason": "Base universal attachment"
+    },
+    {
+      "body1": "upper",
+      "body2": "legup_4",
+      "reason": "Platform spherical attachment"
+    },
+    {
+      "body1": "legbot_5",
+      "body2": "legup_5",
+      "reason": "Same telescopic branch: intentional nested parts"
+    },
+    {
+      "body1": "base",
+      "body2": "legbot_5",
+      "reason": "Base universal attachment"
+    },
+    {
+      "body1": "upper",
+      "body2": "legup_5",
+      "reason": "Platform spherical attachment"
+    },
+    {
+      "body1": "legbot_6",
+      "body2": "legup_6",
+      "reason": "Same telescopic branch: intentional nested parts"
+    },
+    {
+      "body1": "base",
+      "body2": "legbot_6",
+      "reason": "Base universal attachment"
+    },
+    {
+      "body1": "upper",
+      "body2": "legup_6",
+      "reason": "Platform spherical attachment"
+    },
+    {
+      "body1": "base",
+      "body2": "world",
+      "reason": "Fixed support resting at floor; not a robot motion collision"
+    }
+  ],
+  "not_covered": "Cardan joints have no separate proxy. Original meshes retain disabled contact flags; full-robot exact collision coverage is not certified.",
+  "query_xml": "models\\phase1_proxy_query.xml",
+  "source_xml_sha256": "1232a44481207131a14a8ea99ab420183a785419f004e4817951a50026761dd5",
+  "query_xml_sha256": "15fbdf8786f58387bdb2ffb3e08b6f281da8b9af7b4d6eef4f64594fdbf6f022",
+  "native_mass_max_change": 0.0,
+  "proxy_pairs": 86,
+  "original_robot_contact_disabled": true,
+  "home": {
+    "minimum_clearance_m": 0.033515341235521315,
+    "distance_is_lower_bound": false,
+    "nearest_pair": [
+      "proxy_floor",
+      "proxy_legbot_4"
+    ],
+    "native_contacts": 0,
+    "query_only": true
+  },
+  "home_no_proxy_native_contacts": true,
+  "reference_samples": 217,
+  "minimum_reference_clearance_m": 0.0335137632522904,
+  "formal_plant_unchanged": true,
+  "status": "PARTIAL_QUERY_ONLY; no full collision-safety qualification",
+  "workspace_policy": "Frozen small Phase0 envelope only; no large-range RL exploration",
+  "distmax_m": 0.2,
+  "distmax_semantics": "Returned 0.2 means lower bound >=0.2, not exact distance",
+  "original_geometries": [
+    {
+      "id": 0,
+      "body": "world",
+      "type": 0,
+      "mesh_id": -1,
+      "contype": 1,
+      "conaffinity": 1,
+      "name": "floor"
+    },
+    {
+      "id": 1,
+      "body": "base",
+      "type": 7,
+      "mesh_id": 0,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 2,
+      "body": "cardan1_1",
+      "type": 7,
+      "mesh_id": 1,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 3,
+      "body": "cardan2_1",
+      "type": 7,
+      "mesh_id": 2,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 4,
+      "body": "legbot_1",
+      "type": 7,
+      "mesh_id": 3,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 5,
+      "body": "legup_1",
+      "type": 7,
+      "mesh_id": 4,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 6,
+      "body": "cardan1_7",
+      "type": 7,
+      "mesh_id": 1,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 7,
+      "body": "cardan2_7",
+      "type": 7,
+      "mesh_id": 2,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 8,
+      "body": "cardan1_13",
+      "type": 7,
+      "mesh_id": 1,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 9,
+      "body": "cardan1_2",
+      "type": 7,
+      "mesh_id": 1,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 10,
+      "body": "cardan2_2",
+      "type": 7,
+      "mesh_id": 2,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 11,
+      "body": "legbot_2",
+      "type": 7,
+      "mesh_id": 3,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 12,
+      "body": "legup_2",
+      "type": 7,
+      "mesh_id": 4,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 13,
+      "body": "cardan1_8",
+      "type": 7,
+      "mesh_id": 1,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 14,
+      "body": "cardan2_8",
+      "type": 7,
+      "mesh_id": 2,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 15,
+      "body": "cardan1_14",
+      "type": 7,
+      "mesh_id": 1,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 16,
+      "body": "cardan1_3",
+      "type": 7,
+      "mesh_id": 1,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 17,
+      "body": "cardan2_3",
+      "type": 7,
+      "mesh_id": 2,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 18,
+      "body": "legbot_3",
+      "type": 7,
+      "mesh_id": 3,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 19,
+      "body": "legup_3",
+      "type": 7,
+      "mesh_id": 4,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 20,
+      "body": "cardan1_9",
+      "type": 7,
+      "mesh_id": 1,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 21,
+      "body": "cardan2_9",
+      "type": 7,
+      "mesh_id": 2,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 22,
+      "body": "cardan1_15",
+      "type": 7,
+      "mesh_id": 1,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 23,
+      "body": "cardan1_4",
+      "type": 7,
+      "mesh_id": 1,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 24,
+      "body": "cardan2_4",
+      "type": 7,
+      "mesh_id": 2,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 25,
+      "body": "legbot_4",
+      "type": 7,
+      "mesh_id": 3,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 26,
+      "body": "legup_4",
+      "type": 7,
+      "mesh_id": 4,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 27,
+      "body": "cardan1_10",
+      "type": 7,
+      "mesh_id": 1,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 28,
+      "body": "cardan2_10",
+      "type": 7,
+      "mesh_id": 2,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 29,
+      "body": "cardan1_16",
+      "type": 7,
+      "mesh_id": 1,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 30,
+      "body": "cardan1_5",
+      "type": 7,
+      "mesh_id": 1,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 31,
+      "body": "cardan2_5",
+      "type": 7,
+      "mesh_id": 2,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 32,
+      "body": "legbot_5",
+      "type": 7,
+      "mesh_id": 3,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 33,
+      "body": "legup_5",
+      "type": 7,
+      "mesh_id": 4,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 34,
+      "body": "cardan1_11",
+      "type": 7,
+      "mesh_id": 1,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 35,
+      "body": "cardan2_11",
+      "type": 7,
+      "mesh_id": 2,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 36,
+      "body": "cardan1_17",
+      "type": 7,
+      "mesh_id": 1,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 37,
+      "body": "cardan1_6",
+      "type": 7,
+      "mesh_id": 1,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 38,
+      "body": "cardan2_6",
+      "type": 7,
+      "mesh_id": 2,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 39,
+      "body": "legbot_6",
+      "type": 7,
+      "mesh_id": 3,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 40,
+      "body": "legup_6",
+      "type": 7,
+      "mesh_id": 4,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 41,
+      "body": "cardan1_12",
+      "type": 7,
+      "mesh_id": 1,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 42,
+      "body": "cardan2_12",
+      "type": 7,
+      "mesh_id": 2,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 43,
+      "body": "cardan1_18",
+      "type": 7,
+      "mesh_id": 1,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    },
+    {
+      "id": 44,
+      "body": "upper",
+      "type": 7,
+      "mesh_id": 5,
+      "contype": 0,
+      "conaffinity": 0,
+      "name": ""
+    }
+  ],
+  "source_to_query_differences": {
+    "original_robot_meshes_unchanged": 44,
+    "new_massless_leg_capsules": 12,
+    "new_massless_base_top_cylinders": 2,
+    "floor_recreated_at_original_plane": true,
+    "original_joints_and_weld_unchanged": true,
+    "full_cardan_collision_coverage": false,
+    "contact_dynamics_enabled_in_formal_plant": false,
+    "query_meshdir": "Absolute local asset path; regenerate query XML when relocating project"
+  }
+}

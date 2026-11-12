@@ -1,0 +1,134 @@
+{
+  "candidates": [
+    {
+      "id": "C0.8_0",
+      "torque": [
+        0.8,
+        0.0
+      ],
+      "on": 1.76,
+      "off": 3.24
+    },
+    {
+      "id": "C0.8_1",
+      "torque": [
+        -0.8,
+        0.0
+      ],
+      "on": 2.22,
+      "off": 3.94
+    },
+    {
+      "id": "C0.8_2",
+      "torque": [
+        0.0,
+        0.8
+      ],
+      "on": 2.08,
+      "off": 3.42
+    },
+    {
+      "id": "C0.8_3",
+      "torque": [
+        0.0,
+        -0.8
+      ],
+      "on": 1.88,
+      "off": 3.56
+    },
+    {
+      "id": "C1.0_0",
+      "torque": [
+        1.0,
+        0.0
+      ],
+      "on": 1.76,
+      "off": 3.24
+    },
+    {
+      "id": "C1.0_1",
+      "torque": [
+        -1.0,
+        0.0
+      ],
+      "on": 2.22,
+      "off": 3.94
+    },
+    {
+      "id": "C1.0_2",
+      "torque": [
+        0.0,
+        1.0
+      ],
+      "on": 2.08,
+      "off": 3.42
+    },
+    {
+      "id": "C1.0_3",
+      "torque": [
+        0.0,
+        -1.0
+      ],
+      "on": 1.88,
+      "off": 3.56
+    },
+    {
+      "id": "C1.2_0",
+      "torque": [
+        1.2,
+        0.0
+      ],
+      "on": 1.76,
+      "off": 3.24
+    },
+    {
+      "id": "C1.2_1",
+      "torque": [
+        -1.2,
+        0.0
+      ],
+      "on": 2.22,
+      "off": 3.94
+    },
+    {
+      "id": "C1.2_2",
+      "torque": [
+        0.0,
+        1.2
+      ],
+      "on": 2.08,
+      "off": 3.42
+    },
+    {
+      "id": "C1.2_3",
+      "torque": [
+        0.0,
+        -1.2
+      ],
+      "on": 1.88,
+      "off": 3.56
+    },
+    {
+      "id": "Cmix1",
+      "torque": [
+        0.72,
+        0.96
+      ],
+      "on": 1.84,
+      "off": 3.5
+    },
+    {
+      "id": "Cmix2",
+      "torque": [
+        -0.96,
+        0.72
+      ],
+      "on": 2.18,
+      "off": 3.82
+    }
+  ],
+  "admission": "Only exact combinations passing baseline and bounded random preflight",
+  "level3_regression_only": 2.4,
+  "excluded_boundary": 4.8,
+  "continuation": "V2 8192 checkpoint + 8192 curriculum decisions, reported separately"
+}

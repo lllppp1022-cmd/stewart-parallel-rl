@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "API": true,
+  "zero_exact": true,
+  "random_combinations_passed": 27,
+  "reset_and_termination_tests_passed": true,
+  "reward_independent_audit": true,
+  "gui_nonintrusive": true,
+  "functional_tests_passed": 248,
+  "legacy_assertion_failure": "tests.test_phase0::test_isolated_environment_no_learning_packages",
+  "legacy_assertion_superseded_by_explicit_user_authorization": true,
+  "old_test_source_unchanged": true,
+  "old_environment_distributions_changed": []
+}

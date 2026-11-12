@@ -1,0 +1,23 @@
+{
+  "frozen_before_formal_runs": true,
+  "description": "Phase0 numerical and small-motion sanity checks, not workspace/safety certification",
+  "source_commit": "b0195ba9f40f6e0876220be1712eb47f5fc24025",
+  "timestep_s": 0.002,
+  "duration_s": 5.0,
+  "hold_before_s": 1.0,
+  "move_duration_s": 2.0,
+  "hold_after_s": 2.0,
+  "kp_N_per_m": 5000,
+  "kd_Ns_per_m": 200,
+  "z_amplitude_m": 0.005,
+  "tilt_amplitude_deg": 0.5,
+  "native_ctrl_force_limit_N": 400,
+  "position_acceptance_m": 0.00075,
+  "orientation_acceptance_rad": 0.0017453292519943296,
+  "held_tail_s": 0.5,
+  "max_weld_gap_m": 0.0001,
+  "max_weld_angle_rad": 0.0001,
+  "scenarios": ["zero", "home", "z_up", "z_down", "roll_pos", "roll_neg", "pitch_pos", "pitch_neg", "pulse"],
+  "kinematics_seed": 42,
+  "no_rl_training": true
+}

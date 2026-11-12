@@ -1,0 +1,34 @@
+{
+  "spec": {
+    "z_m": 0,
+    "roll_deg": 0.0,
+    "pitch_deg": 0.0,
+    "rise_s": 6.0
+  },
+  "checks": [
+    {
+      "s": 0.0,
+      "native_margin": 0.09999985621593337,
+      "passive_unlimited": 30,
+      "stroke_margin_m": 0.09999985621593337,
+      "closure_m": 6.249890667289997e-15,
+      "closure_rad": 2.60886931517655e-15,
+      "clearance_m": 0.09606680243701467,
+      "condition": 5.296405373118624
+    },
+    {
+      "s": 1.0,
+      "native_margin": 0.09999985621593337,
+      "passive_unlimited": 30,
+      "stroke_margin_m": 0.09999985621593337,
+      "closure_m": 6.249890667289997e-15,
+      "closure_rad": 2.60886931517655e-15,
+      "clearance_m": 0.09606680243701467,
+      "condition": 5.296405373118624
+    }
+  ],
+  "midpoint_stroke_error_m": 0.0,
+  "dense_samples": 10001,
+  "full_chain": true,
+  "partial_geometry": true
+}

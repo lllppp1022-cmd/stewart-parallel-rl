@@ -1,0 +1,54 @@
+{
+  "video": "assets\\videos\\phase0_simulation.mp4",
+  "sha256": "80ebe69ef507ee72a10b90fdcb7572ae0812e06e0ed3e5a64d570b3989a6e934",
+  "frames": 450,
+  "fps": 10.0,
+  "duration_s": 45.0,
+  "resolution": [
+    960,
+    720
+  ],
+  "unique_scene_hashes": 445,
+  "state_log_frame_matches": 450,
+  "mode": "Dynamic Actuator Simulation / actual RGB captured from live MjData during original 2ms formal run",
+  "not_kinematic_reconstruction": true,
+  "formal_physics_steps": 22500,
+  "motion": {
+    "zero": {
+      "max_generalized_coordinate_change": 0.11000318235659134,
+      "max_slide_change_m": 0.10570963483050466
+    },
+    "home": {
+      "max_generalized_coordinate_change": 0.0001804163847386141,
+      "max_slide_change_m": 1.348952072712923e-06
+    },
+    "z_up": {
+      "max_generalized_coordinate_change": 0.0050026534536427025,
+      "max_slide_change_m": 0.004829002864930263
+    },
+    "z_down": {
+      "max_generalized_coordinate_change": 0.005003642682101406,
+      "max_slide_change_m": 0.004827824314014455
+    },
+    "roll_pos": {
+      "max_generalized_coordinate_change": 0.00939258460142206,
+      "max_slide_change_m": 0.002870660453559106
+    },
+    "roll_neg": {
+      "max_generalized_coordinate_change": 0.009348072541348116,
+      "max_slide_change_m": 0.0028781066637834658
+    },
+    "pitch_pos": {
+      "max_generalized_coordinate_change": 0.009690567721794273,
+      "max_slide_change_m": 0.00281141377432076
+    },
+    "pitch_neg": {
+      "max_generalized_coordinate_change": 0.009692118038145419,
+      "max_slide_change_m": 0.0028027147629946926
+    },
+    "pulse": {
+      "max_generalized_coordinate_change": 0.0013808215275238774,
+      "max_slide_change_m": 0.0003830869074478252
+    }
+  }
+}

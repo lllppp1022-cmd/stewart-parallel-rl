@@ -1,0 +1,13 @@
+{
+ "algorithm":"PPO","policy":"MlpPolicy","device":"cpu","torch_threads":1,
+ "n_steps":256,"batch_size":64,"n_epochs":10,"learning_rate":0.0003,"gamma":0.99,"gae_lambda":0.95,
+ "clip_range":0.2,"ent_coef":0.0,"vf_coef":0.5,"max_grad_norm":0.5,"target_kl":0.03,
+ "net_arch":{"pi":[32,32],"vf":[32,32]},"activation":"Tanh","log_std_init":-0.5,"zero_action_output_layer":true,
+ "training_seeds":[42,123,2026],"cumulative_stage_decisions":[256,2048,4096],
+ "stage1_is_prefix_of_stage2":true,"stage2_is_prefix_of_stage3":true,"maximum_per_seed":4096,
+ "stop_rules":{"any_nonfinite":true,"protected_failures_in_last3_at_least":2,"stage_validation_load_IAE_max_ratio_to_C4":2.0,"stage_validation_force_slew_max_ratio_to_C4":1.5,"stage_validation_requires_success":true},
+ "record_training_seed":42,"record_training_episodes":[2,16,32],
+ "final_evaluation_seeds":[4101,4102],"initial_stochastic_evaluation_seeds":[5101,5102],
+ "checkpoint_every_rollout":true,"VecNormalize":false,"normalization":"Fixed physical scales from phase2c1_env.yaml, no evaluation updates",
+ "final_test_open_only_after_all_training_budgets_and_checkpoint_list_frozen":true
+}

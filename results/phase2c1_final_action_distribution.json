@@ -1,0 +1,44 @@
+[
+  {
+    "seed": 42,
+    "task": "E0",
+    "mean_action": -0.19927348292743166,
+    "mean_absolute_action": 0.19927348292743166,
+    "peak_action": 0.34668052196502686
+  },
+  {
+    "seed": 42,
+    "task": "E1",
+    "mean_action": -0.2001440583107372,
+    "mean_absolute_action": 0.2001440583107372,
+    "peak_action": 0.33472782373428345
+  },
+  {
+    "seed": 123,
+    "task": "E0",
+    "mean_action": 0.19923759031808003,
+    "mean_absolute_action": 0.21169068108235176,
+    "peak_action": 0.39964887499809265
+  },
+  {
+    "seed": 123,
+    "task": "E1",
+    "mean_action": 0.1780248072813265,
+    "mean_absolute_action": 0.1992845258791931,
+    "peak_action": 0.32448455691337585
+  },
+  {
+    "seed": 2026,
+    "task": "E0",
+    "mean_action": 0.013425482041202485,
+    "mean_absolute_action": 0.5255019378925984,
+    "peak_action": 0.8941724896430969
+  },
+  {
+    "seed": 2026,
+    "task": "E1",
+    "mean_action": 0.010805683420039713,
+    "mean_absolute_action": 0.5202906479670977,
+    "peak_action": 0.664478063583374
+  }
+]

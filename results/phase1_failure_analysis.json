@@ -1,0 +1,146 @@
+[
+  {
+    "trial_id": "21_z_roll_C0_mass110_0.001",
+    "controller": "C0",
+    "condition": "mass110",
+    "reason": "completion_accuracy",
+    "first_violation_s": null,
+    "last_time_s": 6.000000000000338,
+    "progress": 1.0,
+    "last_rpy_deg": [
+      0.25559386757306657,
+      7.333237245118736e-05,
+      0.0012620264667603947
+    ],
+    "weld_angle_max_rad": 5.715286264476801e-05,
+    "force_peak_N": 93.23069615884273,
+    "hold_observed": false,
+    "diagnosis": "Completed timeline but frozen final tracking accuracy failed"
+  },
+  {
+    "trial_id": "23_z_roll_C2_mass110_0.001",
+    "controller": "C2",
+    "condition": "mass110",
+    "reason": "completion_accuracy",
+    "first_violation_s": null,
+    "last_time_s": 6.000000000000338,
+    "progress": 1.0,
+    "last_rpy_deg": [
+      0.25436965678557544,
+      7.690846612894736e-05,
+      0.001208831991087196
+    ],
+    "weld_angle_max_rad": 5.715275837348551e-05,
+    "force_peak_N": 93.20954339825862,
+    "hold_observed": false,
+    "diagnosis": "Completed timeline but frozen final tracking accuracy failed"
+  },
+  {
+    "trial_id": "27_z_roll_C0_gain090_0.001",
+    "controller": "C0",
+    "condition": "gain090",
+    "reason": "completion_accuracy",
+    "first_violation_s": null,
+    "last_time_s": 6.000000000000338,
+    "progress": 1.0,
+    "last_rpy_deg": [
+      0.26821836534387794,
+      -0.0006169215544019016,
+      0.0020284050144167604
+    ],
+    "weld_angle_max_rad": 5.655872084998112e-05,
+    "force_peak_N": 90.36002576115538,
+    "hold_observed": false,
+    "diagnosis": "Completed timeline but frozen final tracking accuracy failed"
+  },
+  {
+    "trial_id": "28_z_roll_C1_gain090_0.001",
+    "controller": "C1",
+    "condition": "gain090",
+    "reason": "restricted_position_envelope",
+    "first_violation_s": 4.316999999999776,
+    "last_time_s": 4.516999999999843,
+    "progress": 0.7528333333333072,
+    "last_rpy_deg": [
+      0.2055546191255292,
+      0.0016526706081157164,
+      -0.0016903786158803307
+    ],
+    "weld_angle_max_rad": 5.65904747039577e-05,
+    "force_peak_N": 91.01149301232005,
+    "hold_observed": true,
+    "diagnosis": "Early protected stop; RMSE is not a completed-task score"
+  },
+  {
+    "trial_id": "29_z_roll_C2_gain090_0.001",
+    "controller": "C2",
+    "condition": "gain090",
+    "reason": "completion_accuracy",
+    "first_violation_s": null,
+    "last_time_s": 6.000000000000338,
+    "progress": 1.0,
+    "last_rpy_deg": [
+      0.263006959449637,
+      -0.00051396244644979,
+      0.0017839985174320874
+    ],
+    "weld_angle_max_rad": 5.655895854095791e-05,
+    "force_peak_N": 90.18412665088704,
+    "hold_observed": false,
+    "diagnosis": "Completed timeline but frozen final tracking accuracy failed"
+  },
+  {
+    "trial_id": "30_z_roll_C0_asymmetric_gain_0.001",
+    "controller": "C0",
+    "condition": "asymmetric_gain",
+    "reason": "restricted_orientation_envelope",
+    "first_violation_s": 0.12600000000000008,
+    "last_time_s": 0.32600000000000023,
+    "progress": 0.05433333333333337,
+    "last_rpy_deg": [
+      0.0413857526775679,
+      -0.005970373922234866,
+      -1.0345423711886086
+    ],
+    "weld_angle_max_rad": 5.62404092823094e-05,
+    "force_peak_N": 94.0536351137352,
+    "hold_observed": true,
+    "diagnosis": "Early protected stop; RMSE is not a completed-task score"
+  },
+  {
+    "trial_id": "31_z_roll_C1_asymmetric_gain_0.001",
+    "controller": "C1",
+    "condition": "asymmetric_gain",
+    "reason": "restricted_orientation_envelope",
+    "first_violation_s": 0.12600000000000008,
+    "last_time_s": 0.32600000000000023,
+    "progress": 0.05433333333333337,
+    "last_rpy_deg": [
+      0.04098871070824837,
+      -0.005888147736166522,
+      -1.0333508891388026
+    ],
+    "weld_angle_max_rad": 5.6242996420693915e-05,
+    "force_peak_N": 94.0549307293675,
+    "hold_observed": true,
+    "diagnosis": "Early protected stop; RMSE is not a completed-task score"
+  },
+  {
+    "trial_id": "32_z_roll_C2_asymmetric_gain_0.001",
+    "controller": "C2",
+    "condition": "asymmetric_gain",
+    "reason": "restricted_orientation_envelope",
+    "first_violation_s": 0.12600000000000008,
+    "last_time_s": 0.32600000000000023,
+    "progress": 0.05433333333333337,
+    "last_rpy_deg": [
+      0.04138343226451225,
+      -0.006010657878040322,
+      -1.0340908657446757
+    ],
+    "weld_angle_max_rad": 5.6240004045836125e-05,
+    "force_peak_N": 94.05327714966107,
+    "hold_observed": true,
+    "diagnosis": "Early protected stop; RMSE is not a completed-task score"
+  }
+]

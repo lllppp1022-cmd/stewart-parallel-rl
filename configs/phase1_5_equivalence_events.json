@@ -1,0 +1,49 @@
+[
+  {
+    "at_step": 100,
+    "kind": "target",
+    "payload": {
+      "z_mm": 1.0,
+      "roll_deg": 0.0,
+      "pitch_deg": 0.0
+    }
+  },
+  {
+    "at_step": 250,
+    "kind": "pause",
+    "payload": {
+      "auto_resume_after_s": 0.03
+    }
+  },
+  {
+    "at_step": 400,
+    "kind": "target",
+    "payload": {
+      "z_mm": 1.0,
+      "roll_deg": 0.15,
+      "pitch_deg": 0.0
+    }
+  },
+  {
+    "at_step": 1000,
+    "kind": "target",
+    "payload": {
+      "z_mm": 10000
+    }
+  },
+  {
+    "at_step": 1500,
+    "kind": "hold"
+  },
+  {
+    "at_step": 2000,
+    "kind": "home"
+  },
+  {
+    "at_step": 4000,
+    "kind": "preset",
+    "payload": {
+      "name": "periodic"
+    }
+  }
+]

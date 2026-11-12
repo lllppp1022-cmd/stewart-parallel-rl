@@ -1,0 +1,45 @@
+{
+  "video": "__PROJECT_ROOT__\\assets\\videos\\phase2c2_actual_training_visible_v2.mp4",
+  "sha256": "c8ca790c5c50cd5d484cc442ccfaf227a636051b08220aab84c8c5e5f8d0a771",
+  "decoded_frames": 1800,
+  "expected_frames": 1800,
+  "playback_seconds": 72.0,
+  "slowdown": 4,
+  "crop_zoom": 4,
+  "sources": [
+    {
+      "folder": "__PROJECT_ROOT__\\results\\runs\\phase2c2_20261030_v1\\seed42\\actual_training\\episode_0002",
+      "frames": 150,
+      "all_qpos_hashes_match": true,
+      "mean_frame_difference": 0.11858993890597815,
+      "maximum_slide_displacement_m": 0.0029069807037664,
+      "z_displacement_mm": 3.012489396591933,
+      "source_sha256": "fc09d00c3e51009552ceb8756df2dc96b510462cd3001fd87dee40e9d333ede8",
+      "source_unchanged": true,
+      "original_physical_seconds": 6.0
+    },
+    {
+      "folder": "__PROJECT_ROOT__\\results\\runs\\phase2c2_20261030_v1\\seed42\\actual_training\\episode_0008",
+      "frames": 150,
+      "all_qpos_hashes_match": true,
+      "mean_frame_difference": 0.10611850026410638,
+      "maximum_slide_displacement_m": 0.0029076089798885465,
+      "z_displacement_mm": 3.011792762977583,
+      "source_sha256": "8deaccbeef0030a86d3cd0701f897bbae03f55649c85b847cefb5532a5dd350c",
+      "source_unchanged": true,
+      "original_physical_seconds": 6.0
+    },
+    {
+      "folder": "__PROJECT_ROOT__\\results\\runs\\phase2c2_20261030_v1\\seed42\\actual_training\\episode_0016",
+      "frames": 150,
+      "all_qpos_hashes_match": true,
+      "mean_frame_difference": 0.11293268539880064,
+      "maximum_slide_displacement_m": 0.0029001023543897045,
+      "z_displacement_mm": 3.0055755999065514,
+      "source_sha256": "1e586b0f58125a41eb22afaf4b5c9902814050b59a39de93105eb84451af907a",
+      "source_unchanged": true,
+      "original_physical_seconds": 6.0
+    }
+  ],
+  "passed": true
+}

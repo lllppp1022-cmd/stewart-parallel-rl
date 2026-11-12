@@ -1,0 +1,85 @@
+{
+  "formal_training": {
+    "runs": 6,
+    "decisions": 49152,
+    "physics_steps": 983040,
+    "complete_episodes": 60,
+    "budget_fragments": 12,
+    "failures": 0,
+    "reward_cap_steps": 0
+  },
+  "development": {
+    "trials": 60,
+    "complete_success": 60
+  },
+  "final": {
+    "trials": 32,
+    "complete_success": 32,
+    "protection_failures": 0,
+    "native_force_saturation_steps": 0,
+    "max_actual_force_N": 91.54642554758217,
+    "max_shared_add_N": 2.18790493102307,
+    "max_shared_add_rate_N_s": 19.99999999999602,
+    "max_actual_force_rate_N_s": 42.67120112774592,
+    "min_proxy_clearance_m": 0.09606680243701467,
+    "max_weld_translation_m": 1.734657155039789e-07,
+    "max_weld_angle_rad": 5.563543957014548e-05,
+    "max_jacobian_condition": 5.60328365978404,
+    "reward_cap_fraction_max": 0.0
+  },
+  "declared_limits": {
+    "rl_torque_per_axis_Nm": 0.05,
+    "shared_add_per_leg_N": 5,
+    "shared_add_slew_N_s": 20,
+    "native_force_N": 400
+  },
+  "physical_budget_by_group": {
+    "development": 900000,
+    "final": 488000,
+    "preflight": 212000,
+    "reward_audit": 75000,
+    "training": 983040,
+    "validation": 62260,
+    "viewer": 2000
+  },
+  "archived_research_physics_total": 2722300,
+  "physics_total_excludes_heterogeneous_historical_regression_tests": true,
+  "final_metric_audit": {
+    "passed": true,
+    "trials": 32,
+    "metrics_per_trial": 24,
+    "physical_steps": 488000,
+    "shared_reference_exact": true,
+    "shared_load_atol_N_Nm": 1e-12,
+    "max_input_roundoff": 8.215650382226158e-15,
+    "measured_actual_state_not_reference": true,
+    "max_absolute_error": 1.5775575290533084e-14,
+    "recovery_checks": true,
+    "tolerance": "rtol=1e-9, atol=1e-10; recovery time atol=1e-10",
+    "no_model_or_training_changes": true
+  },
+  "history_audit": {
+    "checked": 41396,
+    "passed": true,
+    "changes": []
+  },
+  "tests": {
+    "historical": {
+      "total": 417,
+      "passed": 416,
+      "failures": [
+        {
+          "name": "test_isolated_environment_no_learning_packages",
+          "classname": "tests.test_phase0",
+          "text": "def test_isolated_environment_no_learning_packages():\n        import importlib.util\n>       assert 'stewart_rl' in sys.executable and importlib.util.find_spec('torch') is None and importlib.util.find_spec('stable_baselines3') is None\nE       AssertionError: assert ('stewart_rl' in 'D:\\\\miniconda\\\\envs\\\\stewart_rl\\\\python.exe' and ModuleSpec(name='torch', loader=<_frozen_importlib_external.SourceFileLoader object at 0x000001D92F2AE910>, origin='D:...ckages\\\\torch\\\\__init__.py', submodule_search_locations=['D:\\\\miniconda\\\\envs\\\\stewart_rl\\\\Lib\\\\site-packages\\\\torch']) is None)\nE        +  where 'D:\\\\miniconda\\\\envs\\\\stewart_rl\\\\python.exe' = sys.executable\nE        +  and   ModuleSpec(name='torch', loader=<_frozen_importlib_external.SourceFileLoader object at 0x000001D92F2AE910>, origin='D:...ckages\\\\torch\\\\__init__.py', submodule_search_locations=['D:\\\\miniconda\\\\envs\\\\stewart_rl\\\\Lib\\\\site-packages\\\\torch']) = <function find_spec at 0x000001D97BA067A0>('torch')\nE        +    where <function find_spec at 0x000001D97BA067A0> = <module 'importlib.util' (frozen)>.find_spec\nE        +      where <module 'importlib.util' (frozen)> = <module 'importlib' from 'D:\\\\miniconda\\\\envs\\\\stewart_rl\\\\Lib\\\\importlib\\\\__init__.py'>.util\n\ntests\\test_phase0.py:86: AssertionError"
+        }
+      ]
+    },
+    "new": {
+      "total": 36,
+      "passed": 36,
+      "failures": []
+    }
+  },
+  "limitation": "Simulation protection and partial proxy geometry queries; no continuous or hardware safety guarantee"
+}

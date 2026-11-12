@@ -1,0 +1,17 @@
+{
+  "stage_decision": "LARGE-MOTION RL CONDITIONALLY BLOCKED",
+  "reasons": [
+    "Missing physical angle limits for30 hinges and unverified connected socket interiors; modeled queries are not full hardware clearance certification.",
+    "Observed nominal tracking error is largely consistent with missing reference damping/inertia feedforward. Establish an independently named stronger large-motion baseline before attributing it to unknown dynamics or asking PPO to compensate it."
+  ],
+  "completed_large_motion_simulation": true,
+  "maximum_tested_successful_reference_amplitude_m": 0.05,
+  "all_checks": {
+    "history_unchanged": true,
+    "independent_metrics": true,
+    "recording_invariant": true,
+    "video_valid": true
+  },
+  "test_summary": "284 passed, 1 xfailed, 2 warnings in 201.77s (0:03:21)",
+  "no_RL_training": true
+}

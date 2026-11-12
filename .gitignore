@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+*.pem
+*.key
+*.log
+results/runs/**/episode_*/
+results/runs/**/tensorboard/
+results/runs/**/rollout_*.npz
+results/runs/**/training_samples.csv
+results/runs/**/viewer*/
+results/runs/kinematic_demo_*/
+results/runs/dynamic_demo_*/
+release/runtime/

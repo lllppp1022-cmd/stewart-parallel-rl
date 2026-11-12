@@ -1,0 +1,217 @@
+{
+  "run_directory": "results\\runs\\phase1_5_validation_1793093380176474300",
+  "fixed_events": [
+    {
+      "at_step": 100,
+      "kind": "target",
+      "payload": {
+        "z_mm": 1.0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0
+      }
+    },
+    {
+      "at_step": 250,
+      "kind": "pause",
+      "payload": {
+        "auto_resume_after_s": 0.03
+      }
+    },
+    {
+      "at_step": 400,
+      "kind": "target",
+      "payload": {
+        "z_mm": 1.0,
+        "roll_deg": 0.15,
+        "pitch_deg": 0.0
+      }
+    },
+    {
+      "at_step": 1000,
+      "kind": "target",
+      "payload": {
+        "z_mm": 10000
+      }
+    },
+    {
+      "at_step": 1500,
+      "kind": "hold"
+    },
+    {
+      "at_step": 2000,
+      "kind": "home"
+    },
+    {
+      "at_step": 4000,
+      "kind": "preset",
+      "payload": {
+        "name": "periodic"
+      }
+    }
+  ],
+  "recording_equivalence": {
+    "full_integration_states_bitwise_equal": true,
+    "max_absolute_difference": 0.0,
+    "physics_steps": 8000,
+    "same_terminal_reason": true
+  },
+  "runs": {
+    "observer_off": {
+      "episode": 0,
+      "physics_steps": 8000,
+      "simulation_time_s": 8.000000000001005,
+      "wall_seconds": 21.00794590031728,
+      "terminal_reason": "budget_complete",
+      "failure": null,
+      "controller": "C0",
+      "condition": "nominal",
+      "mujoco_warnings": 0,
+      "no_live_qpos_assignment": true,
+      "video_frames": 0,
+      "recording_errors": [],
+      "raw_rows": 8000,
+      "state_spec": "mjSTATE_INTEGRATION",
+      "source_mode": "DYNAMIC CONTROL DEMONSTRATION"
+    },
+    "recorder_on": {
+      "episode": 0,
+      "physics_steps": 8000,
+      "simulation_time_s": 8.000000000001005,
+      "wall_seconds": 23.53195090033114,
+      "terminal_reason": "budget_complete",
+      "failure": null,
+      "controller": "C0",
+      "condition": "nominal",
+      "mujoco_warnings": 0,
+      "no_live_qpos_assignment": true,
+      "video_frames": 200,
+      "recording_errors": [],
+      "raw_rows": 8000,
+      "state_spec": "mjSTATE_INTEGRATION",
+      "source_mode": "DYNAMIC CONTROL DEMONSTRATION"
+    },
+    "home": {
+      "episode": 0,
+      "physics_steps": 6000,
+      "simulation_time_s": 6.000000000000338,
+      "wall_seconds": 11.23862549988553,
+      "terminal_reason": "budget_complete",
+      "failure": null,
+      "controller": "C0",
+      "condition": "nominal",
+      "mujoco_warnings": 0,
+      "no_live_qpos_assignment": true,
+      "video_frames": 0,
+      "recording_errors": [],
+      "raw_rows": 6000,
+      "state_spec": "mjSTATE_INTEGRATION",
+      "source_mode": "DYNAMIC CONTROL DEMONSTRATION"
+    },
+    "roll": {
+      "episode": 0,
+      "physics_steps": 6000,
+      "simulation_time_s": 6.000000000000338,
+      "wall_seconds": 11.537496200297028,
+      "terminal_reason": "budget_complete",
+      "failure": null,
+      "controller": "C0",
+      "condition": "nominal",
+      "mujoco_warnings": 0,
+      "no_live_qpos_assignment": true,
+      "video_frames": 0,
+      "recording_errors": [],
+      "raw_rows": 6000,
+      "state_spec": "mjSTATE_INTEGRATION",
+      "source_mode": "DYNAMIC CONTROL DEMONSTRATION"
+    },
+    "pitch": {
+      "episode": 0,
+      "physics_steps": 6000,
+      "simulation_time_s": 6.000000000000338,
+      "wall_seconds": 12.48856440000236,
+      "terminal_reason": "budget_complete",
+      "failure": null,
+      "controller": "C0",
+      "condition": "nominal",
+      "mujoco_warnings": 0,
+      "no_live_qpos_assignment": true,
+      "video_frames": 0,
+      "recording_errors": [],
+      "raw_rows": 6000,
+      "state_spec": "mjSTATE_INTEGRATION",
+      "source_mode": "DYNAMIC CONTROL DEMONSTRATION"
+    },
+    "z_roll": {
+      "episode": 0,
+      "physics_steps": 6000,
+      "simulation_time_s": 6.000000000000338,
+      "wall_seconds": 11.92867590021342,
+      "terminal_reason": "budget_complete",
+      "failure": null,
+      "controller": "C0",
+      "condition": "nominal",
+      "mujoco_warnings": 0,
+      "no_live_qpos_assignment": true,
+      "video_frames": 0,
+      "recording_errors": [],
+      "raw_rows": 6000,
+      "state_spec": "mjSTATE_INTEGRATION",
+      "source_mode": "DYNAMIC CONTROL DEMONSTRATION"
+    },
+    "roll_pitch": {
+      "episode": 0,
+      "physics_steps": 6000,
+      "simulation_time_s": 6.000000000000338,
+      "wall_seconds": 11.838357100263238,
+      "terminal_reason": "budget_complete",
+      "failure": null,
+      "controller": "C0",
+      "condition": "nominal",
+      "mujoco_warnings": 0,
+      "no_live_qpos_assignment": true,
+      "video_frames": 0,
+      "recording_errors": [],
+      "raw_rows": 6000,
+      "state_spec": "mjSTATE_INTEGRATION",
+      "source_mode": "DYNAMIC CONTROL DEMONSTRATION"
+    },
+    "periodic": {
+      "episode": 0,
+      "physics_steps": 6000,
+      "simulation_time_s": 6.000000000000338,
+      "wall_seconds": 11.579880199860781,
+      "terminal_reason": "budget_complete",
+      "failure": null,
+      "controller": "C0",
+      "condition": "nominal",
+      "mujoco_warnings": 0,
+      "no_live_qpos_assignment": true,
+      "video_frames": 0,
+      "recording_errors": [],
+      "raw_rows": 6000,
+      "state_spec": "mjSTATE_INTEGRATION",
+      "source_mode": "DYNAMIC CONTROL DEMONSTRATION"
+    },
+    "asymmetric_gain": {
+      "episode": 0,
+      "physics_steps": 326,
+      "simulation_time_s": 0.32600000000000023,
+      "wall_seconds": 0.5148963998071849,
+      "terminal_reason": "protected_failure",
+      "failure": "restricted_orientation_envelope",
+      "controller": "C0",
+      "condition": "asymmetric_gain",
+      "mujoco_warnings": 0,
+      "no_live_qpos_assignment": true,
+      "video_frames": 0,
+      "recording_errors": [],
+      "raw_rows": 326,
+      "state_spec": "mjSTATE_INTEGRATION",
+      "source_mode": "DYNAMIC CONTROL DEMONSTRATION"
+    }
+  },
+  "history_freeze": {
+    "files": 698,
+    "changed": []
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "time_s": 2.9999999999997806,
+  "before_probe_states_equal": true,
+  "predictions": [
+    {
+      "axes": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "normalized_tested_amplitude_request": [
+        0.04440970364794087,
+        0.10477823456507096,
+        1.0,
+        -0.25030138142066083
+      ],
+      "predicted_remaining_xyz_mm": [
+        0.19675636693404674,
+        -4.489163879851986e-05,
+        5.915964012942525e-05
+      ],
+      "predicted_remaining_so3_deg": [
+        4.492177079720783e-05,
+        -0.00979259775824413,
+        -0.00030891815178019674
+      ],
+      "effective_rank": 4,
+      "singular_values": [
+        0.1027020924359316,
+        0.04423224200551221,
+        0.039881712226558876,
+        0.02688155621969273
+      ],
+      "caveat": "Offline local finite-response approximation from nominal no-load probes, transferred to slight-gain loaded state; not an executed policy or safety guarantee"
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "normalized_tested_amplitude_request": [
+        -0.4249743285217938,
+        -3.240331525589113e-05,
+        0.035308006088048266,
+        0.10122447671199203,
+        1.0,
+        -0.22260393951938307
+      ],
+      "predicted_remaining_xyz_mm": [
+        0.1683032621033029,
+        -4.293997570330101e-06,
+        -3.274013239215384e-06
+      ],
+      "predicted_remaining_so3_deg": [
+        3.979024498683124e-05,
+        -0.00939439814361422,
+        -0.0002689997209143064
+      ],
+      "effective_rank": 6,
+      "singular_values": [
+        0.27517046681069623,
+        0.27426335249418704,
+        0.10268172893700629,
+        0.028672585499570132,
+        0.01675102840203794,
+        0.01668670469756864
+      ],
+      "caveat": "Offline local finite-response approximation from nominal no-load probes, transferred to slight-gain loaded state; not an executed policy or safety guarantee"
+    }
+  ],
+  "not_random_6d_exploration": true
+}

@@ -1,0 +1,112 @@
+{
+  "python": "3.11.17 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:16:54) [MSC v.1942 64 bit (AMD64)]",
+  "mujoco": "3.17.0",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "original_controller_sha256": "6a558b9b5c2ec3d5d01e3d7dcef78ea7219e2f0ac53b66b22efc0e3e2fec7610",
+  "original_safety_sha256": "cc30ce94910e12d63ff63d0ce8d3290e30fc6b9f63297e57ad66f51f6a237a5f",
+  "nq": 43,
+  "nv": 42,
+  "nu": 12,
+  "physics_dt_s": 0.001,
+  "control_period_s": 0.001,
+  "observer_period_s": 0.001,
+  "jacobian_period_s": 0.01,
+  "leg_mapping": [
+    {
+      "leg": 1,
+      "actuator_id": 0,
+      "joint": "joint_lu_1",
+      "qpos_address": 2,
+      "dof_address": 2,
+      "force_limits_N": [
+        -400.0,
+        400.0
+      ]
+    },
+    {
+      "leg": 2,
+      "actuator_id": 1,
+      "joint": "joint_lu_2",
+      "qpos_address": 8,
+      "dof_address": 8,
+      "force_limits_N": [
+        -400.0,
+        400.0
+      ]
+    },
+    {
+      "leg": 3,
+      "actuator_id": 2,
+      "joint": "joint_lu_3",
+      "qpos_address": 14,
+      "dof_address": 14,
+      "force_limits_N": [
+        -400.0,
+        400.0
+      ]
+    },
+    {
+      "leg": 4,
+      "actuator_id": 3,
+      "joint": "joint_lu_4",
+      "qpos_address": 20,
+      "dof_address": 20,
+      "force_limits_N": [
+        -400.0,
+        400.0
+      ]
+    },
+    {
+      "leg": 5,
+      "actuator_id": 4,
+      "joint": "joint_lu_5",
+      "qpos_address": 26,
+      "dof_address": 26,
+      "force_limits_N": [
+        -400.0,
+        400.0
+      ]
+    },
+    {
+      "leg": 6,
+      "actuator_id": 5,
+      "joint": "joint_lu_6",
+      "qpos_address": 32,
+      "dof_address": 32,
+      "force_limits_N": [
+        -400.0,
+        400.0
+      ]
+    }
+  ],
+  "nominal_passive_terms": {
+    "max_frictionloss": 0.0,
+    "tendons": 0,
+    "fluid_density": 0.0,
+    "fluid_viscosity": 0.0
+  },
+  "allowed_new_observer_inputs": [
+    "measured upper_center world position/rotation",
+    "measured upper_center world linear/angular velocity",
+    "previous final commanded leg forces with nominal gain",
+    "nominal Jacobian at previous command",
+    "frozen nominal model coefficients"
+  ],
+  "forbidden_actual_plant_inputs": [
+    "external ctrl/wrench truth",
+    "load/unload events or schedule",
+    "actual mass/inertia/gain",
+    "actual qacc",
+    "actual qM/qfrc_bias/qfrc_constraint/efc_force"
+  ],
+  "hardware_measurement_status": "UNKNOWN: ideal noise-free pose/velocity/joint measurements in simulation only; passive-joint feedback is inherited from frozen C0 and not independently instrumented on hardware",
+  "external_units": [
+    "N",
+    "N",
+    "N",
+    "N m",
+    "N m",
+    "N m"
+  ],
+  "external_frame": "upper_center site-local transmission; profiles transform world loads using R.T, truth used only by experiment/evaluation"
+}

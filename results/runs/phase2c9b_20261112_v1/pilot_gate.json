@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "details": [
+    {
+      "method": "single_frame",
+      "seed": 42,
+      "guard": true,
+      "learning_evidence": true,
+      "ratios": {
+        "load_iae_deg_s": 0.9883790026933297,
+        "unload_iae_deg_s": 0.9113285240754591,
+        "xyz_rmse_mm": 1.0386188778521412
+      }
+    },
+    {
+      "method": "single_frame",
+      "seed": 123,
+      "guard": true,
+      "learning_evidence": true,
+      "ratios": {
+        "load_iae_deg_s": 0.9957595967059029,
+        "unload_iae_deg_s": 0.9935531853323224,
+        "xyz_rmse_mm": 1.0019784527350712
+      }
+    },
+    {
+      "method": "single_frame",
+      "seed": 2026,
+      "guard": true,
+      "learning_evidence": true,
+      "ratios": {
+        "load_iae_deg_s": 1.008407149172434,
+        "unload_iae_deg_s": 1.086425746786533,
+        "xyz_rmse_mm": 0.9421804345385848
+      }
+    },
+    {
+      "method": "history_5frame",
+      "seed": 42,
+      "guard": true,
+      "learning_evidence": false,
+      "ratios": {
+        "load_iae_deg_s": 1.0254436283990933,
+        "unload_iae_deg_s": 1.216305793265024,
+        "xyz_rmse_mm": 0.9865337690877691
+      }
+    },
+    {
+      "method": "history_5frame",
+      "seed": 123,
+      "guard": true,
+      "learning_evidence": true,
+      "ratios": {
+        "load_iae_deg_s": 1.015590199374381,
+        "unload_iae_deg_s": 0.9007604810015608,
+        "xyz_rmse_mm": 0.9744380610349122
+      }
+    },
+    {
+      "method": "history_5frame",
+      "seed": 2026,
+      "guard": true,
+      "learning_evidence": true,
+      "ratios": {
+        "load_iae_deg_s": 1.0300353988978588,
+        "unload_iae_deg_s": 0.9287611752597368,
+        "xyz_rmse_mm": 0.9957169572692817
+      }
+    }
+  ],
+  "family_learning": {
+    "single_frame": true,
+    "history_5frame": true
+  },
+  "rule": "all six finite runs and real actor/critic updates; no protection; per-seed development mean IAE/XYZ <=150% initial; at least one development IAE or common return improves in each method family",
+  "no_final_policy_used": true
+}

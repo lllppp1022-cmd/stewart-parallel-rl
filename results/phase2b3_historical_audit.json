@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "case": "nominal",
+      "preload_gain_Mz_mean_Nm": 0.0,
+      "preload_observer_Mz_mean_Nm": -4.7622624913303216e-07,
+      "local_unexplained_Mz_RMS_Nm": 5.278517715650734e-07,
+      "preload_yaw_rate_peak_rad_s": 5.521418962212927e-07,
+      "failed": false,
+      "first_failure_s": null
+    },
+    {
+      "case": "alternating_0.005",
+      "preload_gain_Mz_mean_Nm": -0.23410351946932972,
+      "preload_observer_Mz_mean_Nm": -0.23434542166207303,
+      "local_unexplained_Mz_RMS_Nm": 5.5519765335183115e-05,
+      "preload_yaw_rate_peak_rad_s": 0.006027560078457331,
+      "failed": false,
+      "first_failure_s": null
+    },
+    {
+      "case": "historical_failed_0.01",
+      "preload_gain_Mz_mean_Nm": -0.468238285285734,
+      "preload_observer_Mz_mean_Nm": -0.4714084551883303,
+      "local_unexplained_Mz_RMS_Nm": 0.0001306917955976567,
+      "preload_yaw_rate_peak_rad_s": 0.012055130210923649,
+      "failed": true,
+      "first_failure_s": 0.3840000000000003
+    }
+  ],
+  "source": "Read-only Phase2B2 logs; no known-failed replay integration",
+  "local_model_limits": "M/D/K constant home approximation; constraint compliance and variable mapping remain residual",
+  "privileged_offline_only": true
+}

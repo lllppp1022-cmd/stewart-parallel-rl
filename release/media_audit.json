@@ -1,0 +1,41 @@
+[
+  {
+    "file": "assets/videos/stewart_phase2c9b_history_training.mp4",
+    "frames": 1500,
+    "seconds": 60.0,
+    "fps": 25.0,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "frame_change": 3.542655446244856,
+    "bytes": 9425959,
+    "original_bytes_unchanged": true
+  },
+  {
+    "file": "assets/videos/stewart_phase2c9b_single_vs_history.mp4",
+    "frames": 3150,
+    "seconds": 126.0,
+    "fps": 25.0,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "frame_change": 3.2262281378600823,
+    "bytes": 11836105,
+    "original_bytes_unchanged": true
+  },
+  {
+    "file": "assets/videos/stewart_phase2c9b_unknown_mass.mp4",
+    "frames": 800,
+    "seconds": 32.0,
+    "fps": 25.0,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "frame_change": 2.7145233731995884,
+    "bytes": 2653639,
+    "original_bytes_unchanged": true
+  }
+]

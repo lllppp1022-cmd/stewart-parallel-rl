@@ -1,0 +1,10 @@
+{
+  "passed": 364,
+  "failed": 0,
+  "xfailed": 1,
+  "logs": [
+    "phase2c6_after_pytest.log",
+    "phase2c6_additional_early_test.log",
+    "phase2c6_final_evidence_tests.log"
+  ]
+}

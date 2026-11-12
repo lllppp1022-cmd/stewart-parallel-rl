@@ -1,0 +1,380 @@
+{
+  "episode": "results\\runs\\phase1_5_1_session_1793123144215823100\\episode_000",
+  "physics_steps": 32000,
+  "simulation_time_s": 32.00000000001612,
+  "failure": null,
+  "physics_warnings": 0,
+  "home_baseline": {
+    "source": "Explicit episode initial Home, before first mj_step",
+    "episode": 0,
+    "time_s": 0.0,
+    "p_m": [
+      0.0002058,
+      0.0051264,
+      1.1
+    ],
+    "rpy_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "slide_m": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "home_reference_slide_m": [
+      -5.8753676182536534e-08,
+      -5.097646997548781e-08,
+      -1.4378406663944668e-07,
+      -1.2843369975518558e-07,
+      8.07198303932234e-09,
+      -1.1901348445750252e-08
+    ],
+    "qpos": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0002058,
+      0.0051264,
+      1.1,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "palette": [
+    "#2196F3",
+    "#F59E0B",
+    "#22C55E",
+    "#EF4444",
+    "#A855F7",
+    "#06B6D4"
+  ],
+  "mapping": [
+    {
+      "leg": 1,
+      "actuator_id": 0,
+      "joint": "joint_lu_1",
+      "qpos_address": 2,
+      "geoms": [
+        4,
+        5
+      ],
+      "color": "#2196F3"
+    },
+    {
+      "leg": 2,
+      "actuator_id": 1,
+      "joint": "joint_lu_2",
+      "qpos_address": 8,
+      "geoms": [
+        11,
+        12
+      ],
+      "color": "#F59E0B"
+    },
+    {
+      "leg": 3,
+      "actuator_id": 2,
+      "joint": "joint_lu_3",
+      "qpos_address": 14,
+      "geoms": [
+        18,
+        19
+      ],
+      "color": "#22C55E"
+    },
+    {
+      "leg": 4,
+      "actuator_id": 3,
+      "joint": "joint_lu_4",
+      "qpos_address": 20,
+      "geoms": [
+        25,
+        26
+      ],
+      "color": "#EF4444"
+    },
+    {
+      "leg": 5,
+      "actuator_id": 4,
+      "joint": "joint_lu_5",
+      "qpos_address": 26,
+      "geoms": [
+        32,
+        33
+      ],
+      "color": "#A855F7"
+    },
+    {
+      "leg": 6,
+      "actuator_id": 5,
+      "joint": "joint_lu_6",
+      "qpos_address": 32,
+      "geoms": [
+        39,
+        40
+      ],
+      "color": "#06B6D4"
+    }
+  ],
+  "baseline": "__PROJECT_ROOT__\\results\\runs\\phase1_5_1_legacy_baseline_1793123127964697200",
+  "full_integration_states_equal": true,
+  "state_shape": [
+    32000,
+    458
+  ],
+  "maximum_state_difference": 0.0,
+  "all_12_control_inputs_equal": true,
+  "terminal_reason_equal": true,
+  "frozen_history": {
+    "count": 995,
+    "changed": []
+  },
+  "tests": {
+    "total": 102,
+    "failures": 0,
+    "original85_preserved": true,
+    "junit": "results/phase1_5_1_pytest_final.xml"
+  },
+  "events": {
+    "count": 32,
+    "motion_starts": [
+      {
+        "type": "motion_started",
+        "episode": 0,
+        "step": 1001,
+        "time_s": 1.0010000000000006,
+        "event_seq": 8,
+        "command_id": 2,
+        "execution": "FIRST ACTUAL PHYSICS STEP COMPLETE",
+        "journal_index": 8,
+        "label": "EXECUTING"
+      },
+      {
+        "type": "motion_started",
+        "episode": 0,
+        "step": 6001,
+        "time_s": 6.001000000000339,
+        "event_seq": 13,
+        "command_id": 3,
+        "execution": "FIRST ACTUAL PHYSICS STEP COMPLETE",
+        "journal_index": 13,
+        "label": "EXECUTING"
+      },
+      {
+        "type": "motion_started",
+        "episode": 0,
+        "step": 11001,
+        "time_s": 11.000999999999342,
+        "event_seq": 18,
+        "command_id": 4,
+        "execution": "FIRST ACTUAL PHYSICS STEP COMPLETE",
+        "journal_index": 18,
+        "label": "EXECUTING"
+      },
+      {
+        "type": "motion_started",
+        "episode": 0,
+        "step": 16001,
+        "time_s": 16.000999999996573,
+        "event_seq": 23,
+        "command_id": 5,
+        "execution": "FIRST ACTUAL PHYSICS STEP COMPLETE",
+        "journal_index": 23,
+        "label": "EXECUTING"
+      },
+      {
+        "type": "motion_started",
+        "episode": 0,
+        "step": 21001,
+        "time_s": 21.001000000002684,
+        "event_seq": 28,
+        "command_id": 6,
+        "execution": "FIRST ACTUAL PHYSICS STEP COMPLETE",
+        "journal_index": 28,
+        "label": "EXECUTING"
+      }
+    ],
+    "motion_completions": [
+      {
+        "type": "motion_completed",
+        "episode": 0,
+        "step": 3000,
+        "time_s": 2.9999999999997806,
+        "event_seq": 9,
+        "command_id": 2,
+        "execution": "FINAL ACTUAL PHYSICS STEP COMPLETE",
+        "journal_index": 9,
+        "label": "COMPLETED"
+      },
+      {
+        "type": "motion_completed",
+        "episode": 0,
+        "step": 8000,
+        "time_s": 8.000000000001005,
+        "event_seq": 14,
+        "command_id": 3,
+        "execution": "FINAL ACTUAL PHYSICS STEP COMPLETE",
+        "journal_index": 14,
+        "label": "COMPLETED"
+      },
+      {
+        "type": "motion_completed",
+        "episode": 0,
+        "step": 13000,
+        "time_s": 12.999999999998234,
+        "event_seq": 19,
+        "command_id": 4,
+        "execution": "FINAL ACTUAL PHYSICS STEP COMPLETE",
+        "journal_index": 19,
+        "label": "COMPLETED"
+      },
+      {
+        "type": "motion_completed",
+        "episode": 0,
+        "step": 18000,
+        "time_s": 17.999999999999016,
+        "event_seq": 24,
+        "command_id": 5,
+        "execution": "FINAL ACTUAL PHYSICS STEP COMPLETE",
+        "journal_index": 24,
+        "label": "COMPLETED"
+      },
+      {
+        "type": "motion_completed",
+        "episode": 0,
+        "step": 23000,
+        "time_s": 23.000000000005127,
+        "event_seq": 29,
+        "command_id": 6,
+        "execution": "FINAL ACTUAL PHYSICS STEP COMPLETE",
+        "journal_index": 29,
+        "label": "COMPLETED"
+      }
+    ],
+    "true_keyboard_events": [
+      {
+        "type": "input",
+        "episode": 0,
+        "step": 36200,
+        "time_s": 36.200000000006334,
+        "event_seq": 1,
+        "kind": "increment",
+        "payload": {
+          "z_mm": 0.25
+        },
+        "source": "keyboard:W",
+        "command_id": 1,
+        "target_before": {
+          "z_mm": 0.0,
+          "roll_deg": 0.0,
+          "pitch_deg": 0.0
+        },
+        "preflight": "NOT YET CHECKED",
+        "execution": "SUBMITTED",
+        "journal_index": 1,
+        "label": "SUBMITTED z_mm +0.25"
+      },
+      {
+        "type": "input",
+        "episode": 0,
+        "step": 58146,
+        "time_s": 58.14599999995519,
+        "event_seq": 6,
+        "kind": "pause",
+        "payload": {},
+        "source": "keyboard:P",
+        "command_id": 2,
+        "target_before": {
+          "z_mm": 0.2500000000000835,
+          "roll_deg": 0.0,
+          "pitch_deg": 0.0
+        },
+        "preflight": "NOT YET CHECKED",
+        "execution": "SUBMITTED",
+        "journal_index": 6,
+        "label": "SUBMITTED pause "
+      }
+    ],
+    "no_inferred_commands": true
+  },
+  "video": {
+    "frames": 800,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 25.0,
+    "duration_s": 32.0,
+    "changed_decoded_frame_pairs": 799,
+    "sha256": "a61b9a6eb314cb22333f222e9c1be7082840b7ed04e20295f146c4e19b69f6c0",
+    "all_frames_decoded": true,
+    "no_future_curves": true,
+    "no_future_events": true,
+    "frame_mapping": "__PROJECT_ROOT__\\assets\\videos\\stewart_phase1_5_1_visual_demo.frame_audit.json",
+    "source_kind": "ACTUAL EXECUTION CAPTURE + projected visual overlay"
+  },
+  "gui": {
+    "actual_windows_observed": true,
+    "position_tracking_error_selected": true,
+    "mdeg_selected": true,
+    "leg3_card_selected": true,
+    "native_coloured_leg_labels_screenshot": "assets/plots/phase1_5_1_native_window.png",
+    "snapshot": "assets/plots/phase1_5_1_control_panel.png"
+  },
+  "limitations": [
+    "Partial proxy query only; no complete robot collision certification",
+    "Legacy episodes without an explicit baseline display Home UNKNOWN; never use first visible sample silently",
+    "Scheduled demo is actual dynamics, not human-keyboard footage",
+    "No Gymnasium environment or PPO/BC/SAC training in this stage"
+  ],
+  "test_attempt_notes": [
+    "Restricted test attempts encountered Windows pytest temporary-folder ACL errors; logs retained",
+    "Approval service transient timeout/transport failure prevented one normal-permission launch; later retry executed complete suite successfully"
+  ],
+  "mirror": {
+    "samples": 2000,
+    "maximum_state_difference": 0.0,
+    "mj_step_calls": 0
+  },
+  "all_physical_states_and_ctrl_finite": true
+}

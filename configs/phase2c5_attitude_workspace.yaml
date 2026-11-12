@@ -1,0 +1,14 @@
+{
+  "source": "phase2c3a_large_workspace.json",
+  "roll_pitch_guard_deg": 0.5,
+  "yaw_guard_deg": 0.2,
+  "admitted_reference_tasks": [
+    "Home",
+    "R1",
+    "R2",
+    "R3",
+    "Hold"
+  ],
+  "geometry_partial": true,
+  "no_wider_position_or_attitude_guard": true
+}

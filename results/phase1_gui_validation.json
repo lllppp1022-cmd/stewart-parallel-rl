@@ -1,0 +1,54 @@
+{
+  "actual_native_viewer_observed": true,
+  "window_label": "DYNAMIC ACTUATOR SIMULATION / C2 / z_roll",
+  "same_live_model_and_data": true,
+  "per_physics_viewer_lock": false,
+  "normal_python_exits": [
+    {
+      "folder": "results\\runs\\phase1_gui_1793088065550433900",
+      "exit": {
+        "normal_python_exit": true,
+        "user_closed": true,
+        "formal_suite_trial": false,
+        "reference_motion_ends_at_s": 6,
+        "extra_time_is_static_hold": true
+      },
+      "summary": {
+        "controller": "C2",
+        "trajectory": "z_roll",
+        "condition": "nominal",
+        "timestep_s": 0.001,
+        "controller_period_s": 0.001,
+        "success": false,
+        "failure_reason": "viewer_closed",
+        "physical_steps": 31257,
+        "simulation_time_s": 31.257000000015218,
+        "progress": 1.0,
+        "position_rmse_mm": 0.014904322892790568,
+        "orientation_rmse_deg": 0.000886926426108155,
+        "slide_rmse_mm": 0.008189351930354657,
+        "final_position_error_mm": 3.335099274240045e-05,
+        "final_orientation_error_deg": 1.0294740139465603e-06,
+        "max_weld_translation_m": 1.7346463936988858e-07,
+        "max_weld_angle_rad": 5.563307582707866e-05,
+        "max_force_N": 89.61904829634553,
+        "command_saturated_steps": 0,
+        "native_force_saturated_steps": 0,
+        "integral_limit_count": 0,
+        "antiwindup_count": 0,
+        "minimum_proxy_clearance_m": 0.03351532862210439,
+        "native_contact_observations": 0,
+        "proxy_contact_observations": 0,
+        "controller_compute_median_us": 355.90026527643204,
+        "controller_compute_p95_us": 2659.659925848242,
+        "maximum_condition": 5.316291460742168,
+        "warnings": 0,
+        "first_failure_time_s": null,
+        "viewer_closed": true,
+        "wall_seconds": 70.97298149997368,
+        "physics_log": "results\\runs\\phase1_gui_1793088065550433900\\physics.csv.gz"
+      }
+    }
+  ],
+  "no_long_training": true
+}

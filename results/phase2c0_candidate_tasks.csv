@@ -1,0 +1,8 @@
+kind,source,success,degradation_ratio,nonzero_factor,tau,measurement,eligible
+actuator_lag,results\runs\phase2c0_20261029_v1\lag_development\zload\C4_tau0,True,1.0,False,"{'enabled': False, 'tau_s': 0}",{},False
+actuator_lag,results\runs\phase2c0_20261029_v1\lag_development\zload\C4_tau0.002,True,1.0446963134322418,True,"{'enabled': True, 'tau_s': 0.002}",{},False
+actuator_lag,results\runs\phase2c0_20261029_v1\lag_development\zload\C4_tau0.005,True,1.1400576309838353,True,"{'enabled': True, 'tau_s': 0.005}",{},True
+actuator_lag,results\runs\phase2c0_20261029_v1\lag_development\zload\C4_tau0.01,True,1.3216201466838366,True,"{'enabled': True, 'tau_s': 0.01}",{},True
+platform_delay,results\runs\phase2c0_20261029_v1\delay_development\zload\C4_delay1,True,1.0241831996745934,True,"{'enabled': False, 'tau_s': 0}","{'delay_steps': 1, 'seed': 42}",False
+platform_delay,results\runs\phase2c0_20261029_v1\delay_development\zload\C4_delay2,True,1.0485110514943092,True,"{'enabled': False, 'tau_s': 0}","{'delay_steps': 2, 'seed': 42}",False
+platform_delay,results\runs\phase2c0_20261029_v1\delay_development\zload\C4_delay5,True,1.1203097983883754,True,"{'enabled': False, 'tau_s': 0}","{'delay_steps': 5, 'seed': 42}",True

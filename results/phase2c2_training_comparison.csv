@@ -1,0 +1,3 @@
+seed,decisions,physical_steps,declared_physical_steps,updates,optimizer_steps,complete_episodes,protected_episodes,max_reward_recompute_error,reward_cap_fraction,max_ctrl_drive_N
+42,4096,204800,204800,16,640,34,0,4.440892098500626e-15,0.0,90.75647446621069
+123,4096,204800,204800,16,640,34,0,4.440892098500626e-15,0.0,90.75476794241129

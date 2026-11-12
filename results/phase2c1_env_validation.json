@@ -1,0 +1,23 @@
+{
+  "api": {
+    "check_env_passed": true,
+    "zero_complete_state_bitwise_equal": true,
+    "zero_signal_observer_equal": true,
+    "maximum_difference": 0.0,
+    "zero_decisions": 120,
+    "zero_physics_steps": 6000
+  },
+  "task_combinations": 9,
+  "patterns": 3,
+  "precheck_episodes": 27,
+  "all_success": true,
+  "action_scale_N": 0.5,
+  "physical_steps": 168000,
+  "environment_gate_passed": true,
+  "no_training_yet_at_gate_creation": true,
+  "original_remaining_required_at_gate_creation": "reset/termination/observer equivalence tests before training",
+  "all_pretraining_requirements_completed": true,
+  "training_now_completed": true,
+  "final_acceptance_file": "results/phase2c1_final_acceptance.json",
+  "pilot_decision_file": "results/phase2c1_pilot_decision.json"
+}

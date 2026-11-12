@@ -1,0 +1,43 @@
+{
+  "dt_s": 0.001,
+  "decision_steps": 20,
+  "action_scale_Nm": 0.05,
+  "observation_dim": 58,
+  "base": "fourDlead plus frozen FF-VA",
+  "tau_s": 0.005,
+  "observation_scales": {
+    "position_m": [
+      0.0002,
+      0.0002,
+      5e-05
+    ],
+    "slides_m": 0.06,
+    "slide_velocity_m_s": 0.03,
+    "reference_z_m": 0.05,
+    "reference_vz_m_s": 0.03,
+    "reference_az_m_s2": 0.03,
+    "reference_angular_acceleration_rad_s2": 0.02
+  },
+  "reward": {
+    "orientation_deg": 0.006,
+    "omega_rad_s": 0.003,
+    "xy_mm": 0.2,
+    "z_mm": 0.05,
+    "weights": [
+      1.0,
+      0.2,
+      0.1,
+      0.001,
+      2.5e-05
+    ],
+    "action_Nm": 0.05,
+    "slew_Nm_s": 2.5,
+    "cap": 100.0
+  },
+  "success": {
+    "final_position_mm": 0.75,
+    "final_orientation_deg": 0.1,
+    "dwell_s": 0.5
+  },
+  "warm_start": "Fresh 58-input policy, zero actor output mean; old 52-input policies are separately evaluated with their original features."
+}

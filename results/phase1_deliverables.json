@@ -1,0 +1,67 @@
+[
+  {
+    "path": "PHASE1_README.md",
+    "bytes": 2864,
+    "sha256": "cc997f2065cd7327399c442d8dbba23df0c6dd761ce7cad6f78d64737d22c2cc"
+  },
+  {
+    "path": "docs/04_Phase1控制器设计.md",
+    "bytes": 4262,
+    "sha256": "99d42334df40924e6a53baf1ab784f8865520ea1a0aa4105ca5213e1cbacb1ec"
+  },
+  {
+    "path": "docs/05_Phase1动力学与Jacobian力映射验证.md",
+    "bytes": 4599,
+    "sha256": "1018b93783e54ca24a5e1404418f04948e06ba97e3ea308d281e4965d8859e40"
+  },
+  {
+    "path": "docs/06_Phase1安全工作空间与碰撞审计.md",
+    "bytes": 2794,
+    "sha256": "ca90f40703c752e792da9482731308b4844edbfc24bec24f1d3ccd774b757acf"
+  },
+  {
+    "path": "docs/07_Phase1验收报告.md",
+    "bytes": 10325,
+    "sha256": "f043fbb4af104bad0b05348ff956141ff3e4b0960a0fb22f26393b114b188a1c"
+  },
+  {
+    "path": "results/phase1_controller_comparison.csv",
+    "bytes": 20514,
+    "sha256": "4c1b02e4cceae1347202dabeb82960795fd94253a73c08df1f2f19336c045335"
+  },
+  {
+    "path": "results/phase1_trajectory_tracking.csv",
+    "bytes": 45220479,
+    "sha256": "719f0b476f4ecb78cbd585867d505fb8248001284e2b2455237cab3f896712da"
+  },
+  {
+    "path": "results/phase1_force_mapping_validation.csv",
+    "bytes": 3184,
+    "sha256": "600a600d0e84c9c489fdd7769b8edb584780b242a7966bb4ba992772f9672cb6"
+  },
+  {
+    "path": "results/phase1_collision_audit.json",
+    "bytes": 15690,
+    "sha256": "7ab7363cbf53e60e0971170434b21405e4296bdcdf1e9233e15bb0cb08211353"
+  },
+  {
+    "path": "assets/plots/phase1_pose_tracking.png",
+    "bytes": 322356,
+    "sha256": "436a89a877df95551c81046e936f79c0efbfa7884b43b8611c66c0a392bb9193"
+  },
+  {
+    "path": "assets/plots/phase1_leg_tracking.png",
+    "bytes": 342348,
+    "sha256": "83d21ccdcf7edf0c53017f9a01b9f90aaaf5a75f0391f0c66878327e9ff8b599"
+  },
+  {
+    "path": "assets/plots/phase1_actuator_forces.png",
+    "bytes": 339308,
+    "sha256": "6a2d26e1d13323fac731fd4f061752c3c90c377dbd623f9786f27c0597842124"
+  },
+  {
+    "path": "assets/videos/phase1_dynamic_control.mp4",
+    "bytes": 2739863,
+    "sha256": "de38085940ef01c531f2feebe51caf2db2385357e434bc1e65a27f945f3ade72"
+  }
+]

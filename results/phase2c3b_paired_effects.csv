@@ -1,0 +1,4 @@
+method,reference_only_rmse_mm,extra_5ms_rmse_mm,extra_load_given_5ms_rmse_mm,paired_lag_position_difference_peak_mm,paired_load_position_difference_peak_mm,note
+C4,0.1731248746451457,-9.923287364405065e-06,0.0014996385626922792,5.600778196779288e-05,0.06521633648559622,Matched factor intervention incl closed-loop feedback; RMSE differences are not additive error components
+fourDlead,0.1731160447972219,-4.438362329217682e-06,0.0012100332548584947,3.74785196211036e-05,0.06417076091214113,Matched factor intervention incl closed-loop feedback; RMSE differences are not additive error components
+FF-VA,0.009318679822630894,1.0161526971070797e-05,0.0009658504283273119,5.8141976122527694e-05,0.0652198926673897,Matched factor intervention incl closed-loop feedback; RMSE differences are not additive error components

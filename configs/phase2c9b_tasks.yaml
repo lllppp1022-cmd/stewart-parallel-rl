@@ -1,0 +1,892 @@
+{
+  "training": [
+    {
+      "id": "Train_m20.0_0",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.1,
+        "pitch_deg": 0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.6,
+        -0.8
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.0
+      },
+      "mass_kg": 20.0
+    },
+    {
+      "id": "Train_m20.0_6",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.25,
+        "pitch_deg": -0.25,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.6,
+        -0.8
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.0
+      },
+      "mass_kg": 20.0
+    },
+    {
+      "id": "Train_m20.6_0",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.1,
+        "pitch_deg": 0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.6,
+        -0.8
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.03
+      },
+      "mass_kg": 20.6
+    },
+    {
+      "id": "Train_m20.6_6",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.25,
+        "pitch_deg": -0.25,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.6,
+        -0.8
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.03
+      },
+      "mass_kg": 20.6
+    },
+    {
+      "id": "Train_m21.2_0",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.1,
+        "pitch_deg": 0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.6,
+        -0.8
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.06
+      },
+      "mass_kg": 21.2
+    },
+    {
+      "id": "Train_m21.2_6",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.25,
+        "pitch_deg": -0.25,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.6,
+        -0.8
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.06
+      },
+      "mass_kg": 21.2
+    },
+    {
+      "id": "Train_m22.0_0",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.1,
+        "pitch_deg": 0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.6,
+        -0.8
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.1
+      },
+      "mass_kg": 22.0
+    },
+    {
+      "id": "Train_m22.0_6",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.25,
+        "pitch_deg": -0.25,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.6,
+        -0.8
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.1
+      },
+      "mass_kg": 22.0
+    }
+  ],
+  "development": [
+    {
+      "id": "Dev_m20.0",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": -0.1,
+        "pitch_deg": 0.1,
+        "rise_s": 6.5
+      },
+      "torque": [
+        0.8,
+        0.6
+      ],
+      "on": 5.2,
+      "off": 7.0,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.0
+      },
+      "mass_kg": 20.0
+    },
+    {
+      "id": "Dev_m22.0",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": -0.1,
+        "pitch_deg": 0.1,
+        "rise_s": 6.5
+      },
+      "torque": [
+        0.8,
+        0.6
+      ],
+      "on": 5.2,
+      "off": 7.0,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.1
+      },
+      "mass_kg": 22.0
+    }
+  ],
+  "final": [
+    {
+      "id": "Final_m20.0_1",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0,
+        "pitch_deg": -0.1,
+        "rise_s": 5.5
+      },
+      "torque": [
+        -0.8,
+        0.6
+      ],
+      "on": 3.9,
+      "off": 6.5,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.0
+      },
+      "mass_kg": 20.0
+    },
+    {
+      "id": "Final_m20.0_6",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.25,
+        "pitch_deg": -0.25,
+        "rise_s": 5.5
+      },
+      "torque": [
+        -0.8,
+        0.6
+      ],
+      "on": 3.9,
+      "off": 6.5,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.0
+      },
+      "mass_kg": 20.0
+    },
+    {
+      "id": "Final_m20.3_1",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0,
+        "pitch_deg": -0.1,
+        "rise_s": 5.5
+      },
+      "torque": [
+        -0.8,
+        0.6
+      ],
+      "on": 3.9,
+      "off": 6.5,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.0150000000000001
+      },
+      "mass_kg": 20.3
+    },
+    {
+      "id": "Final_m20.3_6",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.25,
+        "pitch_deg": -0.25,
+        "rise_s": 5.5
+      },
+      "torque": [
+        -0.8,
+        0.6
+      ],
+      "on": 3.9,
+      "off": 6.5,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.0150000000000001
+      },
+      "mass_kg": 20.3
+    },
+    {
+      "id": "Final_m21.5_1",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0,
+        "pitch_deg": -0.1,
+        "rise_s": 5.5
+      },
+      "torque": [
+        -0.8,
+        0.6
+      ],
+      "on": 3.9,
+      "off": 6.5,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.075
+      },
+      "mass_kg": 21.5
+    },
+    {
+      "id": "Final_m21.5_6",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.25,
+        "pitch_deg": -0.25,
+        "rise_s": 5.5
+      },
+      "torque": [
+        -0.8,
+        0.6
+      ],
+      "on": 3.9,
+      "off": 6.5,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.075
+      },
+      "mass_kg": 21.5
+    },
+    {
+      "id": "Final_m21.8_1",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0,
+        "pitch_deg": -0.1,
+        "rise_s": 5.5
+      },
+      "torque": [
+        -0.8,
+        0.6
+      ],
+      "on": 3.9,
+      "off": 6.5,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.09
+      },
+      "mass_kg": 21.8
+    },
+    {
+      "id": "Final_m21.8_6",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.25,
+        "pitch_deg": -0.25,
+        "rise_s": 5.5
+      },
+      "torque": [
+        -0.8,
+        0.6
+      ],
+      "on": 3.9,
+      "off": 6.5,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.09
+      },
+      "mass_kg": 21.8
+    }
+  ],
+  "layers": [
+    {
+      "id": "Layer0_m20.0",
+      "reference": {
+        "z_m": 0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.0
+      },
+      "mass_kg": 20.0
+    },
+    {
+      "id": "Layer1_m20.0",
+      "reference": {
+        "z_m": 0.03,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.0
+      },
+      "mass_kg": 20.0
+    },
+    {
+      "id": "Layer2_m20.0",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.25,
+        "pitch_deg": -0.25,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.0
+      },
+      "mass_kg": 20.0
+    },
+    {
+      "id": "Layer0_m20.3",
+      "reference": {
+        "z_m": 0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.0150000000000001
+      },
+      "mass_kg": 20.3
+    },
+    {
+      "id": "Layer1_m20.3",
+      "reference": {
+        "z_m": 0.03,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.0150000000000001
+      },
+      "mass_kg": 20.3
+    },
+    {
+      "id": "Layer2_m20.3",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.25,
+        "pitch_deg": -0.25,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.0150000000000001
+      },
+      "mass_kg": 20.3
+    },
+    {
+      "id": "Layer0_m20.6",
+      "reference": {
+        "z_m": 0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.03
+      },
+      "mass_kg": 20.6
+    },
+    {
+      "id": "Layer1_m20.6",
+      "reference": {
+        "z_m": 0.03,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.03
+      },
+      "mass_kg": 20.6
+    },
+    {
+      "id": "Layer2_m20.6",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.25,
+        "pitch_deg": -0.25,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.03
+      },
+      "mass_kg": 20.6
+    },
+    {
+      "id": "Layer0_m21.2",
+      "reference": {
+        "z_m": 0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.06
+      },
+      "mass_kg": 21.2
+    },
+    {
+      "id": "Layer1_m21.2",
+      "reference": {
+        "z_m": 0.03,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.06
+      },
+      "mass_kg": 21.2
+    },
+    {
+      "id": "Layer2_m21.2",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.25,
+        "pitch_deg": -0.25,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.06
+      },
+      "mass_kg": 21.2
+    },
+    {
+      "id": "Layer0_m21.5",
+      "reference": {
+        "z_m": 0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.075
+      },
+      "mass_kg": 21.5
+    },
+    {
+      "id": "Layer1_m21.5",
+      "reference": {
+        "z_m": 0.03,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.075
+      },
+      "mass_kg": 21.5
+    },
+    {
+      "id": "Layer2_m21.5",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.25,
+        "pitch_deg": -0.25,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.075
+      },
+      "mass_kg": 21.5
+    },
+    {
+      "id": "Layer0_m21.6",
+      "reference": {
+        "z_m": 0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.08
+      },
+      "mass_kg": 21.6
+    },
+    {
+      "id": "Layer1_m21.6",
+      "reference": {
+        "z_m": 0.03,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.08
+      },
+      "mass_kg": 21.6
+    },
+    {
+      "id": "Layer2_m21.6",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.25,
+        "pitch_deg": -0.25,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.08
+      },
+      "mass_kg": 21.6
+    },
+    {
+      "id": "Layer0_m21.8",
+      "reference": {
+        "z_m": 0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.09
+      },
+      "mass_kg": 21.8
+    },
+    {
+      "id": "Layer1_m21.8",
+      "reference": {
+        "z_m": 0.03,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.09
+      },
+      "mass_kg": 21.8
+    },
+    {
+      "id": "Layer2_m21.8",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.25,
+        "pitch_deg": -0.25,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.09
+      },
+      "mass_kg": 21.8
+    },
+    {
+      "id": "Layer0_m22.0",
+      "reference": {
+        "z_m": 0,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.1
+      },
+      "mass_kg": 22.0
+    },
+    {
+      "id": "Layer1_m22.0",
+      "reference": {
+        "z_m": 0.03,
+        "roll_deg": 0.0,
+        "pitch_deg": 0.0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.1
+      },
+      "mass_kg": 22.0
+    },
+    {
+      "id": "Layer2_m22.0",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.25,
+        "pitch_deg": -0.25,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.0,
+        0.0
+      ],
+      "on": 4.4,
+      "off": 6.2,
+      "stage": "phase2c9b",
+      "plant": {
+        "kind": "mass",
+        "value": 1.1
+      },
+      "mass_kg": 22.0
+    }
+  ]
+}

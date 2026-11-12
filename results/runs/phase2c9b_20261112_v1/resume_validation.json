@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "test_decisions": 1536,
+  "physical_steps": 30720,
+  "boundary_resume_bitwise": true,
+  "arbitrary_mid_episode_resume": false
+}

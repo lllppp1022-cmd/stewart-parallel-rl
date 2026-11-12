@@ -1,0 +1,128 @@
+{
+  "development": [
+    {
+      "id": "D8_roll",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.1,
+        "pitch_deg": 0,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.7,
+        0
+      ],
+      "on": 4.1,
+      "off": 6.1,
+      "stage": "development"
+    },
+    {
+      "id": "D8_pitch",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0,
+        "pitch_deg": -0.1,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0,
+        0.85
+      ],
+      "on": 8.4,
+      "off": 10.3,
+      "stage": "development"
+    },
+    {
+      "id": "D8_mix",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.1,
+        "pitch_deg": -0.1,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.48,
+        -0.64
+      ],
+      "on": 5.0,
+      "off": 7.0,
+      "stage": "development"
+    }
+  ],
+  "final": [
+    {
+      "id": "T8_roll",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.1,
+        "pitch_deg": 0,
+        "rise_s": 5.5
+      },
+      "torque": [
+        -0.9,
+        0
+      ],
+      "on": 3.7,
+      "off": 5.6,
+      "stage": "final"
+    },
+    {
+      "id": "T8_pitch",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0,
+        "pitch_deg": -0.1,
+        "rise_s": 6.5
+      },
+      "torque": [
+        0,
+        1.05
+      ],
+      "on": 9.7,
+      "off": 11.4,
+      "stage": "final"
+    },
+    {
+      "id": "T8_mix",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": -0.1,
+        "pitch_deg": 0.1,
+        "rise_s": 6.5
+      },
+      "torque": [
+        -0.66,
+        -0.88
+      ],
+      "on": 7.6,
+      "off": 9.3,
+      "stage": "final"
+    },
+    {
+      "id": "T8_combined50",
+      "reference": {
+        "z_m": 0.05,
+        "roll_deg": 0.25,
+        "pitch_deg": -0.25,
+        "rise_s": 6.0
+      },
+      "torque": [
+        0.96,
+        -0.72
+      ],
+      "on": 4.9,
+      "off": 6.7,
+      "stage": "final"
+    }
+  ],
+  "freeze_final_before_training": true,
+  "final_policy_selection": "All terminal checkpoints at the common admitted budget; no best-seed selection",
+  "gains": {
+    "kp": 25.0,
+    "kd": 1.0
+  },
+  "recovery_band_deg": 0.01,
+  "recovery_dwell_s": 0.5,
+  "optional_2p4_Nm": "Not admitted: optional, not needed for this bounded study",
+  "forbidden_4p8_Nm": true
+}

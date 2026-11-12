@@ -1,0 +1,33 @@
+{
+  "version": "phase2b1_v1",
+  "dt": 0.001,
+  "duration_s": 6.0,
+  "maximum_wall_s_per_trial": 180,
+  "recovery_position_mm": 0.25,
+  "recovery_angle_deg": 0.02,
+  "recovery_hold_s": 0.3,
+  "lambda_candidates_per_s": [0, 0.5, 1, 2, 5],
+  "observer_bandwidth_candidates_rad_s": [5, 15, 30],
+  "compensation_gain_candidates": [0.5, 1.0],
+  "compensation_force_bound_N": 5.0,
+  "compensation_force_rate_N_s": 20.0,
+  "development_tasks": [
+    {"name":"dev_zero","trajectory":"home","wrench":[0,0,0,0,0,0],"start_step":2000,"stop_step":4000},
+    {"name":"dev_force5","trajectory":"home","wrench":[0,0,-5,0,0,0],"start_step":2000,"stop_step":4000},
+    {"name":"dev_roll025","trajectory":"home","wrench":[0,0,0,0.25,0,0],"start_step":2000,"stop_step":4000}
+  ],
+  "independent_test_proposals": [
+    {"name":"test_force7_time","trajectory":"home","wrench":[0,0,-7,0,0,0],"start_step":1500,"stop_step":3200},
+    {"name":"test_rolln035_time","trajectory":"home","wrench":[0,0,0,-0.35,0,0],"start_step":2400,"stop_step":4100},
+    {"name":"test_roll_pitch_combo","trajectory":"roll_pitch","wrench":[0,0,-3,-0.15,0,0],"start_step":1800,"stop_step":3400},
+    {"name":"test_pitch015","trajectory":"home","wrench":[0,0,0,0,0.15,0],"start_step":1700,"stop_step":3600}
+  ],
+  "selection_objective": "mean over development tasks of (load+unload position IAE)/0.25 + (load+unload SO3 IAE)/0.02; reject any failed candidate; no final-test input",
+  "observer_gate": {"zero_force_bias_max_N":0.5,"zero_torque_bias_max_Nm":0.02,"steady_relative_error_max":0.5,"settle_threshold_fraction":0.1,"maximum_response_delay_s":1.0},
+  "maximum_precheck_trials":6,
+  "maximum_development_trials":25,
+  "maximum_final_trials":45,
+  "seed":42,
+  "deterministic_trials_not_independent_random_seeds":true,
+  "no_rl_or_action_sensitivity_experiments":true
+}

@@ -1,0 +1,19 @@
+{
+  "python": "3.11.17 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:16:54) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "D:\\miniconda\\envs\\stewart_rl\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "packages": {
+    "mujoco": "3.17.0",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2",
+    "pytest": "9.1.1",
+    "PySide6": {
+      "module_version": "6.12.0",
+      "distribution_metadata": "not installed in this environment; workspace bootstrap path"
+    },
+    "imageio": "2.38.1",
+    "imageio-ffmpeg": "0.6.0"
+  }
+}

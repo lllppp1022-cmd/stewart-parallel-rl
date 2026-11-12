@@ -1,0 +1,30 @@
+{
+  "preflight_trials": 14,
+  "preflight_complete": 14,
+  "preflight_physical_steps": 210000,
+  "classical_trials": 2,
+  "recorded_repeated_trial_steps": 15000,
+  "max_native_force_N": 95.23447881333824,
+  "max_shared_add_N": 5.0,
+  "max_shared_slew_N_s": 19.99999999999602,
+  "minimum_proxy_gap_m": 0.09606680243701467,
+  "max_weld_angle_rad": 5.7332759738288596e-05,
+  "independently_recomputed_metrics": 153,
+  "max_recomputation_error": 9.96425164601078e-15,
+  "tests": {
+    "new": {
+      "total": 2,
+      "failed": []
+    },
+    "historical": {
+      "total": 453,
+      "failed": [
+        "test_isolated_environment_no_learning_packages"
+      ]
+    }
+  },
+  "historical_archive": {
+    "count": 49601,
+    "changes": []
+  }
+}

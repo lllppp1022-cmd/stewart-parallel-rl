@@ -1,0 +1,26 @@
+{
+  "runs": [
+    {
+      "log": "phase2c7_regression_tests.log",
+      "passed": 379,
+      "failed": 1
+    },
+    {
+      "log": "phase2c7_unit_tests_02.log",
+      "passed": 15,
+      "failed": 0
+    },
+    {
+      "log": "phase2c7_training_evidence_tests_02.log",
+      "passed": 5,
+      "failed": 0
+    },
+    {
+      "log": "phase2c7_evidence_tests.log",
+      "passed": 3,
+      "failed": 0
+    }
+  ],
+  "known_historical_failure": "Phase 0 asserts torch/SB3 absent; original test retained",
+  "initial_evidence_failure": "CSV NumPy float32 text was compared as float64 at 1e-15; correct dtype restoration passes exact equality; original logs retained"
+}

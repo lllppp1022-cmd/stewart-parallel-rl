@@ -1,0 +1,32 @@
+{
+  "records": [
+    {
+      "journal_stride": 1,
+      "physical_steps": 2000,
+      "simulation_seconds": 1.9999999999998905,
+      "construction_seconds": 0.16736570000648499,
+      "run_and_archive_seconds": 6.476008600089699,
+      "physical_steps_per_wall_second": 308.83220259656514,
+      "append_pipeline_seconds": 1.5295279850251973,
+      "recorded_rows": 2000,
+      "failure": null,
+      "includes": "Original1kHz C4, lag2ms, actual Jacobian+closed-chain safety, original mj_step+forward, optional full journal; no RGB/GUI",
+      "scope": "2-second Home benchmark, no claim of arbitrary task throughput"
+    },
+    {
+      "journal_stride": 20,
+      "physical_steps": 2000,
+      "simulation_seconds": 1.9999999999998905,
+      "construction_seconds": 0.13468730030581355,
+      "run_and_archive_seconds": 4.798320499714464,
+      "physical_steps_per_wall_second": 416.8125076511698,
+      "append_pipeline_seconds": 0.07858589943498373,
+      "recorded_rows": 100,
+      "failure": null,
+      "includes": "Original1kHz C4, lag2ms, actual Jacobian+closed-chain safety, original mj_step+forward, optional full journal; no RGB/GUI",
+      "scope": "2-second Home benchmark, no claim of arbitrary task throughput"
+    }
+  ],
+  "total_benchmark_physical_steps": 4000,
+  "no_GPU_inference": true
+}

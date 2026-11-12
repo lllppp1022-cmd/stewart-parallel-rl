@@ -1,0 +1,26 @@
+{
+  "n_steps": 512,
+  "batch_size": 64,
+  "n_epochs": 10,
+  "learning_rate": 0.0003,
+  "gamma": 0.9959879355809816,
+  "gae_lambda": 0.9796917302662298,
+  "clip_range": 0.2,
+  "ent_coef": 0.0,
+  "max_grad_norm": 0.5,
+  "target_kl": 0.03,
+  "net": [
+    64,
+    64
+  ],
+  "log_std_init": -1.0,
+  "device": "cpu",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "pilot": 8192,
+  "total": 32768,
+  "return_normalization": false
+}

@@ -1,0 +1,12 @@
+{
+ "version":"phase2b2_v1","dt":0.001,"recovery_position_mm":0.25,"recovery_angle_deg":0.02,"recovery_hold_s":0.3,
+ "duration_s":6,"maximum_six_second_trials":90,"maximum_action_trials":64,"maximum_robustness_trials":26,
+ "shared_total_extra_force_N":5,"shared_total_extra_rate_N_s":20,"native_force_N":400,
+ "candidate_leg_probe_N":[0.1,0.25,0.5],"per_leg_signed_probe_N":0.1,"task_probe":[0.5,0.025,0.025],"decision_frequencies_Hz":[20,50],
+ "causal_damping_task_gains":{"position_z_N_m":250,"velocity_z_Ns_m":50,"angle_Nm_rad":2,"angular_velocity_Nms_rad":2},
+ "causal_lead_time_s":0.02,"task_feedback_clip":[0.5,0.025,0.025],"matched_leg_feedback_clip_N":0.1,
+ "mass_scales":[1.01,1.02],"com_x_m":[0.0001,0.00025],"uniform_gain":[0.99,0.98],"asymmetric_gain_amplitude":[0.005,0.01],
+ "position_noise_std_m":[0.000001,0.000002],"rotation_noise_std_rad":[0.00001,0.00002],"velocity_noise_std_SI":[0.00001,0.00002],"delay_steps":[1,2,5],
+ "noise_seed":42,"noise_boundary":"PARTIAL OBSERVATION CHANNEL PERTURBATION: p/R/v only, full chain q/dq remain ideal; synthetic, no hardware specification",
+ "no_RL_or_Gymnasium":true,"stop_increasing_failed_factor":true,"collision_policy":"unchanged PARTIAL PROXY QUERY"
+}

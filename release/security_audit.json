@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "findings": [],
+  "files_scanned": 948,
+  "omitted_link_annotations": [
+    {
+      "document": "docs/58_Phase2C6姿态优先奖励设计与消融.md",
+      "omitted": "../results/runs/phase2c6_20261107_v1/offline_reward_ordering.csv"
+    },
+    {
+      "document": "docs/58_Phase2C6姿态优先奖励设计与消融.md",
+      "omitted": "../results/runs/phase2c6_20261107_v1/training_gate.json"
+    },
+    {
+      "document": "docs/59_Phase2C6中强扰动课程学习.md",
+      "omitted": "../results/runs/phase2c6_20261107_v1/curriculum_admission.json"
+    },
+    {
+      "document": "docs/60_Phase2C6_PPO再训练与独立评价.md",
+      "omitted": "../results/runs/phase2c6_20261107_v1/final_selection.json"
+    },
+    {
+      "document": "docs/60_Phase2C6_PPO再训练与独立评价.md",
+      "omitted": "../results/runs/phase2c6_20261107_v1/training"
+    },
+    {
+      "document": "docs/60_Phase2C6_PPO再训练与独立评价.md",
+      "omitted": "../results/runs/phase2c6_20261107_v1/tensorboard_scalar_tags.json"
+    },
+    {
+      "document": "docs/61_Phase2C6验收与下一阶段决策.md",
+      "omitted": "../results/runs/phase2c6_20261107_v1/lock_fix.diff"
+    },
+    {
+      "document": "docs/61_Phase2C6验收与下一阶段决策.md",
+      "omitted": "../results/runs/phase2c6_20261107_v1/lock_fix_receipt.json"
+    },
+    {
+      "document": "docs/61_Phase2C6验收与下一阶段决策.md",
+      "omitted": "../results/runs/phase2c6_20261107_v1/history_after.json"
+    },
+    {
+      "document": "docs/61_Phase2C6验收与下一阶段决策.md",
+      "omitted": "../assets/videos/stewart_phase2c6_actual_v2_training.mp4"
+    },
+    {
+      "document": "docs/61_Phase2C6验收与下一阶段决策.md",
+      "omitted": "../assets/videos/stewart_phase2c6_attitude_evaluation.mp4"
+    },
+    {
+      "document": "docs/61_Phase2C6验收与下一阶段决策.md",
+      "omitted": "../assets/videos/stewart_phase2c6_curriculum_training.mp4"
+    },
+    {
+      "document": "docs/61_Phase2C6验收与下一阶段决策.md",
+      "omitted": "../assets/videos/stewart_phase2c6_reward_ablation.mp4"
+    },
+    {
+      "document": "docs/74_Phase2C8奖励消融PPO训练.md",
+      "omitted": "../assets/plots/phase2c8_training_reward.png"
+    },
+    {
+      "document": "docs/74_Phase2C8奖励消融PPO训练.md",
+      "omitted": "../assets/plots/phase2c8_critic_learning.png"
+    },
+    {
+      "document": "docs/74_Phase2C8奖励消融PPO训练.md",
+      "omitted": "../assets/plots/phase2c8_fixed_task_learning.png"
+    }
+  ],
+  "upstream_license": "MIT retained; b0195ba9f40f6e0876220be1712eb47f5fc24025",
+  "original_code_license": "No new license grant; private review distribution",
+  "publication_scope": "Original local project source plus licensed upstream model; excludes unrelated projects, credentials and bulk logs",
+  "selected_validation_data": "1000-step history/seed42 prefix for GUI validation only, about 1MB",
+  "transformations": "Portable metadata paths; generated proxy meshdir made checkout-relative; missing historical links annotated"
+}

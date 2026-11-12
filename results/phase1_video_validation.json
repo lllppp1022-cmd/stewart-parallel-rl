@@ -1,0 +1,14 @@
+{
+  "frames": 540,
+  "fps": 10.0,
+  "duration_s": 54.0,
+  "resolution": [
+    960,
+    720
+  ],
+  "state_matches": 540,
+  "unique_scene_frames": 537,
+  "actual_capture": true,
+  "source": "Live data from documented formal trials or display-only deterministic repeats; no kinematic re-render",
+  "sha256": "de38085940ef01c531f2feebe51caf2db2385357e434bc1e65a27f945f3ade72"
+}

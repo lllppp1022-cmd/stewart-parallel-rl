@@ -1,0 +1,12 @@
+{
+  "method": "adaptive_2",
+  "gains": {
+    "kp": 25.0,
+    "kd": 1.0,
+    "ki": 30.0,
+    "leak": 1.0,
+    "imax": 0.025
+  },
+  "development_objective": 0.004563083187596961,
+  "final_test_unseen": true
+}

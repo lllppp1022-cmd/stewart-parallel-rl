@@ -1,0 +1,18 @@
+{
+  "trials": 18,
+  "complete": 18,
+  "successful": 18,
+  "warnings": 0,
+  "native_contact_observations": 0,
+  "native_contacts_are_not_collision_proof": true,
+  "minimum_mesh_clearance_m": 0.09606680243701467,
+  "minimum_legacy_proxy_m": 0.03351529082354206,
+  "maximum_weld_translation_m": 1.7346566291024436e-07,
+  "maximum_weld_angle_rad": 5.56521761939855e-05,
+  "maximum_force_N": 91.60785365843739,
+  "native_saturation_steps": 0,
+  "failures": [],
+  "missing_hinge_hard_stops": 30,
+  "connected_hull_pairs_excluded": 103,
+  "mechanical_hardware_certified": false
+}

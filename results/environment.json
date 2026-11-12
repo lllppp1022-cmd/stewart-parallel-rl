@@ -1,0 +1,21 @@
+{
+  "python": "3.11.17 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:16:54) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "D:\\miniconda\\envs\\stewart_rl\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "machine": "",
+  "gpu": "NVIDIA GeForce RTX 3060, 560.94, 12288 MiB",
+  "dependencies": {
+    "mujoco": "3.17.0",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "gymnasium": "1.4.0",
+    "matplotlib": "3.11.2",
+    "pandas": "3.1.0",
+    "pytest": "9.1.1",
+    "imageio": "2.38.1",
+    "imageio-ffmpeg": "0.6.0",
+    "pillow": "13.0.0"
+  },
+  "torch_installed": false,
+  "sb3_installed": false
+}

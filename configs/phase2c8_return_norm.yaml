@@ -1,0 +1,14 @@
+{
+  "enabled_only_after_reward_gate": true,
+  "norm_obs": false,
+  "norm_reward": true,
+  "gamma": 0.9959879355809816,
+  "clip_reward": 1000000.0,
+  "epsilon": 1e-08,
+  "training": true,
+  "evaluation_training": false,
+  "evaluation_norm_reward": false,
+  "interpretation": "Reward scale treatment affects Actor and Critic, not Critic-only",
+  "pilot": 8192,
+  "total": 32768
+}

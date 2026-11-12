@@ -1,0 +1,7 @@
+task,bandwidth_rad_s,axis,rise10_delay_s,rise90_delay_s,unload_decay10_delay_s
+dev_force5,5,Fz,0.022,0.462,0.462
+dev_roll025,5,Mx,0.022,0.461,0.461
+dev_force5,15,Fz,0.008,0.154,0.154
+dev_roll025,15,Mx,0.008,0.154,0.154
+dev_force5,30,Fz,0.004,0.078,0.078
+dev_roll025,30,Mx,0.004,0.078,0.078
