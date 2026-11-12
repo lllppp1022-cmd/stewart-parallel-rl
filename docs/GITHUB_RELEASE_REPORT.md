@@ -1,8 +1,8 @@
 # GitHub release report
 
-## Final publication status — SOURCE UPLOAD VERIFIED; REPORT PUSH BLOCKED
+## Final publication status — REMOTE UPLOAD VERIFIED
 
-The 947-file project content is remotely verified at 18bc7967a8e1a9aed22bfbcf000a42745cf73b3c. The subsequent report commit could not be pushed: two automatic approval review attempts disconnected before starting Git. Final local and remote HEAD equality is therefore pending. This is an approval-service execution failure, not a GitHub authentication or Git transfer rejection. Do not interpret the content verification below as final-HEAD equality.
+The 947-file project content was remotely verified at 18bc7967a8e1a9aed22bfbcf000a42745cf73b3c. Two report pushes initially encountered approval-service disconnections. After the execution approval channel recovered, the normal HTTP/1.1 push succeeded and main advanced to 41bfc0b6c2d4ba559f8aa83546a79734c58f267e. This final status update is also pushed, with final Git/API equality recorded in the external publication receipt. The earlier failure entries are preserved as chronological records and have been resolved.
 
 Repository: https://github.com/lllppp1022-cmd/stewart-parallel-rl
 
